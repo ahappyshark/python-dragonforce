@@ -3,11 +3,20 @@ Pulls DragonForce's studio album + track metadata from the MusicBrainz API.
 No API key required, just a courteous User-Agent header (MB will rate-limit
 or block requests that don't identify themselves).
 
+Every response is cached to data/raw/ as JSON on first fetch and read back
+from disk on every call after that, so re-running a notebook top to bottom
+costs nothing and works offline. Pass refresh=True to force a re-fetch when
+you actually want fresh data from MusicBrainz.
+
 Docs: https://musicbrainz.org/doc/MusicBrainz_API
 """
 
+import hashlib
+import json
 import time
+from pathlib import Path
 from typing import Any
+from urllib.parse import urlencode
 
 import requests
 
@@ -15,33 +24,73 @@ MB_BASE_URL: str = "https://musicbrainz.org/ws/2"
 USER_AGENT: str = "dragonforce-analysis/0.1 ( your-email@example.com )"
 DRAGONFORCE_MBID: str = "ef58d4c9-0d40-42ba-bfab-9186c1483edd"  # musicbrainz.org/artist/ef58d4c9-...
 
+CACHE_DIR: Path = Path(__file__).resolve().parent.parent / "data" / "raw"
+MIN_REQUEST_INTERVAL: float = 1.0  # MusicBrainz asks for max ~1 request/sec unauthenticated
 
-def _get(endpoint: str, params: dict[str, str]) -> dict[str, Any]:
-    """Single MusicBrainz GET request with required headers and a polite delay."""
+_last_request_time: float = 0.0
+
+
+def _cache_path(endpoint: str, params: dict[str, str]) -> Path:
+    """Map an endpoint + params pair to a stable, filesystem-safe cache filename.
+
+    The endpoint goes in readable (so `release/<mbid>` stays greppable), and a
+    short hash of the params disambiguates different queries against the same
+    endpoint without producing an unreadable 200-character filename.
+    """
+    slug: str = endpoint.replace("/", "_")
+    digest: str = hashlib.sha256(urlencode(sorted(params.items())).encode()).hexdigest()[:8]
+    return CACHE_DIR / f"{slug}__{digest}.json"
+
+
+def _rate_limit() -> None:
+    """Block until at least MIN_REQUEST_INTERVAL has passed since the last request."""
+    global _last_request_time
+    elapsed: float = time.monotonic() - _last_request_time
+    if elapsed < MIN_REQUEST_INTERVAL:
+        time.sleep(MIN_REQUEST_INTERVAL - elapsed)
+    _last_request_time = time.monotonic()
+
+
+def _get(endpoint: str, params: dict[str, str], refresh: bool = False) -> dict[str, Any]:
+    """Return a MusicBrainz response, from data/raw/ if cached, otherwise over HTTP.
+
+    A successful fetch is written to the cache before returning, so a failure
+    part way through a multi-album pull keeps whatever it already retrieved.
+    """
+    path: Path = _cache_path(endpoint, params)
+    if path.exists() and not refresh:
+        return json.loads(path.read_text(encoding="utf-8"))
+
+    _rate_limit()
     headers: dict[str, str] = {"User-Agent": USER_AGENT, "Accept": "application/json"}
     response: requests.Response = requests.get(
         f"{MB_BASE_URL}/{endpoint}", params=params, headers=headers
     )
     response.raise_for_status()
-    time.sleep(1.0)  # MusicBrainz asks for max ~1 request/sec unauthenticated
-    return response.json()
+    data: dict[str, Any] = response.json()
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    return data
 
 
-def get_release_groups(artist_mbid: str = DRAGONFORCE_MBID) -> list[dict[str, Any]]:
+def get_release_groups(
+    artist_mbid: str = DRAGONFORCE_MBID, refresh: bool = False
+) -> list[dict[str, Any]]:
     """Fetch all studio albums (release groups) for the artist."""
     params: dict[str, str] = {
         "artist": artist_mbid,
         "type": "album",
         "limit": "100",
     }
-    data: dict[str, Any] = _get("release-group", params)
+    data: dict[str, Any] = _get("release-group", params, refresh=refresh)
     return data.get("release-groups", [])
 
 
-def get_release_tracks(release_mbid: str) -> list[dict[str, Any]]:
+def get_release_tracks(release_mbid: str, refresh: bool = False) -> list[dict[str, Any]]:
     """Fetch the tracklist for a specific release (a specific pressing of an album)."""
     params: dict[str, str] = {"inc": "recordings"}
-    data: dict[str, Any] = _get(f"release/{release_mbid}", params)
+    data: dict[str, Any] = _get(f"release/{release_mbid}", params, refresh=refresh)
     media: list[dict[str, Any]] = data.get("media", [])
     tracks: list[dict[str, Any]] = []
     for medium in media:

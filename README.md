@@ -28,7 +28,10 @@ dragonforce-analysis/
 
 ## Build order
 1. **Metadata backbone** — MusicBrainz gives album/track/year/writer/lineup.
-   This is the spine table everything else joins to.
+   This is the spine table everything else joins to. Responses are cached to
+   `data/raw/` on the first pull and read from disk on every run after that, so
+   re-running the notebook is free and works offline. Pass `refresh=True` to any
+   client function when you actually want a fresh fetch.
 2. **Spotify audio features** — ⚠️ **currently broken.** Spotify killed
    `audio-features`/`audio-analysis` for new apps in Nov 2024, no official
    replacement exists yet. Album/track metadata via Spotify still works.
