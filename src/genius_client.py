@@ -58,6 +58,10 @@ def get_client() -> lyricsgenius.Genius:
     stripped by strip_section_headers() instead, so the cached text keeps the
     song's structure and a later phase (matching a key change to "the last
     chorus", say) can still see where the choruses were.
+
+    There is no verbose flag: lyricsgenius 3.12 moved its progress chatter to
+    the standard logging module behind a NullHandler, so the client is quiet
+    unless something attaches a handler to the "lyricsgenius" logger.
     """
     token: str | None = os.getenv("GENIUS_ACCESS_TOKEN")
     if not token:
@@ -67,7 +71,6 @@ def get_client() -> lyricsgenius.Genius:
         skip_non_songs=True,
         excluded_terms=["(Remix)", "(Live)"],
         remove_section_headers=False,
-        verbose=False,
         timeout=15,
         retries=3,
     )

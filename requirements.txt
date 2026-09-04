@@ -3,7 +3,9 @@ pandas
 requests
 python-dotenv
 spotipy
-lyricsgenius
+# 3.12 dropped the Genius(verbose=...) argument in favour of the logging
+# module; src/genius_client.py is written against that API, so stay on 3.x.
+lyricsgenius>=3.12,<4
 matplotlib
 seaborn
 pytest

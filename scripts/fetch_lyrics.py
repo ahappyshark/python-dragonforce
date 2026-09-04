@@ -66,8 +66,10 @@ def main() -> None:
     # The client is built lazily: a fully cached run needs no token at all.
     client: Any = None
     records: list[dict[str, Any]] = []
+    refresh: bool = args.refresh or bool(args.only)
+    total: int = len(tracks)
 
-    for row in tracks.itertuples():
+    for position, row in enumerate(tracks.itertuples(), start=1):
         override: dict[str, str] = overrides.get(row.track_id, {})
         cached: bool = _cache_path(row.track_id).exists()
 
@@ -79,7 +81,7 @@ def main() -> None:
                         or "instrumental"}
 
         needs_network: bool = (
-            (not cached or args.refresh or bool(args.only))
+            (not cached or refresh)
             and not override.get("no_lyrics_reason")
             and not override.get("same_as_track_id")
         )
@@ -88,9 +90,16 @@ def main() -> None:
 
         record: dict[str, Any] = fetch_lyrics(
             client, row.track_id, row.track_title,
-            override=override, refresh=args.refresh or bool(args.only),
+            override=override, refresh=refresh,
         )
         records.append({**record, "album": row.album, "expected_title": row.track_title})
+
+        # One line per track, flushed, because the network calls are slow enough
+        # that a silent run is indistinguishable from a hung one. "cached" lines
+        # blur past; "fetch" lines are the ones actually costing a second or two.
+        source: str = "fetch " if needs_network else "cached"
+        title: str = row.track_title if len(row.track_title) <= 44 else row.track_title[:41] + "..."
+        print(f"[{position:>3}/{total}] {source} {title:<44} {record['status']}", flush=True)
 
     print("\n=== match report ===")
     suspicious: list[dict[str, Any]] = []
