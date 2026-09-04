@@ -13,81 +13,81 @@
       "year": 2003,
       "first_release_date": "2003-01-27",
       "release_group_mbid": "880c6868-1c27-32e3-9fea-2faac2d82a0e",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "c9e43b53-80ff-3e91-abf0-e321abc7cd7e",
+      "expected_track_count": 9,
+      "note": "The original US release of this album. I'm excluding the rerelease because 'Where Dragons Rule' was written with Steve Williams of PowerQuest and the released version was recorded in 2010 and not performed by the same band members who appeared on the original recording of this album."
     },
     {
       "title": "Sonic Firestorm",
       "year": 2004,
       "first_release_date": "2004-03-24",
       "release_group_mbid": "bc210daa-b1cd-36d8-a3df-dd71d9a4dd7b",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "0b02627a-7f8f-4ea9-8d07-1fe397cfc210",
+      "expected_track_count": 9,
+      "note": "The 2010 remaster edition, includes a bonus track that was only present on the original Japanese release so it still counts as being from this era."
     },
     {
       "title": "Inhuman Rampage",
       "year": 2005,
       "first_release_date": "2005-12-28",
       "release_group_mbid": "9f7d7652-cf16-3384-86a2-f14bc0f1a67b",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "2f5489f2-edc4-3e36-9dae-8298c254e29a",
+      "expected_track_count": 9,
+      "note": "The JP release, I'm using this one because even though the bonus track 'Lost Souls in Endless Time' isn't widely available, it is possible to listen to and the lyrics are in Genius. It also holds up as a useful datapoint being written entirely by keyboardist Vadim Pruzhanov."
     },
     {
       "title": "Ultra Beatdown",
       "year": 2008,
       "first_release_date": "2008-08-20",
       "release_group_mbid": "7c3e75cd-109d-3b03-86e3-e5359a329725",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "c2eb1dfb-f7d8-4138-9687-6038342fdf2d",
+      "expected_track_count": 11,
+      "note": "The JP release, It has 3 songs not present in the original but all are from the same era and are relevant to the overall data set. One of them, Strike of the Ninja should be noted as originally written for a project called Shadow Warrior by Sam Totman and ZP Theart"
     },
     {
       "title": "The Power Within",
       "year": 2012,
       "first_release_date": "2012-04-11",
       "release_group_mbid": "97801c06-1752-492e-9ed4-5429b758381d",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "8c97dc9a-b91e-460a-8ba5-ecd20e8eedd9",
+      "expected_track_count": 13,
+      "note": "Seems most relevant, it includes a Shadow Warrior song similar to Ultra Beatdown. It also includes two digital bonus tracks that might be useful, an alternate lyric version of Heart of the Storm and an instrumental track by bassist Frédéric Leclercq while omitting the live demo of Cry Thunder."
     },
     {
       "title": "Maximum Overload",
       "year": 2014,
       "first_release_date": "2014-08-08",
       "release_group_mbid": "531516fa-6318-44d5-9ad1-92eefbe3a1bb",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "e460a64d-32e4-4fd9-ac4f-77842ca9b2d6",
+      "expected_track_count": 16,
+      "note": "This seems to be the most complete version of this album, containing all songs recorded from this era without any live or remix versions. Fight to be Free is originally a Shadow Warrior song."
     },
     {
       "title": "Reaching Into Infinity",
       "year": 2017,
       "first_release_date": "2017-05-17",
       "release_group_mbid": "55534e75-a37d-4692-af0e-fd5c33f322aa",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "d22f1777-0c4d-4e1e-9755-91fdfd287b84",
+      "expected_track_count": 13,
+      "note": "This is the US special edition. I want to make a note that it does not include the cover of Gloria by the band ZIGGY that is present on the JP release. I don't think that's a terrible ommission and in general, I'm not sure how to treat covers as Dragonforce has performed and recorded several across their albums."
     },
     {
       "title": "Extreme Power Metal",
       "year": 2019,
       "first_release_date": "2019-09-25",
       "release_group_mbid": "70c41b71-17df-4ba8-9192-bf28929b979f",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "854d72fb-dc80-46cf-b297-68840e28cff4",
+      "expected_track_count": 11,
+      "note": "The JP release, it includes an additional track written by Frédéric Leclercq and I think its important given he was prolific contributing member of the band for a long time and this is his last album."
     },
     {
       "title": "Warp Speed Warriors",
       "year": 2024,
       "first_release_date": "2024-03-13",
       "release_group_mbid": "db5b4b22-43a1-45ba-a490-2c5ec341a7b2",
-      "release_mbid": null,
-      "expected_track_count": null,
-      "note": ""
+      "release_mbid": "7c71acf9-bde1-4392-983a-0011e6d1bec6",
+      "expected_track_count": 10,
+      "note": "The official CD release, it includes the cd version bonus track cover of Wildest Dreams by Taylor Swift but excludes the JP release tracks which are just alternate versions featuring other musicians and an instrumental version of Power of the Triforce."
     }
   ]
 }

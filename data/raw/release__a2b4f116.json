@@ -1,0 +1,524 @@
+{
+  "release-count": 10,
+  "releases": [
+    {
+      "country": "US",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null
+          },
+          "date": "2008-08-26"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "id": "0d773cd8-530b-4c15-80d0-9f805ca30108",
+      "cover-art-archive": {
+        "count": 13,
+        "front": true,
+        "artwork": true,
+        "darkened": false,
+        "back": true
+      },
+      "packaging": "Jewel Case",
+      "date": "2008-08-26",
+      "disambiguation": "",
+      "title": "Ultra Beatdown",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 8,
+          "title": "",
+          "id": "1390a1f1-1170-3ecc-9efc-62ce3211e190",
+          "format": "CD"
+        }
+      ],
+      "barcode": "016861793722",
+      "asin": null,
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a"
+    },
+    {
+      "country": "US",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States"
+          },
+          "date": "2008-09-30"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "id": "1b5d851b-c7dc-30e6-bc54-61e90420aa36",
+      "quality": "high",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "front": false,
+        "artwork": false
+      },
+      "date": "2008-09-30",
+      "packaging": null,
+      "title": "Ultra Beatdown",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "title": "",
+          "id": "4230238c-bc05-3b8a-a5a2-a4ea9284b6c9",
+          "format": "Vinyl",
+          "position": 1,
+          "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+          "track-count": 8
+        }
+      ],
+      "barcode": "016861793715",
+      "asin": "B001EOOQJC",
+      "packaging-id": null
+    },
+    {
+      "media": [
+        {
+          "id": "330b55ff-0964-32de-a4b9-b44f903d7cd3",
+          "format": "Digital Media",
+          "title": "",
+          "track-count": 8,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1
+        }
+      ],
+      "barcode": "602508890918",
+      "asin": null,
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Ultra Beatdown",
+      "date": "2008-08-20",
+      "packaging": "None",
+      "cover-art-archive": {
+        "count": 1,
+        "back": false,
+        "darkened": false,
+        "artwork": true,
+        "front": true
+      },
+      "id": "5769d798-f03c-4334-b0fe-46710fb31242",
+      "quality": "normal",
+      "country": "XW",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "type-id": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type": null,
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]"
+          },
+          "date": "2008-08-20"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      }
+    },
+    {
+      "disambiguation": "limited edition",
+      "title": "Ultra Beatdown",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": null,
+      "packaging-id": null,
+      "media": [
+        {
+          "title": "",
+          "id": "69d4068e-0b63-30ac-ac78-d48b1a694383",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 10
+        },
+        {
+          "track-count": 2,
+          "position": 2,
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+          "format": "DVD-Video",
+          "id": "1981ba82-1de6-317e-8609-e4466c796eb5",
+          "title": "Bonus DVD"
+        }
+      ],
+      "barcode": "602517787803",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "release-events": [
+        {
+          "date": "2008-08-25",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          }
+        }
+      ],
+      "country": "XE",
+      "quality": "normal",
+      "id": "59bb0bd7-ac87-455f-a2f2-51abd7929831",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": true,
+        "front": true,
+        "artwork": true,
+        "count": 17
+      },
+      "packaging": null,
+      "date": "2008-08-25"
+    },
+    {
+      "status": "Official",
+      "asin": "B001BEX4RK",
+      "packaging-id": null,
+      "media": [
+        {
+          "title": "",
+          "id": "335bb94c-0be5-34a1-806d-20a2ff69ffc4",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 8
+        }
+      ],
+      "barcode": "016861793722",
+      "disambiguation": "",
+      "title": "Ultra Beatdown",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "count": 1,
+        "back": false,
+        "darkened": false,
+        "artwork": true,
+        "front": true
+      },
+      "packaging": null,
+      "date": "2008-08-26",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2008-08-26",
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null
+          }
+        }
+      ],
+      "country": "US",
+      "quality": "high",
+      "id": "6fc594c0-3603-4746-8f00-95004035a61a"
+    },
+    {
+      "status": "Official",
+      "asin": "B001BEX4S4",
+      "packaging-id": null,
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 10,
+          "title": "",
+          "format": "CD",
+          "id": "9f82efaa-d9f7-3769-96d1-acd8bc6e16bd"
+        }
+      ],
+      "barcode": "016861793784",
+      "title": "Ultra Beatdown",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "front": false,
+        "artwork": false
+      },
+      "packaging": null,
+      "date": "2008-08-25",
+      "release-events": [
+        {
+          "area": {
+            "name": "United Kingdom",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "disambiguation": "",
+            "sort-name": "United Kingdom"
+          },
+          "date": "2008-08-25"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "country": "GB",
+      "id": "7f2d163a-80a1-3471-b1bb-5dd5474e553c",
+      "quality": "normal"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Ultra Beatdown",
+      "barcode": "602517787797",
+      "media": [
+        {
+          "track-count": 8,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "0afa1b0a-6699-3c07-a815-0a28f9fb2203",
+          "format": "CD",
+          "title": ""
+        }
+      ],
+      "packaging-id": "dfb7da53-866f-4dfd-a016-80bafaeff3db",
+      "asin": "B001CISI8U",
+      "status": "Official",
+      "quality": "high",
+      "id": "95d70266-b197-38a4-96e1-21eefd5797d2",
+      "country": "XE",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "type-id": null,
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          },
+          "date": "2008-08-25"
+        }
+      ],
+      "packaging": "Super Jewel Box",
+      "date": "2008-08-25",
+      "cover-art-archive": {
+        "back": false,
+        "darkened": false,
+        "artwork": true,
+        "front": true,
+        "count": 1
+      }
+    },
+    {
+      "status": "Official",
+      "asin": "B001BOBYXQ",
+      "packaging-id": null,
+      "media": [
+        {
+          "format": "CD",
+          "id": "dbe84830-d307-3903-aa3d-607b8f8d259e",
+          "title": "",
+          "track-count": 11,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1
+        }
+      ],
+      "barcode": "4988002552788",
+      "title": "Ultra Beatdown",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "back": true,
+        "darkened": false,
+        "artwork": true,
+        "front": true,
+        "count": 21
+      },
+      "packaging": null,
+      "date": "2008-08-20",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2008-08-20",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Japan",
+            "type-id": null,
+            "type": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan"
+          }
+        }
+      ],
+      "country": "JP",
+      "quality": "normal",
+      "id": "c2eb1dfb-f7d8-4138-9687-6038342fdf2d"
+    },
+    {
+      "media": [
+        {
+          "format": "CD",
+          "id": "de7aa592-561c-30b7-b8a5-a7de97eb4b56",
+          "title": "",
+          "track-count": 10,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1
+        }
+      ],
+      "barcode": "016861793784",
+      "asin": "B001BEX4S4",
+      "packaging-id": null,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Ultra Beatdown",
+      "disambiguation": "",
+      "packaging": null,
+      "date": "2008-08-26",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "front": false,
+        "artwork": false
+      },
+      "id": "f2273b3e-0378-4866-a89b-195054a1882f",
+      "quality": "normal",
+      "country": "US",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States"
+          },
+          "date": "2008-08-26"
+        }
+      ]
+    },
+    {
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "barcode": "016861793722",
+      "media": [
+        {
+          "title": "",
+          "id": "1b7b2c18-d19b-3656-aa38-0e655edaf485",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 8
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Ultra Beatdown",
+      "date": "2008",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "count": 1,
+        "artwork": true,
+        "front": true,
+        "back": false,
+        "darkened": false
+      },
+      "quality": "normal",
+      "id": "f6aeb50f-385c-4bf3-80b5-4f6c92c83031",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Australia",
+            "disambiguation": "",
+            "type": null,
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "name": "Australia"
+          },
+          "date": "2008"
+        }
+      ],
+      "country": "AU"
+    }
+  ],
+  "release-offset": 0
+}

@@ -1,0 +1,1799 @@
+{
+  "release-count": 15,
+  "releases": [
+    {
+      "date": "2012-04-13",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "count": 1,
+        "darkened": false,
+        "back": true,
+        "front": false,
+        "artwork": true
+      },
+      "quality": "normal",
+      "id": "1f98b253-53b1-4348-8422-fd52445a79b2",
+      "country": "AU",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "name": "Australia",
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Australia",
+            "disambiguation": ""
+          },
+          "date": "2012-04-13"
+        }
+      ],
+      "barcode": "0886919922929",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "id": "7f9ef75f-04cb-3b29-bb92-32af7bcc4edd",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 10
+        }
+      ],
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "The Power Within"
+    },
+    {
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": null,
+      "barcode": "5060156653982",
+      "media": [
+        {
+          "id": "7b3f73af-32f0-3882-bf08-e88f3c8284e0",
+          "format": "Digital Media",
+          "title": "",
+          "track-count": 13,
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "bonus material",
+      "title": "The Power Within",
+      "date": "2012-04-15",
+      "packaging": "None",
+      "cover-art-archive": {
+        "artwork": true,
+        "front": true,
+        "back": false,
+        "darkened": false,
+        "count": 1
+      },
+      "quality": "normal",
+      "id": "23cfff52-e73e-41f4-a5f3-8b850c3134f9",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2012-04-15",
+          "area": {
+            "type": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type-id": null,
+            "sort-name": "United Kingdom",
+            "disambiguation": "",
+            "name": "United Kingdom",
+            "iso-3166-1-codes": [
+              "GB"
+            ]
+          }
+        }
+      ],
+      "country": "GB"
+    },
+    {
+      "title": "The Power Within",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": "B0071NB3RI",
+      "packaging-id": null,
+      "media": [
+        {
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 11,
+          "title": "",
+          "id": "b54489fb-a11c-323d-82d1-724c8efa9761",
+          "format": "CD"
+        }
+      ],
+      "barcode": "4988002614912",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "name": "Japan",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "type-id": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Japan"
+          },
+          "date": "2012-04-11"
+        }
+      ],
+      "country": "JP",
+      "id": "27bd0ea0-c520-4688-9ec1-a0b88e66823f",
+      "quality": "normal",
+      "cover-art-archive": {
+        "count": 24,
+        "darkened": false,
+        "back": true,
+        "front": true,
+        "artwork": true
+      },
+      "date": "2012-04-11",
+      "packaging": null
+    },
+    {
+      "barcode": "4988002762170",
+      "media": [
+        {
+          "track-count": 13,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "40d9c60b-fad9-3a0e-bf89-844704db102e",
+          "format": "CD",
+          "title": ""
+        }
+      ],
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": "B07BSMHG58",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Re-Powered Within",
+      "disambiguation": "",
+      "packaging": "Jewel Case",
+      "date": "2018-05-04",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "front": true,
+        "artwork": true,
+        "count": 1
+      },
+      "id": "34f5ff37-ced4-4e33-8220-a2ad887877dd",
+      "quality": "normal",
+      "country": "JP",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2018-05-04",
+          "area": {
+            "sort-name": "Japan",
+            "disambiguation": "",
+            "type": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan"
+          }
+        }
+      ]
+    },
+    {
+      "status": "Official",
+      "packaging-id": null,
+      "asin": null,
+      "barcode": "4610027698676",
+      "media": [
+        {
+          "track-count": 13,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "96e06f0c-f6cb-45c2-b888-b36546251757",
+          "format": "CD",
+          "title": ""
+        }
+      ],
+      "disambiguation": "",
+      "title": "Re-Powered Within",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "artwork": true,
+        "front": true,
+        "back": true,
+        "darkened": false,
+        "count": 4
+      },
+      "date": "2018",
+      "packaging": null,
+      "text-representation": {
+        "script": null,
+        "language": null
+      },
+      "release-events": [
+        {
+          "date": "2018",
+          "area": {
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Russia",
+            "disambiguation": "",
+            "name": "Russia",
+            "iso-3166-1-codes": [
+              "RU"
+            ]
+          }
+        }
+      ],
+      "country": "RU",
+      "quality": "normal",
+      "id": "418b1bae-c3e9-49bf-845a-08acbe3a48d3"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2012-04-17",
+          "area": {
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States"
+          }
+        }
+      ],
+      "country": "US",
+      "id": "79a4a918-232f-4144-ae28-3604c5f6f51e",
+      "quality": "normal",
+      "cover-art-archive": {
+        "back": false,
+        "darkened": false,
+        "artwork": false,
+        "front": false,
+        "count": 0
+      },
+      "date": "2012-04-17",
+      "packaging": "None",
+      "disambiguation": "",
+      "title": "The Power Within",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": "B007QNS3E4",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "media": [
+        {
+          "id": "3f4857f7-cad8-32aa-9efe-077dfba6e43a",
+          "format": "Digital Media",
+          "title": "",
+          "track-count": 10,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1
+        }
+      ],
+      "barcode": "016861771003"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "remastered",
+      "title": "Re-Powered Within",
+      "barcode": "4029759130109",
+      "media": [
+        {
+          "format": "CD",
+          "id": "a55519db-e375-3ae3-a79b-6d570aab72cc",
+          "title": "",
+          "track-count": 13,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1
+        }
+      ],
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": "B07BSLKGB4",
+      "status": "Official",
+      "id": "8c97dc9a-b91e-460a-8ba5-ecd20e8eedd9",
+      "quality": "normal",
+      "country": "DE",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "sort-name": "Germany"
+          },
+          "date": "2018-05-04"
+        }
+      ],
+      "packaging": "Jewel Case",
+      "date": "2018-05-04",
+      "cover-art-archive": {
+        "count": 0,
+        "artwork": false,
+        "front": false,
+        "back": false,
+        "darkened": false
+      }
+    },
+    {
+      "country": "US",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "2012-04-17",
+          "area": {
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "quality": "normal",
+      "id": "8e1216c3-6f62-4416-9012-f26523c966f1",
+      "cover-art-archive": {
+        "front": true,
+        "artwork": true,
+        "darkened": false,
+        "back": false,
+        "count": 1
+      },
+      "packaging": "Jewel Case",
+      "date": "2012-04-17",
+      "disambiguation": "",
+      "title": "The Power Within",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "title": "",
+          "id": "5233d739-b78b-30cc-86ff-6c991784452a",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 10
+        }
+      ],
+      "barcode": "016861771027",
+      "asin": "B007ALJJ4A",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a"
+    },
+    {
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "barcode": "4650062360114",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "id": "a60a60f4-4e36-308a-a46b-df7470da236f",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 10
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "The Power Within",
+      "date": "2012-04-15",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": true,
+        "front": true,
+        "artwork": true,
+        "count": 11
+      },
+      "id": "926b178a-4dac-44de-a6ea-dc276da363d7",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "type-id": null,
+            "sort-name": "Russia",
+            "disambiguation": "",
+            "name": "Russia",
+            "iso-3166-1-codes": [
+              "RU"
+            ]
+          },
+          "date": "2012-04-15"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "country": "RU"
+    },
+    {
+      "cover-art-archive": {
+        "count": 0,
+        "back": false,
+        "darkened": false,
+        "artwork": false,
+        "front": false
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "date": "2012-04-30",
+      "country": "GB",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type-id": null,
+            "sort-name": "United Kingdom",
+            "disambiguation": "",
+            "name": "United Kingdom",
+            "iso-3166-1-codes": [
+              "GB"
+            ]
+          },
+          "date": "2012-04-30"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "id": "967a9635-9909-4b23-82ec-3b7699541c96",
+      "quality": "normal",
+      "status": "Official",
+      "barcode": "5060156659076",
+      "media": [
+        {
+          "title": "",
+          "format": "12\" Vinyl",
+          "id": "72abda54-b501-3908-9803-3a9f4da1b17d",
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "track-count": 10
+        }
+      ],
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "asin": "B00729WITS",
+      "title": "The Power Within",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "remastered",
+      "title": "Re-Powered Within",
+      "barcode": null,
+      "media": [
+        {
+          "title": "",
+          "id": "71b3a15d-f147-3a6e-aff4-05c5ff28dcc8",
+          "format": "Digital Media",
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "track-count": 13
+        }
+      ],
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": null,
+      "status": "Official",
+      "quality": "normal",
+      "id": "c604f813-5feb-4ef7-8e7c-89f6cce7c70b",
+      "country": "XE",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2018-05-04",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          }
+        }
+      ],
+      "packaging": "None",
+      "date": "2018-05-04",
+      "cover-art-archive": {
+        "artwork": true,
+        "front": true,
+        "back": false,
+        "darkened": false,
+        "count": 1
+      }
+    },
+    {
+      "media": [
+        {
+          "format": "CD",
+          "id": "f72d599a-1610-3135-ab84-850e4e8668a8",
+          "title": "",
+          "track-count": 10,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "barcode": "5060156657546",
+      "asin": "B00729WJOW",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "The Power Within",
+      "disambiguation": "",
+      "date": "2012-04-16",
+      "packaging": "Jewel Case",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "front": true,
+        "artwork": true,
+        "count": 1
+      },
+      "id": "dde1889c-f3d6-4d7a-9bd6-653699387f17",
+      "quality": "high",
+      "country": "GB",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "United Kingdom",
+            "disambiguation": "",
+            "type": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom"
+          },
+          "date": "2012-04-16"
+        },
+        {
+          "date": "2012-04-20",
+          "area": {
+            "name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Germany"
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      }
+    },
+    {
+      "quality": "normal",
+      "id": "e0dd2a71-7e64-462e-b492-62e8565003d3",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "country": "US",
+      "date": "2012-04-17",
+      "packaging": "None",
+      "cover-art-archive": {
+        "count": 1,
+        "artwork": true,
+        "front": true,
+        "back": false,
+        "darkened": false
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "Special Edition",
+      "title": "The Power Within",
+      "asin": "B007QBX80A",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "media": [
+        {
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "track-count": 13,
+          "title": "",
+          "format": "Digital Media",
+          "id": "fbd3ad17-aa39-3faa-b56d-a8d95e51edde"
+        }
+      ],
+      "barcode": "016861771096",
+      "status": "Official"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type-id": null,
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          },
+          "date": "2015-05-01"
+        }
+      ],
+      "country": "XE",
+      "quality": "normal",
+      "id": "e4ee9eb6-0ba2-43a7-be26-4ba599d4e052",
+      "cover-art-archive": {
+        "count": 2,
+        "back": true,
+        "darkened": false,
+        "artwork": true,
+        "front": true
+      },
+      "date": "2015-05-01",
+      "packaging": "Cardboard/Paper Sleeve",
+      "title": "The Power Within",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": "B00UW6ALJC",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "track-count": 10,
+          "title": "",
+          "format": "12\" Vinyl",
+          "id": "76d703d2-bc7e-3cae-ad69-59e8c172172b"
+        }
+      ],
+      "barcode": "4029759095965"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "The Power Within",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "track-count": 10,
+          "title": "",
+          "format": "Digital Media",
+          "id": "fc830bef-56d0-3d1f-abcc-bf66795f9956"
+        }
+      ],
+      "barcode": "4029759094791",
+      "asin": null,
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "status": "Official",
+      "id": "f2059202-32fa-42f7-aee6-8777c561e104",
+      "quality": "normal",
+      "country": "AL",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Albania",
+            "type-id": null,
+            "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc",
+            "type": null,
+            "iso-3166-1-codes": [
+              "AL"
+            ],
+            "name": "Albania"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "sort-name": "Andorra",
+            "disambiguation": "",
+            "type": null,
+            "id": "e01da61e-99a8-3c76-a27d-774c3f4982f0",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "AD"
+            ],
+            "name": "Andorra"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Argentina",
+            "type-id": null,
+            "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+            "type": null,
+            "iso-3166-1-codes": [
+              "AR"
+            ],
+            "name": "Argentina"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Australia",
+            "type-id": null,
+            "type": null,
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "name": "Australia"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
+            "disambiguation": "",
+            "sort-name": "Austria",
+            "name": "Austria",
+            "iso-3166-1-codes": [
+              "AT"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "id": "660e3c48-b301-3c8c-9708-0f71d5d094d6",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Belarus",
+            "disambiguation": "",
+            "name": "Belarus",
+            "iso-3166-1-codes": [
+              "BY"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "BE"
+            ],
+            "name": "Belgium",
+            "disambiguation": "",
+            "sort-name": "Belgium",
+            "type-id": null,
+            "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+            "type": null
+          }
+        },
+        {
+          "area": {
+            "name": "Belize",
+            "iso-3166-1-codes": [
+              "BZ"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "6bf45af6-f1bf-357c-91b5-9593a9c32cb0",
+            "disambiguation": "",
+            "sort-name": "Belize"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "type-id": null,
+            "id": "a5aed4a3-8ce1-3ab3-bfee-b008cff6b857",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Bolivia",
+            "name": "Bolivia",
+            "iso-3166-1-codes": [
+              "BO"
+            ]
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "BA"
+            ],
+            "name": "Bosnia and Herzegovina",
+            "sort-name": "Bosnia and Herzegovina",
+            "disambiguation": "",
+            "id": "f2b64f81-6d36-35b3-94b9-5ba53d693914",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Brazil",
+            "iso-3166-1-codes": [
+              "BR"
+            ],
+            "type-id": null,
+            "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Brazil"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Bulgaria",
+            "iso-3166-1-codes": [
+              "BG"
+            ],
+            "id": "114c14ad-9776-34e9-81b0-6299507f3771",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Bulgaria",
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "CL"
+            ],
+            "name": "Chile",
+            "sort-name": "Chile",
+            "disambiguation": "",
+            "id": "82d5f4d6-aed4-3ff5-81d1-5363ac6e97a7",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "sort-name": "Colombia",
+            "disambiguation": "",
+            "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "CO"
+            ],
+            "name": "Colombia"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Costa Rica",
+            "iso-3166-1-codes": [
+              "CR"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "ba544658-8266-36cb-ac0e-3bdfbf52cb00",
+            "disambiguation": "",
+            "sort-name": "Costa Rica"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "id": "7d30afff-e425-356a-873e-17ae9745b31d",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Croatia",
+            "disambiguation": "",
+            "name": "Croatia",
+            "iso-3166-1-codes": [
+              "HR"
+            ]
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "CW"
+            ],
+            "name": "Cura\u00e7ao",
+            "disambiguation": "",
+            "sort-name": "Cura\u00e7ao",
+            "iso-3166-2-codes": [
+              "NL-CW"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "53ccc8be-1551-3e28-965b-7f95465f2093"
+          }
+        },
+        {
+          "area": {
+            "sort-name": "Cyprus",
+            "disambiguation": "",
+            "type": null,
+            "id": "a75b525f-8c01-31f6-975e-4a32a2b001d5",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "CY"
+            ],
+            "name": "Cyprus"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "CZ"
+            ],
+            "name": "Czechia",
+            "disambiguation": "",
+            "sort-name": "Czechia",
+            "type-id": null,
+            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+            "type": null
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Denmark",
+            "iso-3166-1-codes": [
+              "DK"
+            ],
+            "type": null,
+            "id": "4757b525-2a60-324a-b060-578765d2c993",
+            "type-id": null,
+            "sort-name": "Denmark",
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Ecuador",
+            "iso-3166-1-codes": [
+              "EC"
+            ],
+            "type-id": null,
+            "id": "967abc0e-f680-3cde-95d0-0b79b977d410",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Ecuador"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "El Salvador",
+            "iso-3166-1-codes": [
+              "SV"
+            ],
+            "type": null,
+            "id": "f2fa4bfb-97aa-3db4-8d49-cc64969ce1a7",
+            "type-id": null,
+            "sort-name": "El Salvador",
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "sort-name": "Estonia",
+            "disambiguation": "",
+            "type": null,
+            "id": "e1c1215f-dcc0-35b4-b840-d2ca2151593b",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "EE"
+            ],
+            "name": "Estonia"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "FK"
+            ],
+            "name": "Falkland Islands",
+            "disambiguation": "",
+            "sort-name": "Falkland Islands",
+            "type-id": null,
+            "type": null,
+            "id": "baa270d6-bb10-38d1-87bd-42a82b4efa9c"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "6a264f94-6ff1-30b1-9a81-41f7bfabd616",
+            "disambiguation": "",
+            "sort-name": "Finland",
+            "name": "Finland",
+            "iso-3166-1-codes": [
+              "FI"
+            ]
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "France",
+            "name": "France",
+            "iso-3166-1-codes": [
+              "FR"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Georgia",
+            "type-id": null,
+            "id": "7e081aa0-817b-3ae0-9fe2-4bb4e3b3cc95",
+            "type": null,
+            "iso-3166-1-codes": [
+              "GE"
+            ],
+            "name": "Georgia"
+          }
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "disambiguation": "",
+            "sort-name": "Germany",
+            "type-id": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "GR"
+            ],
+            "name": "Greece",
+            "disambiguation": "",
+            "sort-name": "Greece",
+            "type-id": null,
+            "id": "803db0ca-b6ed-3bbc-aeb8-f89efd0a2168",
+            "type": null
+          }
+        },
+        {
+          "area": {
+            "sort-name": "Guatemala",
+            "disambiguation": "",
+            "type": null,
+            "id": "01448ddc-6ee3-3fa4-b136-507d984e31ee",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GT"
+            ],
+            "name": "Guatemala"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "c4a33ce9-580e-3d57-9c32-f75daf2f75ef",
+            "disambiguation": "",
+            "sort-name": "Guyana",
+            "name": "Guyana",
+            "iso-3166-1-codes": [
+              "GY"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "HN"
+            ],
+            "name": "Honduras",
+            "sort-name": "Honduras",
+            "disambiguation": "",
+            "id": "0c3ea915-4e49-34fc-b702-debb216fd7fa",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Hungary",
+            "type-id": null,
+            "type": null,
+            "id": "312bc5bb-7e43-3e63-81c6-b4d712b37b2c",
+            "iso-3166-1-codes": [
+              "HU"
+            ],
+            "name": "Hungary"
+          }
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "IS"
+            ],
+            "name": "Iceland",
+            "disambiguation": "",
+            "sort-name": "Iceland",
+            "type-id": null,
+            "type": null,
+            "id": "48802a32-075a-3805-a183-277c66047693"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Ireland",
+            "type-id": null,
+            "type": null,
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "iso-3166-1-codes": [
+              "IE"
+            ],
+            "name": "Ireland"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Italy",
+            "type-id": null,
+            "type": null,
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "name": "Italy"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-2-codes": [
+              "RS-KM"
+            ],
+            "id": "7b6ae6b7-6f4f-43df-aab8-0c72531ea8ae",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Kosovo",
+            "name": "Kosovo",
+            "iso-3166-1-codes": [
+              "XK"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Latvia",
+            "iso-3166-1-codes": [
+              "LV"
+            ],
+            "type-id": null,
+            "id": "66eb3e73-d69e-3581-9a23-a73b4c64c8dd",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Latvia"
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Liechtenstein",
+            "type-id": null,
+            "type": null,
+            "id": "d2007481-eefe-37c0-be71-2256dfe148cb",
+            "iso-3166-1-codes": [
+              "LI"
+            ],
+            "name": "Liechtenstein"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "LT"
+            ],
+            "name": "Lithuania",
+            "disambiguation": "",
+            "sort-name": "Lithuania",
+            "type-id": null,
+            "type": null,
+            "id": "0785dc14-96af-3dc4-bde4-dcdfc2e2d0d6"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "id": "563d21b7-4a8e-35e2-83a7-7804baefbfa7",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Luxembourg",
+            "name": "Luxembourg",
+            "iso-3166-1-codes": [
+              "LU"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "id": "050c94f7-1413-3a34-bb90-4a94f3bb2084",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Malta",
+            "disambiguation": "",
+            "name": "Malta",
+            "iso-3166-1-codes": [
+              "MT"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "type": null,
+            "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+            "type-id": null,
+            "sort-name": "Mexico",
+            "disambiguation": "",
+            "name": "Mexico",
+            "iso-3166-1-codes": [
+              "MX"
+            ]
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Moldova",
+            "type-id": null,
+            "id": "560ddb6d-4304-3938-8407-c96605226fad",
+            "type": null,
+            "iso-3166-1-codes": [
+              "MD"
+            ],
+            "name": "Moldova"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "sort-name": "Monaco",
+            "disambiguation": "",
+            "id": "6f26d528-4467-3ecb-b105-10daf3466b40",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "MC"
+            ],
+            "name": "Monaco"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "ME"
+            ],
+            "name": "Montenegro",
+            "sort-name": "Montenegro",
+            "disambiguation": "",
+            "type": null,
+            "id": "6f8faf25-44cb-313b-9162-77145cdc192d",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "NL"
+            ],
+            "name": "Netherlands",
+            "disambiguation": "",
+            "sort-name": "Netherlands",
+            "type-id": null,
+            "type": null,
+            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "type": null,
+            "id": "8524c7d9-f472-3890-a458-f28d5081d9c4",
+            "type-id": null,
+            "sort-name": "New Zealand",
+            "disambiguation": "",
+            "name": "New Zealand",
+            "iso-3166-1-codes": [
+              "NZ"
+            ]
+          }
+        },
+        {
+          "area": {
+            "sort-name": "Nicaragua",
+            "disambiguation": "",
+            "type": null,
+            "id": "d2b87acd-06ce-3c71-b3ff-a35d914bbabe",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "NI"
+            ],
+            "name": "Nicaragua"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "fa75cdb9-cbc4-35de-8bf4-a21e7b811484",
+            "disambiguation": "",
+            "sort-name": "North Macedonia",
+            "name": "North Macedonia",
+            "iso-3166-1-codes": [
+              "MK"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Norway",
+            "iso-3166-1-codes": [
+              "NO"
+            ],
+            "type-id": null,
+            "id": "6743d351-6f37-3049-9724-5041161fff4d",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "Norway"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "PA"
+            ],
+            "name": "Panama",
+            "sort-name": "Panama",
+            "disambiguation": "",
+            "id": "6f85633b-dff4-3fb4-babd-fb89b3628041",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Paraguay",
+            "iso-3166-1-codes": [
+              "PY"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "0a750c98-a7a5-3d55-bd52-f6e9011b1537",
+            "disambiguation": "",
+            "sort-name": "Paraguay"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "sort-name": "Peru",
+            "disambiguation": "",
+            "type": null,
+            "id": "719f6082-95c7-3dd5-9503-e143010a6cc1",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "PE"
+            ],
+            "name": "Peru"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Poland",
+            "iso-3166-1-codes": [
+              "PL"
+            ],
+            "type": null,
+            "id": "dd7f80c8-f017-3d01-8608-2a8c9c32b954",
+            "type-id": null,
+            "sort-name": "Poland",
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "PT"
+            ],
+            "name": "Portugal",
+            "sort-name": "Portugal",
+            "disambiguation": "",
+            "type": null,
+            "id": "781b0c54-3d54-362d-a941-8a617def4992",
+            "type-id": null
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "RO"
+            ],
+            "name": "Romania",
+            "disambiguation": "",
+            "sort-name": "Romania",
+            "type-id": null,
+            "type": null,
+            "id": "61ed84b8-5a10-30a7-8376-ccd51801d6d1"
+          }
+        },
+        {
+          "area": {
+            "name": "Russia",
+            "iso-3166-1-codes": [
+              "RU"
+            ],
+            "type": null,
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "type-id": null,
+            "sort-name": "Russia",
+            "disambiguation": ""
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "San Marino",
+            "iso-3166-1-codes": [
+              "SM"
+            ],
+            "id": "d4dd44b6-fa46-30f5-b331-ce9e88d06242",
+            "type": null,
+            "type-id": null,
+            "sort-name": "San Marino",
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "RS"
+            ],
+            "name": "Serbia",
+            "disambiguation": "",
+            "sort-name": "Serbia",
+            "type-id": null,
+            "type": null,
+            "id": "424c1b50-57f8-34af-ab97-313e2ad40058"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "SK"
+            ],
+            "name": "Slovakia",
+            "sort-name": "Slovakia",
+            "disambiguation": "",
+            "type": null,
+            "id": "eb52ca74-dd11-37a1-a3fa-154430bf2df2",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "Slovenia",
+            "iso-3166-1-codes": [
+              "SI"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "5b0b6225-584c-3942-b69d-5efceb9989af",
+            "disambiguation": "",
+            "sort-name": "Slovenia"
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "iso-3166-1-codes": [
+              "ZA"
+            ],
+            "name": "South Africa",
+            "sort-name": "South Africa",
+            "disambiguation": "",
+            "id": "50cc7852-862e-30ae-aa82-385fe7135b7f",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "name": "Spain",
+            "iso-3166-1-codes": [
+              "ES"
+            ],
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Spain",
+            "disambiguation": ""
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "sort-name": "Suriname",
+            "type-id": null,
+            "type": null,
+            "id": "9d1049fb-7b2d-3862-a26d-3cc58c8c7b5b",
+            "iso-3166-1-codes": [
+              "SR"
+            ],
+            "name": "Suriname"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "SJ"
+            ],
+            "name": "Svalbard and Jan Mayen",
+            "sort-name": "Svalbard and Jan Mayen",
+            "disambiguation": "",
+            "id": "32f9a3f3-046f-355f-b4dc-5158d71957c8",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "SE"
+            ],
+            "name": "Sweden",
+            "disambiguation": "",
+            "sort-name": "Sweden",
+            "type-id": null,
+            "type": null,
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb"
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+            "disambiguation": "",
+            "sort-name": "Switzerland",
+            "name": "Switzerland",
+            "iso-3166-1-codes": [
+              "CH"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "id": "d3be28b4-41f7-3752-8a05-ed45e1d1e492",
+            "type": null,
+            "type-id": null,
+            "sort-name": "T\u00fcrkiye",
+            "disambiguation": "",
+            "name": "T\u00fcrkiye",
+            "iso-3166-1-codes": [
+              "TR"
+            ]
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "area": {
+            "name": "Ukraine",
+            "iso-3166-1-codes": [
+              "UA"
+            ],
+            "type": null,
+            "id": "904768d0-61ca-3c40-93ac-93adc36fef4b",
+            "type-id": null,
+            "sort-name": "Ukraine",
+            "disambiguation": ""
+          },
+          "date": "2012-04-17"
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "name": "United Kingdom",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United Kingdom",
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2012-04-17",
+          "area": {
+            "id": "ea88d395-87c9-3c47-b49a-114cad41fd39",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Uruguay",
+            "disambiguation": "",
+            "name": "Uruguay",
+            "iso-3166-1-codes": [
+              "UY"
+            ]
+          }
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "VE"
+            ],
+            "name": "Venezuela",
+            "sort-name": "Venezuela",
+            "disambiguation": "",
+            "type": null,
+            "id": "2ac90d6b-04fa-3006-8a91-89da01032365",
+            "type-id": null
+          },
+          "date": "2012-04-17"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": "None",
+      "date": "2012-04-17",
+      "cover-art-archive": {
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "front": true,
+        "artwork": true
+      }
+    }
+  ],
+  "release-offset": 0
+}

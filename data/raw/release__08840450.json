@@ -1,0 +1,430 @@
+{
+  "releases": [
+    {
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": "made in the UK by Universal M&L",
+      "packaging": "Jewel Case",
+      "barcode": "5050159637324",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "date": "2003",
+      "status": "Official",
+      "id": "04577802-36c5-49b3-8294-834d359800ce",
+      "media": [
+        {
+          "position": 1,
+          "track-count": 9,
+          "title": "",
+          "id": "05393fc0-5cf7-47d1-9262-666e1e44eae1",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Valley of the Damned",
+      "release-events": [
+        {
+          "date": "2003",
+          "area": {
+            "name": "United Kingdom",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "count": 0,
+        "front": false,
+        "back": false,
+        "artwork": false,
+        "darkened": false
+      },
+      "country": "GB",
+      "asin": null
+    },
+    {
+      "disambiguation": "2010 remix & remaster",
+      "packaging-id": null,
+      "barcode": "0602527039862",
+      "packaging": null,
+      "date": "2010-02-19",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "media": [
+        {
+          "track-count": 10,
+          "title": "",
+          "id": "8c03a036-a4d8-3a81-a50e-c3247037ec46",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        },
+        {
+          "format": "DVD-Video",
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+          "position": 2,
+          "id": "0059f01a-9569-35f0-b08a-33d6cc78bb43",
+          "title": "",
+          "track-count": 1
+        }
+      ],
+      "id": "0935f040-68fc-4053-801b-f4606ef1d896",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "title": "Valley of the Damned",
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": true,
+        "back": true,
+        "front": true,
+        "count": 12
+      },
+      "release-events": [
+        {
+          "date": "2010-02-19",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "United Kingdom"
+          }
+        }
+      ],
+      "country": "GB",
+      "asin": "B0033AX20E"
+    },
+    {
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "disambiguation": "2010 remastered edition",
+      "packaging": "None",
+      "barcode": "602527039893",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2009",
+      "status": "Official",
+      "media": [
+        {
+          "format": "Digital Media",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "id": "4abcff78-e63a-3f1a-a83d-7c21b4bfd67d",
+          "title": "",
+          "track-count": 10
+        }
+      ],
+      "id": "315d0135-bad3-4abb-9dd0-c1617663158a",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Valley of the Damned",
+      "release-events": [
+        {
+          "date": "2009",
+          "area": {
+            "type": null,
+            "name": "[Worldwide]",
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "type-id": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "country": "XW",
+      "asin": null
+    },
+    {
+      "packaging-id": null,
+      "disambiguation": "",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2003-05-17",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "6a58d2af-f11b-4991-b718-1d103a6541f2",
+      "media": [
+        {
+          "id": "a2f94ed7-750e-3f81-b9f2-0198de0e25bb",
+          "track-count": 10,
+          "title": "",
+          "position": 1,
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "packaging": null,
+      "barcode": "4988002445783",
+      "title": "Valley of the Damned",
+      "asin": "B00008DYSI",
+      "release-events": [
+        {
+          "date": "2003-05-17",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Japan"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "count": 17,
+        "front": true,
+        "artwork": true,
+        "back": true,
+        "darkened": false
+      },
+      "country": "JP"
+    },
+    {
+      "date": "2003",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "id": "954ffd73-427f-494a-9e00-198bfff5293d",
+      "media": [
+        {
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "id": "590dcdf0-5762-3e39-8a17-a4d9f1840912",
+          "track-count": 9,
+          "title": ""
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "barcode": "5050159637324",
+      "packaging": "Jewel Case",
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 11,
+        "front": true
+      },
+      "release-events": [
+        {
+          "date": "2003",
+          "area": {
+            "disambiguation": "",
+            "name": "Thailand",
+            "type": null,
+            "id": "ce209e56-cda5-358e-96db-830e3405b675",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "TH"
+            ],
+            "sort-name": "Thailand"
+          }
+        }
+      ],
+      "country": "TH",
+      "title": "Valley of the Damned"
+    },
+    {
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": "",
+      "status": "Official",
+      "id": "bef5773e-9652-435c-9f3e-a1119d472813",
+      "media": [
+        {
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "7c81a93e-dcff-3278-ae8d-d2dd8f4fbaa0",
+          "title": "",
+          "track-count": 12,
+          "position": 1
+        },
+        {
+          "format-id": "2875c583-4580-3a90-b723-ba1b39921e23",
+          "format": "DVD",
+          "title": "",
+          "track-count": 6,
+          "id": "5329fdab-2baa-3dfd-9690-8b3ab3c8185a",
+          "position": 2
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Jpan",
+        "language": "jpn"
+      },
+      "quality": "normal",
+      "date": "2010-01-20",
+      "packaging": "Jewel Case",
+      "barcode": "4988002591299",
+      "title": "Valley of the Damned",
+      "asin": null,
+      "country": "JP",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "name": "Japan",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "type-id": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+          },
+          "date": "2010-01-20"
+        }
+      ],
+      "cover-art-archive": {
+        "front": false,
+        "count": 0,
+        "darkened": false,
+        "artwork": false,
+        "back": false
+      }
+    },
+    {
+      "title": "Valley of the Damned",
+      "asin": null,
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 9,
+        "front": true
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "sort-name": "United States",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "United States"
+          },
+          "date": "2003-01-27"
+        }
+      ],
+      "country": "US",
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "date": "2003-01-27",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "title": "",
+          "track-count": 9,
+          "id": "de9737f3-2afd-3bea-af92-67265f21c07a",
+          "position": 1
+        }
+      ],
+      "id": "c9e43b53-80ff-3e91-abf0-e321abc7cd7e",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "barcode": "823107408421",
+      "packaging": "Jewel Case"
+    },
+    {
+      "status": "Official",
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "track-count": 9,
+          "id": "6cd1f16f-9acf-3a89-9e1d-8f01b2fd6998",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        }
+      ],
+      "id": "e65eb20b-4be1-406a-989d-02825c69b1a6",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "date": "2003-01-27",
+      "packaging": "Jewel Case",
+      "barcode": "5050159637324",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": "",
+      "asin": "B0000793X4",
+      "country": "GB",
+      "release-events": [
+        {
+          "date": "2003-01-27",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "type": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "darkened": false,
+        "count": 2,
+        "front": true
+      },
+      "title": "Valley of the Damned"
+    }
+  ],
+  "release-count": 8,
+  "release-offset": 0
+}

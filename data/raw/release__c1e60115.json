@@ -1,0 +1,1380 @@
+{
+  "releases": [
+    {
+      "disambiguation": "2010 edition",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "602527294476",
+      "packaging": "None",
+      "id": "0b02627a-7f8f-4ea9-8d07-1fe397cfc210",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "track-count": 9,
+          "id": "36ed0b23-f980-3c04-a830-aa1d06e511c1",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "format": "Digital Media"
+        }
+      ],
+      "status": "Official",
+      "date": "2009",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "title": "Sonic Firestorm",
+      "country": "XW",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "artwork": true,
+        "front": true,
+        "count": 1
+      },
+      "release-events": [
+        {
+          "date": "2009",
+          "area": {
+            "type-id": null,
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "type": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "asin": null
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": null,
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "track-count": 9,
+          "id": "2f7128a4-fc39-3aad-953a-076a2c9e1a4f",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        }
+      ],
+      "id": "40520251-eb87-4b73-b053-69fae104922f",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "date": "2004-03-24",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "barcode": "4988002457878",
+      "packaging": null,
+      "title": "Sonic Firestorm",
+      "asin": "B0001FAE7S",
+      "country": "JP",
+      "cover-art-archive": {
+        "front": true,
+        "count": 20,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "name": "Japan",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "type-id": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+          },
+          "date": "2004-03-24"
+        }
+      ]
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "barcode": "5050159638529",
+      "packaging": "None",
+      "date": "2004",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "id": "608d73a2-af4e-4cf5-adf6-7ff7213726ac",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "format": "Digital Media",
+          "position": 1,
+          "title": "",
+          "track-count": 8,
+          "id": "d5fee005-d017-3873-bac9-9c6b63f8bfba"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "title": "Sonic Firestorm",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 1,
+        "front": true
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "Argentina",
+            "iso-3166-1-codes": [
+              "AR"
+            ],
+            "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+            "name": "Argentina",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "sort-name": "Australia",
+            "type-id": null,
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "type": null,
+            "name": "Australia",
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type-id": null,
+            "sort-name": "Austria",
+            "iso-3166-1-codes": [
+              "AT"
+            ],
+            "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
+            "name": "Austria",
+            "type": null,
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Belgium",
+            "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+            "sort-name": "Belgium",
+            "iso-3166-1-codes": [
+              "BE"
+            ],
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "id": "f2b64f81-6d36-35b3-94b9-5ba53d693914",
+            "sort-name": "Bosnia and Herzegovina",
+            "iso-3166-1-codes": [
+              "BA"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Bosnia and Herzegovina"
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Brazil",
+            "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+            "iso-3166-1-codes": [
+              "BR"
+            ],
+            "sort-name": "Brazil",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "114c14ad-9776-34e9-81b0-6299507f3771",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "BG"
+            ],
+            "sort-name": "Bulgaria",
+            "disambiguation": "",
+            "name": "Bulgaria",
+            "type": null
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Cambodia",
+            "id": "ee26e886-87f5-33a2-8e8e-f9591490426d",
+            "sort-name": "Cambodia",
+            "iso-3166-1-codes": [
+              "KH"
+            ],
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Chile",
+            "id": "82d5f4d6-aed4-3ff5-81d1-5363ac6e97a7",
+            "iso-3166-1-codes": [
+              "CL"
+            ],
+            "sort-name": "Chile",
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "CN"
+            ],
+            "sort-name": "China",
+            "id": "7c81bb69-a99b-3487-b6d4-0f76d7a29ca0",
+            "name": "China",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+            "type-id": null,
+            "sort-name": "Colombia",
+            "iso-3166-1-codes": [
+              "CO"
+            ],
+            "disambiguation": "",
+            "name": "Colombia",
+            "type": null
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Costa Rica",
+            "id": "ba544658-8266-36cb-ac0e-3bdfbf52cb00",
+            "iso-3166-1-codes": [
+              "CR"
+            ],
+            "sort-name": "Costa Rica",
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "HR"
+            ],
+            "sort-name": "Croatia",
+            "id": "7d30afff-e425-356a-873e-17ae9745b31d",
+            "name": "Croatia",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "sort-name": "Cura\u00e7ao",
+            "iso-3166-1-codes": [
+              "CW"
+            ],
+            "type-id": null,
+            "id": "53ccc8be-1551-3e28-965b-7f95465f2093",
+            "iso-3166-2-codes": [
+              "NL-CW"
+            ],
+            "type": null,
+            "name": "Cura\u00e7ao",
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Cyprus",
+            "id": "a75b525f-8c01-31f6-975e-4a32a2b001d5",
+            "iso-3166-1-codes": [
+              "CY"
+            ],
+            "sort-name": "Cyprus",
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "sort-name": "Czechia",
+            "iso-3166-1-codes": [
+              "CZ"
+            ],
+            "type-id": null,
+            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+            "type": null,
+            "name": "Czechia",
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "name": "Denmark",
+            "type": null,
+            "id": "4757b525-2a60-324a-b060-578765d2c993",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DK"
+            ],
+            "sort-name": "Denmark"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "sort-name": "Egypt",
+            "iso-3166-1-codes": [
+              "EG"
+            ],
+            "type-id": null,
+            "id": "8e0551f2-95c2-3cc0-a0a9-f2d344f10667",
+            "type": null,
+            "name": "Egypt",
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "name": "Estonia",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Estonia",
+            "iso-3166-1-codes": [
+              "EE"
+            ],
+            "id": "e1c1215f-dcc0-35b4-b840-d2ca2151593b"
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type-id": null,
+            "sort-name": "Finland",
+            "iso-3166-1-codes": [
+              "FI"
+            ],
+            "id": "6a264f94-6ff1-30b1-9a81-41f7bfabd616",
+            "name": "Finland",
+            "type": null,
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "type": null,
+            "name": "France",
+            "disambiguation": "",
+            "sort-name": "France",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "type-id": null,
+            "id": "08310658-51eb-3801-80de-5a0739207115"
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "sort-name": "Germany",
+            "disambiguation": "",
+            "name": "Germany",
+            "type": null
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "803db0ca-b6ed-3bbc-aeb8-f89efd0a2168",
+            "iso-3166-1-codes": [
+              "GR"
+            ],
+            "sort-name": "Greece",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Greece"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "name": "Hong Kong",
+            "type": null,
+            "iso-3166-2-codes": [
+              "CN-91"
+            ],
+            "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "HK"
+            ],
+            "sort-name": "Hong Kong"
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Hungary",
+            "id": "312bc5bb-7e43-3e63-81c6-b4d712b37b2c",
+            "sort-name": "Hungary",
+            "iso-3166-1-codes": [
+              "HU"
+            ],
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Iceland",
+            "id": "48802a32-075a-3805-a183-277c66047693",
+            "sort-name": "Iceland",
+            "iso-3166-1-codes": [
+              "IS"
+            ],
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "IN"
+            ],
+            "sort-name": "India",
+            "type-id": null,
+            "id": "d31a9a15-537f-3669-ad53-25753ddd2772",
+            "type": null,
+            "name": "India",
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "d3a68bd0-7419-3f99-a5bd-204d6e057089",
+            "iso-3166-1-codes": [
+              "ID"
+            ],
+            "sort-name": "Indonesia",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Indonesia"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Ireland",
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "iso-3166-1-codes": [
+              "IE"
+            ],
+            "sort-name": "Ireland",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "sort-name": "Israel",
+            "iso-3166-1-codes": [
+              "IL"
+            ],
+            "type-id": null,
+            "id": "03691455-bb46-37e3-91d2-cb064a35ffcc",
+            "type": null,
+            "name": "Israel",
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "Italy",
+            "type": null,
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "type-id": null,
+            "sort-name": "Italy",
+            "iso-3166-1-codes": [
+              "IT"
+            ]
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "iso-3166-1-codes": [
+              "XK"
+            ],
+            "sort-name": "Kosovo",
+            "type-id": null,
+            "id": "7b6ae6b7-6f4f-43df-aab8-0c72531ea8ae",
+            "iso-3166-2-codes": [
+              "RS-KM"
+            ],
+            "type": null,
+            "name": "Kosovo",
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "name": "Laos",
+            "type": null,
+            "id": "c81cb1f4-0858-3f28-9082-c06e2ce24bea",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "LA"
+            ],
+            "sort-name": "Laos"
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "Latvia",
+            "type": null,
+            "id": "66eb3e73-d69e-3581-9a23-a73b4c64c8dd",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "LV"
+            ],
+            "sort-name": "Latvia"
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "0785dc14-96af-3dc4-bde4-dcdfc2e2d0d6",
+            "sort-name": "Lithuania",
+            "iso-3166-1-codes": [
+              "LT"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Lithuania"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "LU"
+            ],
+            "sort-name": "Luxembourg",
+            "id": "563d21b7-4a8e-35e2-83a7-7804baefbfa7",
+            "name": "Luxembourg",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Malaysia",
+            "id": "305d19c7-c040-349c-8d5f-6ac75d2d2a09",
+            "iso-3166-1-codes": [
+              "MY"
+            ],
+            "sort-name": "Malaysia",
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "name": "Malta",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Malta",
+            "iso-3166-1-codes": [
+              "MT"
+            ],
+            "id": "050c94f7-1413-3a34-bb90-4a94f3bb2084"
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Mexico",
+            "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+            "sort-name": "Mexico",
+            "iso-3166-1-codes": [
+              "MX"
+            ],
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "6f8faf25-44cb-313b-9162-77145cdc192d",
+            "sort-name": "Montenegro",
+            "iso-3166-1-codes": [
+              "ME"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Montenegro"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "NL"
+            ],
+            "sort-name": "Netherlands",
+            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+            "name": "Netherlands",
+            "type": null,
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "NZ"
+            ],
+            "sort-name": "New Zealand",
+            "id": "8524c7d9-f472-3890-a458-f28d5081d9c4",
+            "name": "New Zealand",
+            "type": null,
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type": null,
+            "name": "North Macedonia",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "MK"
+            ],
+            "sort-name": "North Macedonia",
+            "type-id": null,
+            "id": "fa75cdb9-cbc4-35de-8bf4-a21e7b811484"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "NO"
+            ],
+            "sort-name": "Norway",
+            "id": "6743d351-6f37-3049-9724-5041161fff4d",
+            "name": "Norway",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "name": "Pakistan",
+            "type": null,
+            "id": "7c87112d-504d-31f1-8147-11ff45fc3bfd",
+            "type-id": null,
+            "sort-name": "Pakistan",
+            "iso-3166-1-codes": [
+              "PK"
+            ]
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "name": "Philippines",
+            "type": null,
+            "id": "786532a5-2e36-315a-bdf2-221dc1b64b72",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "PH"
+            ],
+            "sort-name": "Philippines"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Poland",
+            "id": "dd7f80c8-f017-3d01-8608-2a8c9c32b954",
+            "sort-name": "Poland",
+            "iso-3166-1-codes": [
+              "PL"
+            ],
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "id": "781b0c54-3d54-362d-a941-8a617def4992",
+            "sort-name": "Portugal",
+            "iso-3166-1-codes": [
+              "PT"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Portugal"
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "Romania",
+            "type": null,
+            "id": "61ed84b8-5a10-30a7-8376-ccd51801d6d1",
+            "type-id": null,
+            "sort-name": "Romania",
+            "iso-3166-1-codes": [
+              "RO"
+            ]
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Russia",
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "sort-name": "Russia",
+            "iso-3166-1-codes": [
+              "RU"
+            ],
+            "type-id": null
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Saudi Arabia",
+            "id": "9705be0d-51fb-3990-8726-ec9f56c66ba0",
+            "iso-3166-1-codes": [
+              "SA"
+            ],
+            "sort-name": "Saudi Arabia",
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "id": "424c1b50-57f8-34af-ab97-313e2ad40058",
+            "type-id": null,
+            "sort-name": "Serbia",
+            "iso-3166-1-codes": [
+              "RS"
+            ],
+            "disambiguation": "",
+            "name": "Serbia",
+            "type": null
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "sort-name": "Singapore",
+            "iso-3166-1-codes": [
+              "SG"
+            ],
+            "id": "aa344640-fd57-3960-afb4-84d0d3b69d3d",
+            "name": "Singapore",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "eb52ca74-dd11-37a1-a3fa-154430bf2df2",
+            "iso-3166-1-codes": [
+              "SK"
+            ],
+            "sort-name": "Slovakia",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Slovakia"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type": null,
+            "name": "Slovenia",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "SI"
+            ],
+            "sort-name": "Slovenia",
+            "type-id": null,
+            "id": "5b0b6225-584c-3942-b69d-5efceb9989af"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type": null,
+            "name": "South Africa",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "ZA"
+            ],
+            "sort-name": "South Africa",
+            "type-id": null,
+            "id": "50cc7852-862e-30ae-aa82-385fe7135b7f"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type": null,
+            "name": "South Korea",
+            "disambiguation": "",
+            "sort-name": "South Korea",
+            "iso-3166-1-codes": [
+              "KR"
+            ],
+            "type-id": null,
+            "id": "b9f7d640-46e8-313e-b158-ded6d18593b3"
+          }
+        },
+        {
+          "date": "2004",
+          "area": {
+            "type": null,
+            "name": "Spain",
+            "disambiguation": "",
+            "sort-name": "Spain",
+            "iso-3166-1-codes": [
+              "ES"
+            ],
+            "type-id": null,
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4"
+          }
+        },
+        {
+          "area": {
+            "id": "6e2d562d-a754-3036-8484-7ac576606e27",
+            "iso-3166-1-codes": [
+              "LK"
+            ],
+            "sort-name": "Sri Lanka",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Sri Lanka"
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+            "iso-3166-1-codes": [
+              "SE"
+            ],
+            "sort-name": "Sweden",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Sweden"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "CH"
+            ],
+            "sort-name": "Switzerland",
+            "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+            "name": "Switzerland",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "sort-name": "Taiwan",
+            "iso-3166-1-codes": [
+              "TW"
+            ],
+            "type-id": null,
+            "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+            "iso-3166-2-codes": [
+              "CN-71"
+            ],
+            "type": null,
+            "name": "Taiwan",
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "id": "ce209e56-cda5-358e-96db-830e3405b675",
+            "type-id": null,
+            "sort-name": "Thailand",
+            "iso-3166-1-codes": [
+              "TH"
+            ],
+            "disambiguation": "",
+            "name": "Thailand",
+            "type": null
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "T\u00fcrkiye",
+            "type": null,
+            "id": "d3be28b4-41f7-3752-8a05-ed45e1d1e492",
+            "type-id": null,
+            "sort-name": "T\u00fcrkiye",
+            "iso-3166-1-codes": [
+              "TR"
+            ]
+          },
+          "date": "2004"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "United Arab Emirates",
+            "id": "fe40c648-ba74-3e17-b768-58181d5ee563",
+            "sort-name": "United Arab Emirates",
+            "iso-3166-1-codes": [
+              "AE"
+            ],
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "name": "United Kingdom",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Venezuela",
+            "id": "2ac90d6b-04fa-3006-8a91-89da01032365",
+            "iso-3166-1-codes": [
+              "VE"
+            ],
+            "sort-name": "Venezuela",
+            "type-id": null
+          },
+          "date": "2004"
+        },
+        {
+          "date": "2004",
+          "area": {
+            "iso-3166-1-codes": [
+              "VN"
+            ],
+            "sort-name": "Vietnam",
+            "type-id": null,
+            "id": "0158e991-c3c6-374a-9b9d-024bbaff6980",
+            "type": null,
+            "name": "Vietnam",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "country": "AR",
+      "asin": null
+    },
+    {
+      "barcode": "823107414224",
+      "packaging": "Jewel Case",
+      "media": [
+        {
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "731f4ef9-eab5-35d7-addb-aa8f889950fb",
+          "track-count": 8,
+          "title": "",
+          "position": 1
+        }
+      ],
+      "id": "9856f656-238d-4085-b669-dd788feae285",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "date": "2004-04-19",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "country": "GB",
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "artwork": true,
+        "back": false
+      },
+      "release-events": [
+        {
+          "area": {
+            "name": "United Kingdom",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+          },
+          "date": "2004-04-19"
+        }
+      ],
+      "asin": "B00014NBVA",
+      "title": "Sonic Firestorm"
+    },
+    {
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "9ad01748-2c99-41f2-b9ba-2b7ac179a149",
+      "media": [
+        {
+          "position": 1,
+          "id": "0d0b5aca-2dd0-3bf4-9d18-fbf273253ca0",
+          "title": "",
+          "track-count": 8,
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "date": "2004-04-19",
+      "packaging": "Jewel Case",
+      "barcode": "5050159638529",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": "",
+      "asin": null,
+      "country": "XE",
+      "release-events": [
+        {
+          "date": "2004-04-19",
+          "area": {
+            "disambiguation": "",
+            "name": "Europe",
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "sort-name": "Europe"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "title": "Sonic Firestorm"
+    },
+    {
+      "id": "9f34075b-ed8f-4582-bc65-29c8cd0dd662",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "track-count": 9,
+          "title": "",
+          "id": "016399a3-a1f8-39fa-9d19-89d4f32f1209",
+          "position": 1
+        },
+        {
+          "format": "DVD",
+          "format-id": "2875c583-4580-3a90-b723-ba1b39921e23",
+          "id": "fb8e0390-0b6b-36e2-8d78-a0c37e676f22",
+          "title": "",
+          "track-count": 3,
+          "position": 2
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "date": "2010-02-23",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "barcode": "0602527247847",
+      "packaging": null,
+      "disambiguation": "",
+      "packaging-id": null,
+      "asin": null,
+      "country": "DE",
+      "cover-art-archive": {
+        "front": true,
+        "count": 12,
+        "darkened": false,
+        "back": true,
+        "artwork": true
+      },
+      "release-events": [
+        {
+          "date": "2010-02-23",
+          "area": {
+            "name": "Germany",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "sort-name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+          }
+        }
+      ],
+      "title": "Sonic Firestorm"
+    },
+    {
+      "asin": "B00014NBVA",
+      "cover-art-archive": {
+        "front": true,
+        "count": 13,
+        "darkened": false,
+        "artwork": true,
+        "back": true
+      },
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "sort-name": "United States"
+          },
+          "date": "2004"
+        }
+      ],
+      "country": "US",
+      "title": "Sonic Firestorm",
+      "date": "2004",
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "media": [
+        {
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "id": "a67f2687-8bca-3a83-acc9-035b9d46484c",
+          "title": "",
+          "track-count": 8
+        }
+      ],
+      "id": "d5202c54-bdd8-33ac-9e7d-bcbd86a992de",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "barcode": "823107414224",
+      "packaging": "Jewel Case",
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a"
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "name": "Canada",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "sort-name": "Canada",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "type-id": null
+          },
+          "date": "2010"
+        }
+      ],
+      "cover-art-archive": {
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "count": 0,
+        "front": false
+      },
+      "country": "CA",
+      "asin": null,
+      "title": "Sonic Firestorm",
+      "packaging": "Jewel Case",
+      "barcode": "602527247847",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2010",
+      "status": "Official",
+      "media": [
+        {
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "id": "2b83b3ab-d79b-3d9f-9144-946376f80514",
+          "title": "",
+          "track-count": 9
+        },
+        {
+          "position": 2,
+          "id": "ec090b1a-8973-36ce-b331-cf71bb2e0042",
+          "title": "",
+          "track-count": 3,
+          "format": "DVD-R Video",
+          "format-id": "c28a0f2e-a61e-4236-879a-5ff92ad33695"
+        }
+      ],
+      "id": "fbe14ce0-397f-4072-9ca7-e54c35f844ae",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": ""
+    }
+  ],
+  "release-count": 8,
+  "release-offset": 0
+}

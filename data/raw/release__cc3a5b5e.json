@@ -1,0 +1,1305 @@
+{
+  "release-count": 7,
+  "release-offset": 0,
+  "releases": [
+    {
+      "status": "Official",
+      "quality": "normal",
+      "barcode": "4029759143789",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "id": "035c7f94-c5e5-4dfe-a24c-671c277ab29b",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 0,
+        "front": false,
+        "artwork": false,
+        "back": false
+      },
+      "disambiguation": "",
+      "title": "Extreme Power Metal",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "media": [
+        {
+          "id": "1074b5e0-ea4c-3ef5-802e-b880e8b60507",
+          "track-count": 4,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "title": "",
+          "format": "12\" Vinyl"
+        },
+        {
+          "position": 2,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "format": "12\" Vinyl",
+          "title": "",
+          "id": "8ee16b11-9694-3825-a481-c775fc7220d9",
+          "track-count": 6
+        }
+      ]
+    },
+    {
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "packaging": "None",
+      "barcode": "4029759143901",
+      "quality": "normal",
+      "status": "Official",
+      "cover-art-archive": {
+        "count": 1,
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "darkened": false
+      },
+      "id": "193e58d9-3b92-46d9-b337-d8695a0e2949",
+      "title": "Extreme Power Metal",
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Albania",
+            "iso-3166-1-codes": [
+              "AL"
+            ],
+            "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc",
+            "sort-name": "Albania"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "id": "e01da61e-99a8-3c76-a27d-774c3f4982f0",
+            "sort-name": "Andorra",
+            "name": "Andorra",
+            "iso-3166-1-codes": [
+              "AD"
+            ],
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "name": "Anguilla",
+            "iso-3166-1-codes": [
+              "AI"
+            ],
+            "id": "eed9e8bb-b48f-30af-95f5-f178762ee515",
+            "sort-name": "Anguilla",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Antigua and Barbuda",
+            "id": "2a8cc14f-8d47-389b-b54d-e94312b23d27",
+            "iso-3166-1-codes": [
+              "AG"
+            ],
+            "name": "Antigua and Barbuda"
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "sort-name": "Australia",
+            "name": "Australia",
+            "iso-3166-1-codes": [
+              "AU"
+            ]
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "name": "Austria",
+            "iso-3166-1-codes": [
+              "AT"
+            ],
+            "id": "caac77d1-a5c8-3e6e-8e27-90b44dcc1446",
+            "sort-name": "Austria",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Bahamas",
+            "iso-3166-1-codes": [
+              "BS"
+            ],
+            "id": "f8b33963-7364-33be-8c6c-5ab2e1075ae1",
+            "sort-name": "Bahamas"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "sort-name": "Barbados",
+            "id": "e5d8d205-81d3-3cd3-8956-d5aaa0c0173f",
+            "iso-3166-1-codes": [
+              "BB"
+            ],
+            "name": "Barbados",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "id": "660e3c48-b301-3c8c-9708-0f71d5d094d6",
+            "sort-name": "Belarus",
+            "name": "Belarus",
+            "iso-3166-1-codes": [
+              "BY"
+            ],
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Belgium",
+            "iso-3166-1-codes": [
+              "BE"
+            ],
+            "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+            "sort-name": "Belgium"
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "sort-name": "Bermuda",
+            "id": "df3bbd94-6a4c-3fc3-bb6e-cd701623db8a",
+            "iso-3166-1-codes": [
+              "BM"
+            ],
+            "name": "Bermuda",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "f2b64f81-6d36-35b3-94b9-5ba53d693914",
+            "sort-name": "Bosnia and Herzegovina",
+            "name": "Bosnia and Herzegovina",
+            "iso-3166-1-codes": [
+              "BA"
+            ]
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "name": "British Virgin Islands",
+            "iso-3166-1-codes": [
+              "VG"
+            ],
+            "id": "8562c2e5-eabb-3fad-96f2-f536a93a2957",
+            "sort-name": "British Virgin Islands",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Bulgaria",
+            "iso-3166-1-codes": [
+              "BG"
+            ],
+            "id": "114c14ad-9776-34e9-81b0-6299507f3771",
+            "sort-name": "Bulgaria"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "5dd25184-711c-3e6a-b089-572cd095f287",
+            "sort-name": "Cayman Islands",
+            "name": "Cayman Islands",
+            "iso-3166-1-codes": [
+              "KY"
+            ]
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "ef1ab25c-717b-30a8-8943-f9937aad8d1f",
+            "sort-name": "Cook Islands",
+            "name": "Cook Islands",
+            "iso-3166-1-codes": [
+              "CK"
+            ]
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "HR"
+            ],
+            "name": "Croatia",
+            "sort-name": "Croatia",
+            "id": "7d30afff-e425-356a-873e-17ae9745b31d",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "id": "53ccc8be-1551-3e28-965b-7f95465f2093",
+            "sort-name": "Cura\u00e7ao",
+            "name": "Cura\u00e7ao",
+            "iso-3166-1-codes": [
+              "CW"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-2-codes": [
+              "NL-CW"
+            ]
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "id": "a75b525f-8c01-31f6-975e-4a32a2b001d5",
+            "sort-name": "Cyprus",
+            "name": "Cyprus",
+            "iso-3166-1-codes": [
+              "CY"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Czechia",
+            "iso-3166-1-codes": [
+              "CZ"
+            ],
+            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+            "sort-name": "Czechia"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Denmark",
+            "iso-3166-1-codes": [
+              "DK"
+            ],
+            "id": "4757b525-2a60-324a-b060-578765d2c993",
+            "sort-name": "Denmark"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "id": "9898ec17-2174-3a61-9e3b-3f51b3ee4de1",
+            "sort-name": "Dominica",
+            "name": "Dominica",
+            "iso-3166-1-codes": [
+              "DM"
+            ],
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          }
+        },
+        {
+          "area": {
+            "name": "Dominican Republic",
+            "iso-3166-1-codes": [
+              "DO"
+            ],
+            "id": "696cb3e0-5084-30ab-9916-65ece70adbf6",
+            "sort-name": "Dominican Republic",
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "sort-name": "Estonia",
+            "id": "e1c1215f-dcc0-35b4-b840-d2ca2151593b",
+            "iso-3166-1-codes": [
+              "EE"
+            ],
+            "name": "Estonia",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "sort-name": "Falkland Islands",
+            "id": "baa270d6-bb10-38d1-87bd-42a82b4efa9c",
+            "iso-3166-1-codes": [
+              "FK"
+            ],
+            "name": "Falkland Islands",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "Finland",
+            "iso-3166-1-codes": [
+              "FI"
+            ],
+            "id": "6a264f94-6ff1-30b1-9a81-41f7bfabd616",
+            "sort-name": "Finland"
+          }
+        },
+        {
+          "area": {
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "sort-name": "France",
+            "id": "08310658-51eb-3801-80de-5a0739207115"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Greece",
+            "iso-3166-1-codes": [
+              "GR"
+            ],
+            "id": "803db0ca-b6ed-3bbc-aeb8-f89efd0a2168",
+            "sort-name": "Greece"
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "name": "Grenada",
+            "iso-3166-1-codes": [
+              "GD"
+            ],
+            "id": "217e2eb3-0a3a-3b59-9eaa-a7465c1417ff",
+            "sort-name": "Grenada",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "sort-name": "Haiti",
+            "id": "cf25d306-7da5-3878-a2b1-a0370f847308",
+            "iso-3166-1-codes": [
+              "HT"
+            ],
+            "name": "Haiti",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "HU"
+            ],
+            "name": "Hungary",
+            "sort-name": "Hungary",
+            "id": "312bc5bb-7e43-3e63-81c6-b4d712b37b2c"
+          }
+        },
+        {
+          "area": {
+            "name": "Iceland",
+            "iso-3166-1-codes": [
+              "IS"
+            ],
+            "id": "48802a32-075a-3805-a183-277c66047693",
+            "sort-name": "Iceland",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "sort-name": "Ireland",
+            "name": "Ireland",
+            "iso-3166-1-codes": [
+              "IE"
+            ]
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "name": "Italy",
+            "sort-name": "Italy",
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Jamaica",
+            "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+            "iso-3166-1-codes": [
+              "JM"
+            ],
+            "name": "Jamaica"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-2-codes": [
+              "RS-KM"
+            ],
+            "type-id": null,
+            "sort-name": "Kosovo",
+            "id": "7b6ae6b7-6f4f-43df-aab8-0c72531ea8ae",
+            "iso-3166-1-codes": [
+              "XK"
+            ],
+            "name": "Kosovo"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "iso-3166-1-codes": [
+              "LV"
+            ],
+            "name": "Latvia",
+            "sort-name": "Latvia",
+            "id": "66eb3e73-d69e-3581-9a23-a73b4c64c8dd",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "sort-name": "Liechtenstein",
+            "id": "d2007481-eefe-37c0-be71-2256dfe148cb",
+            "iso-3166-1-codes": [
+              "LI"
+            ],
+            "name": "Liechtenstein",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "0785dc14-96af-3dc4-bde4-dcdfc2e2d0d6",
+            "sort-name": "Lithuania",
+            "name": "Lithuania",
+            "iso-3166-1-codes": [
+              "LT"
+            ]
+          }
+        },
+        {
+          "area": {
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "LU"
+            ],
+            "name": "Luxembourg",
+            "sort-name": "Luxembourg",
+            "id": "563d21b7-4a8e-35e2-83a7-7804baefbfa7"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "050c94f7-1413-3a34-bb90-4a94f3bb2084",
+            "sort-name": "Malta",
+            "name": "Malta",
+            "iso-3166-1-codes": [
+              "MT"
+            ]
+          }
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "MD"
+            ],
+            "name": "Moldova",
+            "sort-name": "Moldova",
+            "id": "560ddb6d-4304-3938-8407-c96605226fad",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Monaco",
+            "iso-3166-1-codes": [
+              "MC"
+            ],
+            "id": "6f26d528-4467-3ecb-b105-10daf3466b40",
+            "sort-name": "Monaco"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "iso-3166-1-codes": [
+              "ME"
+            ],
+            "name": "Montenegro",
+            "sort-name": "Montenegro",
+            "id": "6f8faf25-44cb-313b-9162-77145cdc192d",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "name": "Montserrat",
+            "iso-3166-1-codes": [
+              "MS"
+            ],
+            "id": "290ea438-1cb6-35e1-9755-6ab123214293",
+            "sort-name": "Montserrat",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+            "sort-name": "Netherlands",
+            "name": "Netherlands",
+            "iso-3166-1-codes": [
+              "NL"
+            ]
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "New Zealand",
+            "id": "8524c7d9-f472-3890-a458-f28d5081d9c4",
+            "iso-3166-1-codes": [
+              "NZ"
+            ],
+            "name": "New Zealand"
+          }
+        },
+        {
+          "area": {
+            "name": "North Macedonia",
+            "iso-3166-1-codes": [
+              "MK"
+            ],
+            "id": "fa75cdb9-cbc4-35de-8bf4-a21e7b811484",
+            "sort-name": "North Macedonia",
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Norway",
+            "id": "6743d351-6f37-3049-9724-5041161fff4d",
+            "iso-3166-1-codes": [
+              "NO"
+            ],
+            "name": "Norway"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "PL"
+            ],
+            "name": "Poland",
+            "sort-name": "Poland",
+            "id": "dd7f80c8-f017-3d01-8608-2a8c9c32b954"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Portugal",
+            "iso-3166-1-codes": [
+              "PT"
+            ],
+            "id": "781b0c54-3d54-362d-a941-8a617def4992",
+            "sort-name": "Portugal"
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "name": "Romania",
+            "iso-3166-1-codes": [
+              "RO"
+            ],
+            "id": "61ed84b8-5a10-30a7-8376-ccd51801d6d1",
+            "sort-name": "Romania",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          }
+        },
+        {
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "id": "b1439904-121a-38fb-8708-0573cb42e2ef",
+            "sort-name": "Saint Kitts and Nevis",
+            "name": "Saint Kitts and Nevis",
+            "iso-3166-1-codes": [
+              "KN"
+            ]
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "LC"
+            ],
+            "name": "Saint Lucia",
+            "sort-name": "Saint Lucia",
+            "id": "178709ab-9e22-39ae-a93c-55e66a8183c2",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "name": "Saint Vincent and The Grenadines",
+            "iso-3166-1-codes": [
+              "VC"
+            ],
+            "id": "7f9f87ec-3c1e-300d-9bb8-fa93f0754e6b",
+            "sort-name": "Saint Vincent and The Grenadines",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "San Marino",
+            "iso-3166-1-codes": [
+              "SM"
+            ],
+            "id": "d4dd44b6-fa46-30f5-b331-ce9e88d06242",
+            "sort-name": "San Marino"
+          }
+        },
+        {
+          "area": {
+            "id": "424c1b50-57f8-34af-ab97-313e2ad40058",
+            "sort-name": "Serbia",
+            "name": "Serbia",
+            "iso-3166-1-codes": [
+              "RS"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "sort-name": "Slovakia",
+            "id": "eb52ca74-dd11-37a1-a3fa-154430bf2df2",
+            "iso-3166-1-codes": [
+              "SK"
+            ],
+            "name": "Slovakia",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Slovenia",
+            "id": "5b0b6225-584c-3942-b69d-5efceb9989af",
+            "iso-3166-1-codes": [
+              "SI"
+            ],
+            "name": "Slovenia"
+          }
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "South Africa",
+            "iso-3166-1-codes": [
+              "ZA"
+            ],
+            "id": "50cc7852-862e-30ae-aa82-385fe7135b7f",
+            "sort-name": "South Africa"
+          }
+        },
+        {
+          "area": {
+            "name": "Spain",
+            "iso-3166-1-codes": [
+              "ES"
+            ],
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "sort-name": "Spain",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "name": "Svalbard and Jan Mayen",
+            "iso-3166-1-codes": [
+              "SJ"
+            ],
+            "id": "32f9a3f3-046f-355f-b4dc-5158d71957c8",
+            "sort-name": "Svalbard and Jan Mayen",
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Sweden",
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+            "iso-3166-1-codes": [
+              "SE"
+            ],
+            "name": "Sweden"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "Switzerland",
+            "iso-3166-1-codes": [
+              "CH"
+            ],
+            "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+            "sort-name": "Switzerland"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Trinidad and Tobago",
+            "id": "6c290168-f3b9-3adb-9889-b856feb2c26c",
+            "iso-3166-1-codes": [
+              "TT"
+            ],
+            "name": "Trinidad and Tobago"
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "TC"
+            ],
+            "name": "Turks and Caicos Islands",
+            "sort-name": "Turks and Caicos Islands",
+            "id": "a2d01b31-5184-382e-aab5-63b5944195b7"
+          },
+          "date": "2019-09-27"
+        },
+        {
+          "area": {
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          },
+          "date": "2019-09-27"
+        }
+      ],
+      "country": "AL",
+      "disambiguation": "",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "media": [
+        {
+          "title": "",
+          "format": "Digital Media",
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "track-count": 10,
+          "id": "23db6782-be07-3428-8fcf-c92c5d394d44"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "date": "2019-09-27",
+      "asin": null
+    },
+    {
+      "status": "Official",
+      "quality": "normal",
+      "packaging": "Jewel Case",
+      "barcode": "4582546590161",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "id": "34411453-d3eb-415f-863d-6f76d7e7cdba",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "front": true,
+        "count": 21,
+        "darkened": false
+      },
+      "country": "JP",
+      "disambiguation": "",
+      "title": "Extreme Power Metal",
+      "release-events": [
+        {
+          "date": "2019-09-25",
+          "area": {
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": "B07VSZ97Y4",
+      "date": "2019-09-25",
+      "media": [
+        {
+          "track-count": 11,
+          "id": "b4fdb2a6-4039-329a-be1d-0b79b44f3ece",
+          "format": "CD",
+          "title": "",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1
+        },
+        {
+          "format": "DVD-Video",
+          "title": "Live at Download 2018",
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+          "position": 2,
+          "track-count": 3,
+          "id": "224cd78f-4997-32f5-a13b-efe85cca3985"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      }
+    },
+    {
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "packaging": "Digipak",
+      "barcode": "4029759143772",
+      "quality": "normal",
+      "status": "Official",
+      "cover-art-archive": {
+        "count": 2,
+        "front": true,
+        "artwork": true,
+        "back": true,
+        "darkened": false
+      },
+      "id": "571c96c7-a49b-45e5-8fae-22bc9928b819",
+      "title": "Extreme Power Metal",
+      "release-events": [
+        {
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "sort-name": "Europe",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null
+          },
+          "date": "2019-09-27"
+        }
+      ],
+      "country": "XE",
+      "disambiguation": "",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "media": [
+        {
+          "format": "CD",
+          "title": "",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 10,
+          "id": "048b8715-69f4-3175-a95f-22ea8d3abd12"
+        }
+      ],
+      "asin": "B07TPYXSCL",
+      "date": "2019-09-27",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "country": "JP",
+      "disambiguation": "",
+      "release-events": [
+        {
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "sort-name": "Japan",
+            "name": "Japan",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": "2019-09-25"
+        }
+      ],
+      "title": "Extreme Power Metal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": "B07VNSB1GW",
+      "date": "2019-09-25",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "media": [
+        {
+          "track-count": 11,
+          "id": "04b6c0bb-ad33-3c81-aea7-28f139c30d41",
+          "title": "",
+          "format": "CD",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1
+        }
+      ],
+      "quality": "normal",
+      "status": "Official",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "packaging": "Jewel Case",
+      "barcode": "4582546590178",
+      "id": "854d72fb-dc80-46cf-b297-68840e28cff4",
+      "cover-art-archive": {
+        "darkened": false,
+        "artwork": true,
+        "back": true,
+        "count": 21,
+        "front": true
+      }
+    },
+    {
+      "country": "US",
+      "disambiguation": "",
+      "release-events": [
+        {
+          "date": "2019-09-27",
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "title": "Extreme Power Metal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "date": "2019-09-27",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "media": [
+        {
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "title": "",
+          "format": "Digital Media",
+          "id": "8882f8a7-dc8c-352d-b25f-231632644b34",
+          "track-count": 10
+        }
+      ],
+      "quality": "normal",
+      "status": "Official",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "packaging": "None",
+      "barcode": null,
+      "id": "b39ceaa0-c0c1-4231-a682-0848e95f9801",
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "back": false,
+        "artwork": true,
+        "darkened": false
+      }
+    },
+    {
+      "id": "f1b092d8-87e3-4a8b-a03e-c715d1e4242c",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 0,
+        "front": false,
+        "artwork": false,
+        "back": false
+      },
+      "status": "Official",
+      "quality": "normal",
+      "packaging": "Digipak",
+      "barcode": "039841567328",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "date": "2019-09-27",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "media": [
+        {
+          "format": "CD",
+          "title": "",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 10,
+          "id": "7b8d3a27-5d26-357f-825d-5157dcab01a4"
+        }
+      ],
+      "disambiguation": "",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2019-09-27",
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null
+          }
+        }
+      ],
+      "title": "Extreme Power Metal"
+    }
+  ]
+}

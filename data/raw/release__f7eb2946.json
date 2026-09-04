@@ -1,0 +1,906 @@
+{
+  "releases": [
+    {
+      "quality": "normal",
+      "asin": null,
+      "date": "2017-05-19",
+      "cover-art-archive": {
+        "back": true,
+        "artwork": true,
+        "front": true,
+        "count": 13,
+        "darkened": false
+      },
+      "barcode": "4029759119524",
+      "title": "Reaching Into Infinity",
+      "country": "XE",
+      "media": [
+        {
+          "title": "",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "5874af2d-cdbe-314a-836c-8e5e9e3fd924",
+          "format": "CD",
+          "track-count": 13
+        },
+        {
+          "id": "667c532c-833c-340b-9682-75147c6bc97b",
+          "format": "DVD-Video",
+          "track-count": 6,
+          "position": 2,
+          "title": "",
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f"
+        }
+      ],
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "sort-name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "name": "Europe"
+          },
+          "date": "2017-05-19"
+        }
+      ],
+      "id": "01ea11aa-f83c-4ae8-a086-8d0e9c4e512b",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Digipak",
+      "status": "Official",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "disambiguation": ""
+    },
+    {
+      "media": [
+        {
+          "format": "CD",
+          "track-count": 11,
+          "id": "5a7310c0-0edc-37a4-9a69-5860eddad8c2",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "title": "",
+          "position": 1
+        }
+      ],
+      "country": "XE",
+      "title": "Reaching Into Infinity",
+      "cover-art-archive": {
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true,
+        "front": true
+      },
+      "date": "2017-05-19",
+      "barcode": "4029759119517",
+      "asin": null,
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": null,
+      "status": "Official",
+      "packaging": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "07eb5c76-9bae-464e-9435-99800e78ed97",
+      "release-events": [
+        {
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "sort-name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "name": "Europe"
+          },
+          "date": "2017-05-19"
+        }
+      ]
+    },
+    {
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": null,
+      "status": "Official",
+      "packaging-id": null,
+      "disambiguation": "",
+      "release-events": [
+        {
+          "date": "2017-05-19",
+          "area": {
+            "name": "Europe",
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type": null,
+            "sort-name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+          }
+        }
+      ],
+      "id": "0d1006f9-2942-4630-9593-9c09428e1082",
+      "title": "Reaching Into Infinity",
+      "country": "XE",
+      "media": [
+        {
+          "title": "",
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "id": "0c0e6269-d950-3f9b-af66-bb16fd8706a6",
+          "format": "12\" Vinyl",
+          "track-count": 7
+        },
+        {
+          "title": "",
+          "position": 2,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "id": "82423fb0-ed69-3b92-8744-6f644ea15eb7",
+          "format": "12\" Vinyl",
+          "track-count": 6
+        }
+      ],
+      "quality": "normal",
+      "asin": null,
+      "barcode": "4029759119531",
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "count": 0
+      },
+      "date": "2017-05-19"
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "name": "Ireland",
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "IE"
+            ],
+            "sort-name": "Ireland",
+            "type": null,
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5"
+          },
+          "date": "2017-05-19"
+        },
+        {
+          "date": "2017-05-19",
+          "area": {
+            "name": "United Kingdom",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "type-id": null,
+            "type": null,
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+          }
+        }
+      ],
+      "id": "28917263-1721-4773-b589-467ca497f953",
+      "packaging": "None",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "status": "Official",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": null,
+      "barcode": "4029759121350",
+      "cover-art-archive": {
+        "front": true,
+        "artwork": true,
+        "back": false,
+        "darkened": false,
+        "count": 1
+      },
+      "date": "2017-05-19",
+      "quality": "normal",
+      "country": "IE",
+      "title": "Reaching Into Infinity",
+      "media": [
+        {
+          "format": "Digital Media",
+          "track-count": 11,
+          "id": "68aff1aa-60c7-38fb-b6cd-212f23fc4d4b",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "title": "",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "media": [
+        {
+          "track-count": 13,
+          "format": "CD",
+          "id": "7c40eff8-927e-3215-9977-99810bf67e2f",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "title": ""
+        },
+        {
+          "id": "e0d35a7c-8553-3fa1-b35c-f2f886f6f7d0",
+          "format": "DVD-Video",
+          "track-count": 6,
+          "title": "",
+          "position": 2,
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f"
+        }
+      ],
+      "country": "RU",
+      "title": "Reaching Into Infinity",
+      "asin": null,
+      "barcode": "4650075218976",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "artwork": false,
+        "front": false
+      },
+      "date": "2017",
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "status": "Official",
+      "packaging": "Digipak",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "RU"
+            ],
+            "type-id": null,
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "type": null,
+            "sort-name": "Russia",
+            "name": "Russia",
+            "disambiguation": ""
+          },
+          "date": "2017"
+        }
+      ],
+      "id": "4272c6e9-8a3f-4f05-ba78-cd98552d2cc2"
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "status": "Official",
+      "disambiguation": "limited edition",
+      "id": "4b75b063-2810-4bfb-9c05-ec870db48b5a",
+      "release-events": [
+        {
+          "date": "2017-05-19",
+          "area": {
+            "name": "United States",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "sort-name": "United States"
+          }
+        }
+      ],
+      "title": "Reaching Into Infinity",
+      "country": "US",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "title": "",
+          "format": "CD",
+          "track-count": 13,
+          "id": "7d2c215c-d011-3bd1-b1ea-edd198296647"
+        },
+        {
+          "position": 2,
+          "title": "",
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+          "id": "d16896ee-f72a-3bcf-99ee-32f0602fca7b",
+          "format": "DVD-Video",
+          "track-count": 6
+        }
+      ],
+      "quality": "normal",
+      "date": "2017-05-19",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "back": false,
+        "artwork": false,
+        "front": false
+      },
+      "barcode": "039841552720",
+      "asin": "B06XSL1DVH"
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "status": "Official",
+      "packaging": "None",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "id": "6788abee-37ee-46fa-9cef-b43af3428492",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "type-id": null,
+            "sort-name": "Canada",
+            "type": null,
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "name": "Canada",
+            "disambiguation": ""
+          },
+          "date": "2017-05-19"
+        }
+      ],
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "title": "",
+          "format": "Digital Media",
+          "track-count": 13,
+          "id": "c7039bf8-4e99-353d-8fcf-7a513274ad5b"
+        }
+      ],
+      "country": "CA",
+      "title": "Reaching Into Infinity",
+      "date": "2017-05-19",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": false,
+        "front": false,
+        "count": 0,
+        "darkened": false
+      },
+      "barcode": "823674675233",
+      "asin": null,
+      "quality": "normal"
+    },
+    {
+      "packaging": "Digipak",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "status": "Official",
+      "release-events": [
+        {
+          "date": "2017",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "type": null,
+            "sort-name": "Canada",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "name": "Canada",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "id": "75c6df96-c0e0-4aee-ad50-8e990bf4d78f",
+      "country": "CA",
+      "title": "Reaching Into Infinity",
+      "media": [
+        {
+          "format": "CD",
+          "track-count": 13,
+          "id": "b6f12b26-8fc9-306c-a6c4-e2b459044e49",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "title": ""
+        },
+        {
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+          "title": "",
+          "position": 2,
+          "format": "DVD-Video",
+          "track-count": 6,
+          "id": "83250ff1-e3cc-36dc-b79e-7ec00cb704f7"
+        }
+      ],
+      "asin": null,
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 0,
+        "front": false,
+        "back": false,
+        "artwork": false
+      },
+      "date": "2017",
+      "barcode": "823674661021",
+      "quality": "normal"
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": null,
+      "status": "Official",
+      "packaging": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "a514f516-5258-4fed-b9a6-aff3ba4264a5",
+      "release-events": [
+        {
+          "date": "2017-05-19",
+          "area": {
+            "disambiguation": "",
+            "name": "United States",
+            "type": null,
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        }
+      ],
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "id": "af641c16-8f9a-351f-91dd-d46b75ec4cc0",
+          "format": "12\" Vinyl",
+          "track-count": 7
+        },
+        {
+          "format": "12\" Vinyl",
+          "track-count": 6,
+          "id": "413ef265-00bb-322a-8adf-342d56300be5",
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "title": "",
+          "position": 2
+        }
+      ],
+      "country": "US",
+      "title": "Reaching Into Infinity",
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "count": 0
+      },
+      "barcode": "039841550115",
+      "date": "2017-05-19",
+      "asin": null,
+      "quality": "normal"
+    },
+    {
+      "title": "Reaching Into Infinity",
+      "country": "JP",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "title": "Reaching Into Infinity",
+          "position": 1,
+          "format": "CD",
+          "track-count": 14,
+          "id": "735681d5-a4d2-3bac-8694-885ed25119d9"
+        },
+        {
+          "title": "Live at Woodstock Festival Poland 2016",
+          "position": 2,
+          "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+          "id": "c499de86-d677-3e13-b75b-06d3328685fc",
+          "track-count": 6,
+          "format": "DVD-Video"
+        }
+      ],
+      "quality": "normal",
+      "cover-art-archive": {
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 24
+      },
+      "date": "2017-05-17",
+      "barcode": "4943674259557",
+      "asin": "B06XH1Z5NP",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Digipak",
+      "status": "Official",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "disambiguation": "",
+      "id": "d1acdff5-b33f-45fe-af69-7f6f1f6a8ed6",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ]
+          },
+          "date": "2017-05-17"
+        }
+      ]
+    },
+    {
+      "media": [
+        {
+          "title": "",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "238f8ceb-5aa2-3996-9756-05b5d0913306",
+          "format": "CD",
+          "track-count": 13
+        }
+      ],
+      "country": "US",
+      "title": "Reaching Into Infinity",
+      "asin": null,
+      "cover-art-archive": {
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 1
+      },
+      "barcode": "039841552720",
+      "date": "2017-05-19",
+      "quality": "normal",
+      "disambiguation": "Special Edition",
+      "status": "Official",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "packaging": "Digipak",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "sort-name": "United States",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "disambiguation": "",
+            "name": "United States"
+          },
+          "date": "2017-05-19"
+        }
+      ],
+      "id": "d22f1777-0c4d-4e1e-9755-91fdfd287b84"
+    },
+    {
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "title": "",
+          "format": "CD",
+          "track-count": 11,
+          "id": "034bba4a-f2c1-3d8c-84ec-4cbaa05cf8c0"
+        }
+      ],
+      "title": "Reaching Into Infinity",
+      "country": "XW",
+      "quality": "normal",
+      "date": "2017-05-19",
+      "cover-art-archive": {
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true,
+        "front": true
+      },
+      "barcode": null,
+      "asin": null,
+      "status": "Official",
+      "packaging-id": null,
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "id": "d482c132-4f49-4bf0-a555-39104664688a",
+      "release-events": [
+        {
+          "area": {
+            "name": "[Worldwide]",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "type-id": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "sort-name": "[Worldwide]",
+            "type": null
+          },
+          "date": "2017-05-19"
+        }
+      ]
+    },
+    {
+      "release-events": [
+        {
+          "date": "2017-05-17",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "type": null,
+            "sort-name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "name": "Japan",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "id": "d67f3b8a-252d-446a-b27d-577ed8231c29",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "status": "Official",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "packaging": "None",
+      "quality": "normal",
+      "asin": null,
+      "barcode": "190295830830",
+      "cover-art-archive": {
+        "front": true,
+        "artwork": true,
+        "back": false,
+        "darkened": false,
+        "count": 1
+      },
+      "date": "2017-05-17",
+      "media": [
+        {
+          "title": "",
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "id": "5f67763e-4944-33e9-b92f-ba764e58db8f",
+          "track-count": 12,
+          "format": "Digital Media"
+        }
+      ],
+      "title": "Reaching Into Infinity",
+      "country": "JP"
+    },
+    {
+      "quality": "normal",
+      "asin": null,
+      "date": "2017-05-19",
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "count": 0
+      },
+      "barcode": "886446445366",
+      "title": "Reaching Into Infinity",
+      "country": "AU",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "position": 1,
+          "title": "",
+          "format": "Digital Media",
+          "track-count": 11,
+          "id": "7370a557-2a23-3139-a7df-924349f14949"
+        }
+      ],
+      "release-events": [
+        {
+          "date": "2017-05-19",
+          "area": {
+            "name": "Australia",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "type-id": null,
+            "sort-name": "Australia",
+            "type": null,
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e"
+          }
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "New Zealand",
+            "type": null,
+            "sort-name": "New Zealand",
+            "id": "8524c7d9-f472-3890-a458-f28d5081d9c4",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "NZ"
+            ]
+          },
+          "date": "2017-05-19"
+        }
+      ],
+      "id": "e0905d06-46ad-4275-b6a6-fa2e6381f962",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": "None",
+      "status": "Official",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "disambiguation": ""
+    },
+    {
+      "packaging": "None",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "disambiguation": "Special Edition",
+      "status": "Official",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "type": null,
+            "name": "United States",
+            "disambiguation": ""
+          },
+          "date": "2017-05-19"
+        }
+      ],
+      "id": "e4fe674c-ec44-4971-b153-71e61d4fb18d",
+      "country": "US",
+      "title": "Reaching Into Infinity",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "title": "",
+          "position": 1,
+          "track-count": 13,
+          "format": "Digital Media",
+          "id": "5d1e83c3-e6c6-31bd-aaa9-5e6070d0b96c"
+        }
+      ],
+      "asin": null,
+      "date": "2017-05-19",
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 1,
+        "front": true,
+        "artwork": true,
+        "back": false
+      },
+      "barcode": "039841924428",
+      "quality": "normal"
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "status": "Official",
+      "packaging": "Jewel Case",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "date": "2017-05-17",
+          "area": {
+            "name": "Japan",
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "type": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+          }
+        }
+      ],
+      "id": "e7550f7a-42f6-4429-bceb-56707aac8439",
+      "media": [
+        {
+          "track-count": 12,
+          "format": "CD",
+          "id": "4d5ef34b-920d-3a1f-96e7-1b27c5dc44c9",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "title": ""
+        }
+      ],
+      "country": "JP",
+      "title": "Reaching Into Infinity",
+      "asin": "B06XH7GLCK",
+      "barcode": "4943674259540",
+      "cover-art-archive": {
+        "back": false,
+        "artwork": true,
+        "front": true,
+        "count": 1,
+        "darkened": false
+      },
+      "date": "2017-05-17",
+      "quality": "normal"
+    }
+  ],
+  "release-offset": 0,
+  "release-count": 16
+}

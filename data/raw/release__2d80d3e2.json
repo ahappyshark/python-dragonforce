@@ -1,0 +1,750 @@
+{
+  "releases": [
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "Special Edition",
+      "title": "Inhuman Rampage",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": "B000LW7UPU",
+      "barcode": "016861800420",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "track-count": 9,
+          "title": "",
+          "format": "CD",
+          "id": "fe73fecd-892d-3920-961c-ab7e3ced85a6"
+        },
+        {
+          "format-id": "2875c583-4580-3a90-b723-ba1b39921e23",
+          "position": 2,
+          "track-count": 4,
+          "title": "",
+          "format": "DVD",
+          "id": "42d7364d-8c58-33c1-9353-bd0b535771d0"
+        }
+      ],
+      "status": "Official",
+      "id": "0c651f89-8875-411a-b9cf-176d3056d79d",
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2007-03-13",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": "",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ]
+          }
+        },
+        {
+          "date": "",
+          "area": {
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Canada",
+            "disambiguation": "",
+            "name": "Canada",
+            "iso-3166-1-codes": [
+              "CA"
+            ]
+          }
+        }
+      ],
+      "country": "US",
+      "packaging": "Jewel Case",
+      "date": "2007-03-13",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": true,
+        "front": true,
+        "artwork": true,
+        "count": 19
+      }
+    },
+    {
+      "status": "Official",
+      "barcode": "5050159640614",
+      "media": [
+        {
+          "title": "",
+          "format": "12\" Vinyl",
+          "id": "dc022cfd-05c2-3553-a329-57267cd75917",
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "track-count": 8
+        }
+      ],
+      "packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+      "asin": "B000C9DU7O",
+      "disambiguation": "picture disc",
+      "title": "Inhuman Rampage",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "darkened": false,
+        "back": false,
+        "count": 0
+      },
+      "packaging": "Other",
+      "date": "2006-01-26",
+      "country": "XE",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "disambiguation": "",
+            "sort-name": "Europe",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          },
+          "date": "2006-01-26"
+        }
+      ],
+      "quality": "normal",
+      "id": "19550f57-9fe4-481f-be4f-81f8ad8de0b2"
+    },
+    {
+      "country": "XW",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "date": "2006-01-09",
+          "area": {
+            "sort-name": "[Worldwide]",
+            "disambiguation": "",
+            "type": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]"
+          }
+        }
+      ],
+      "id": "1b6a4121-4f60-4612-96b1-b969454cfc9b",
+      "quality": "normal",
+      "cover-art-archive": {
+        "count": 1,
+        "artwork": true,
+        "front": true,
+        "back": false,
+        "darkened": false
+      },
+      "date": "2006-01-09",
+      "packaging": "None",
+      "title": "Inhuman Rampage",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "barcode": "602508878640",
+      "media": [
+        {
+          "format": "Digital Media",
+          "id": "ba102ddc-69dc-3d97-85b6-729ec5e25cc5",
+          "title": "",
+          "track-count": 8,
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794"
+        }
+      ],
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": null
+    },
+    {
+      "cover-art-archive": {
+        "count": 1,
+        "back": false,
+        "darkened": false,
+        "artwork": true,
+        "front": true
+      },
+      "date": "2007-03-13",
+      "packaging": "Jewel Case",
+      "country": "XE",
+      "release-events": [
+        {
+          "date": "2007-03-13",
+          "area": {
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "type-id": null
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "id": "2474dbb5-a74e-4ae4-bc5d-6be1da648078",
+      "status": "Official",
+      "media": [
+        {
+          "track-count": 9,
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "id": "6dbd5075-dd23-3f1e-a96d-0e49816f1c2b",
+          "format": "CD",
+          "title": ""
+        },
+        {
+          "id": "754036b7-e4af-3fe6-a7c9-cd69e5c2c7b1",
+          "format": "DVD",
+          "title": "",
+          "track-count": 4,
+          "format-id": "2875c583-4580-3a90-b723-ba1b39921e23",
+          "position": 2
+        }
+      ],
+      "barcode": "016861807085",
+      "asin": "B000N4S8UM",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "title": "Inhuman Rampage",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "disambiguation": "",
+      "title": "Inhuman Rampage",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": "B000C9DU7Y",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "media": [
+        {
+          "title": "",
+          "format": "Enhanced CD",
+          "id": "f7b54ccb-9550-3ec7-997e-38d3b9163f0b",
+          "position": 1,
+          "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c",
+          "track-count": 8
+        }
+      ],
+      "barcode": "5050159640621",
+      "release-events": [
+        {
+          "date": "2006-01-06",
+          "area": {
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "type-id": null,
+            "type": null,
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "disambiguation": "",
+            "sort-name": "Europe"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "country": "XE",
+      "quality": "normal",
+      "id": "27a94f16-382c-4e2c-a0a1-a0b344d37f69",
+      "cover-art-archive": {
+        "count": 1,
+        "front": true,
+        "artwork": true,
+        "darkened": false,
+        "back": false
+      },
+      "packaging": "Jewel Case",
+      "date": "2006-01-06"
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "name": "Japan",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "type": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type-id": null,
+            "sort-name": "Japan",
+            "disambiguation": ""
+          },
+          "date": "2005-12-28"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "country": "JP",
+      "id": "2f5489f2-edc4-3e36-9dae-8298c254e29a",
+      "quality": "normal",
+      "cover-art-archive": {
+        "count": 20,
+        "front": true,
+        "artwork": true,
+        "darkened": false,
+        "back": true
+      },
+      "date": "2005-12-28",
+      "packaging": "Jewel Case",
+      "title": "Inhuman Rampage",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": "B000BX4CPA",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "media": [
+        {
+          "format": "Enhanced CD",
+          "id": "56ac9106-341b-3315-b82d-a62528e71027",
+          "title": "",
+          "track-count": 9,
+          "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c",
+          "position": 1
+        }
+      ],
+      "barcode": "4988002494798"
+    },
+    {
+      "title": "Inhuman Rampage",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "asin": "B000CNFAR8",
+      "packaging-id": null,
+      "media": [
+        {
+          "id": "0b4b2be6-2a7a-30be-9107-5d1b3d3ec78a",
+          "format": "Enhanced CD",
+          "title": "",
+          "track-count": 8,
+          "position": 1,
+          "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c"
+        }
+      ],
+      "barcode": "016861807023",
+      "release-events": [
+        {
+          "date": "2006-06-20",
+          "area": {
+            "sort-name": "Canada",
+            "disambiguation": "",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "name": "Canada"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "country": "CA",
+      "id": "56e577d7-7e94-3555-8eff-84afdd0d41f0",
+      "quality": "normal",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "front": false,
+        "artwork": false,
+        "count": 0
+      },
+      "packaging": null,
+      "date": "2006-06-20"
+    },
+    {
+      "title": "Inhuman Rampage",
+      "disambiguation": "BMG Club edition",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "media": [
+        {
+          "title": "",
+          "id": "d4f9938c-814b-3dde-bbca-8dc18a6fb517",
+          "format": "Enhanced CD",
+          "position": 1,
+          "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c",
+          "track-count": 8
+        }
+      ],
+      "barcode": "",
+      "asin": null,
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "country": "US",
+      "release-events": [
+        {
+          "date": "2006",
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States"
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "quality": "normal",
+      "id": "88de9fea-5155-4e6b-bb6f-878b2e75c4fd",
+      "cover-art-archive": {
+        "front": true,
+        "artwork": true,
+        "darkened": false,
+        "back": false,
+        "count": 1
+      },
+      "date": "2006",
+      "packaging": "Jewel Case"
+    },
+    {
+      "cover-art-archive": {
+        "count": 13,
+        "back": true,
+        "darkened": false,
+        "artwork": true,
+        "front": true
+      },
+      "packaging": "Jewel Case",
+      "date": "2006-06-20",
+      "release-events": [
+        {
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          },
+          "date": "2006-06-20"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "country": "US",
+      "quality": "normal",
+      "id": "9262f4a3-4f30-4e92-9f90-e546ec3078e0",
+      "status": "Official",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": null,
+      "barcode": "016861803421",
+      "media": [
+        {
+          "id": "8cee0ba9-9427-3e11-bd83-924995433a1a",
+          "format": "Enhanced CD",
+          "title": "",
+          "track-count": 8,
+          "position": 1,
+          "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c"
+        }
+      ],
+      "disambiguation": "",
+      "title": "Inhuman Rampage",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "packaging-id": null,
+      "asin": "B000FKO5DI",
+      "barcode": "016861803421",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "id": "bf331b57-661c-31f4-b997-cba14161465d",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 8
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Inhuman Rampage",
+      "date": "2006-06-20",
+      "packaging": null,
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "front": true,
+        "artwork": true,
+        "count": 1
+      },
+      "id": "9ee03436-b259-340e-b32c-dd0ce64e05e0",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2006-06-20"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "country": "US"
+    },
+    {
+      "cover-art-archive": {
+        "front": false,
+        "artwork": false,
+        "darkened": false,
+        "back": false,
+        "count": 0
+      },
+      "packaging": "Digipak",
+      "date": "2006",
+      "country": "MX",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Mexico",
+            "disambiguation": "",
+            "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+            "type": null,
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "MX"
+            ],
+            "name": "Mexico"
+          },
+          "date": "2006"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "id": "baf6afa5-ebb9-4437-95f9-c7c6eb1a467f",
+      "status": "Official",
+      "barcode": "5050159640621",
+      "media": [
+        {
+          "track-count": 8,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "position": 1,
+          "format": "CD",
+          "id": "1e729084-08e4-3a8a-a17a-1f2fb77a3045",
+          "title": ""
+        }
+      ],
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "asin": "B000C9DU7Y",
+      "title": "Inhuman Rampage",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "cover-art-archive": {
+        "darkened": false,
+        "back": false,
+        "front": true,
+        "artwork": true,
+        "count": 1
+      },
+      "packaging": "None",
+      "date": "",
+      "country": "XW",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "disambiguation": "",
+            "sort-name": "[Worldwide]",
+            "type-id": null,
+            "type": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+          },
+          "date": ""
+        }
+      ],
+      "quality": "normal",
+      "id": "bdb9ed51-6241-4938-9606-67741ff7875e",
+      "status": "Official",
+      "barcode": "016861111106",
+      "media": [
+        {
+          "track-count": 9,
+          "position": 1,
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "id": "1e8fe49c-1866-3928-a47a-34da0e0e60ac",
+          "format": "Digital Media",
+          "title": ""
+        }
+      ],
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "asin": "B0016O5KI6",
+      "title": "Inhuman Rampage",
+      "disambiguation": "Special Edition",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "cover-art-archive": {
+        "count": 0,
+        "back": false,
+        "darkened": false,
+        "artwork": false,
+        "front": false
+      },
+      "date": "2006",
+      "packaging": "Cardboard/Paper Sleeve",
+      "country": "XE",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "2006",
+          "area": {
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Europe",
+            "disambiguation": "",
+            "name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ]
+          }
+        }
+      ],
+      "id": "e73ebd3c-10d5-4cf0-9b91-37ac13e7a8b9",
+      "quality": "normal",
+      "status": "Promotion",
+      "media": [
+        {
+          "title": "",
+          "format": "CD",
+          "id": "f5b8188f-4000-3841-b229-2f1adb04e8fb",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "track-count": 8
+        }
+      ],
+      "barcode": "",
+      "asin": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "disambiguation": "",
+      "title": "Inhuman Rampage",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92"
+    },
+    {
+      "disambiguation": "",
+      "title": "Inhuman Rampage",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "barcode": "016861807023",
+      "media": [
+        {
+          "position": 1,
+          "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c",
+          "track-count": 8,
+          "title": "",
+          "id": "537239a1-c17b-3600-963a-040d7128dd75",
+          "format": "Enhanced CD"
+        }
+      ],
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "asin": "B000CNFAR8",
+      "country": "GB",
+      "release-events": [
+        {
+          "date": "2006-01-09",
+          "area": {
+            "name": "United Kingdom",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United Kingdom",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "id": "f482364a-ce15-46bc-87e6-514f23c2d93e",
+      "cover-art-archive": {
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "front": true,
+        "artwork": true
+      },
+      "packaging": "Jewel Case",
+      "date": "2006-01-09"
+    }
+  ],
+  "release-count": 14,
+  "release-offset": 0
+}

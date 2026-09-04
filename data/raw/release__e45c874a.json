@@ -1,0 +1,471 @@
+{
+  "release-count": 9,
+  "releases": [
+    {
+      "packaging-id": null,
+      "disambiguation": "Bandcamp",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "24fcaed7-5585-45b5-be09-fbd2b5fa5aca",
+      "media": [
+        {
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "format": "Digital Media",
+          "position": 1,
+          "title": "",
+          "track-count": 12,
+          "id": "e865c7e5-8759-38b9-8765-f23394cec241"
+        }
+      ],
+      "quality": "normal",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2024-03-15",
+      "packaging": null,
+      "barcode": null,
+      "title": "Warp Speed Warriors",
+      "asin": null,
+      "country": "XW",
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "type": null,
+            "name": "[Worldwide]"
+          },
+          "date": "2024-03-15"
+        }
+      ],
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "darkened": false,
+        "count": 1,
+        "front": true
+      }
+    },
+    {
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "date": "2024",
+      "status": "Official",
+      "id": "75b3a112-8367-4f1c-9d4f-ddd58c81c3fc",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "media": [
+        {
+          "position": 1,
+          "track-count": 9,
+          "title": "",
+          "id": "dfb697dd-f9ec-30fd-9df7-79b4cd1b0840",
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "format": "12\" Vinyl"
+        }
+      ],
+      "packaging": "Cardboard/Paper Sleeve",
+      "barcode": "810137309729",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "disambiguation": "",
+      "asin": null,
+      "release-events": [
+        {
+          "area": null,
+          "date": "2024"
+        }
+      ],
+      "cover-art-archive": {
+        "back": false,
+        "artwork": false,
+        "darkened": false,
+        "count": 0,
+        "front": false
+      },
+      "country": null,
+      "title": "Warp Speed Warriors"
+    },
+    {
+      "asin": null,
+      "country": "XW",
+      "cover-art-archive": {
+        "darkened": false,
+        "back": true,
+        "artwork": true,
+        "front": true,
+        "count": 11
+      },
+      "release-events": [
+        {
+          "area": {
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "sort-name": "[Worldwide]",
+            "disambiguation": "",
+            "name": "[Worldwide]",
+            "type": null
+          },
+          "date": "2024-03-15"
+        }
+      ],
+      "title": "Warp Speed Warriors",
+      "id": "7c71acf9-bde1-4392-983a-0011e6d1bec6",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "media": [
+        {
+          "track-count": 10,
+          "title": "",
+          "id": "28301100-bfe8-378b-bdf7-e36a8577a353",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        }
+      ],
+      "status": "Official",
+      "date": "2024-03-15",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "barcode": "810137309712",
+      "packaging": "Gatefold Cover",
+      "disambiguation": "",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202"
+    },
+    {
+      "packaging": null,
+      "barcode": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "low",
+      "date": "2024-03-15",
+      "status": null,
+      "id": "b70fa69c-cbed-4b47-8882-537620e4dcbd",
+      "media": [
+        {
+          "title": "",
+          "track-count": 10,
+          "id": "54e6abe8-c418-3b25-b510-3b80b31e9b41",
+          "position": 1,
+          "format-id": null,
+          "format": null
+        }
+      ],
+      "status-id": null,
+      "packaging-id": null,
+      "disambiguation": "",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "name": "[Worldwide]",
+            "type": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type-id": null,
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ]
+          },
+          "date": "2024-03-15"
+        }
+      ],
+      "cover-art-archive": {
+        "count": 1,
+        "front": true,
+        "artwork": true,
+        "back": false,
+        "darkened": false
+      },
+      "country": "XW",
+      "asin": null,
+      "title": "Warp Speed Warriors"
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": null,
+      "date": "",
+      "quality": "low",
+      "text-representation": {
+        "script": null,
+        "language": null
+      },
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "id": "c65585ff-6d3b-449b-a273-56ba129f0a84",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "position": 1,
+          "title": "",
+          "track-count": 14,
+          "id": "bf6036f7-609a-3f84-9090-073d62faa963"
+        }
+      ],
+      "status": "Bootleg",
+      "barcode": null,
+      "packaging": null,
+      "title": "Warp Speed Warriors",
+      "asin": null,
+      "cover-art-archive": {
+        "front": false,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "release-events": [
+        {
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "sort-name": "[Worldwide]",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "name": "[Worldwide]",
+            "type": null,
+            "disambiguation": ""
+          },
+          "date": ""
+        }
+      ],
+      "country": "XW"
+    },
+    {
+      "title": "Warp Speed Warriors",
+      "asin": null,
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "name": "[Worldwide]",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "sort-name": "[Worldwide]",
+            "type-id": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+          },
+          "date": "2024-03-15"
+        }
+      ],
+      "cover-art-archive": {
+        "artwork": false,
+        "back": false,
+        "darkened": false,
+        "count": 0,
+        "front": false
+      },
+      "country": "XW",
+      "packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+      "disambiguation": "Deluxe Gymbag Edition",
+      "text-representation": {
+        "script": null,
+        "language": null
+      },
+      "quality": "normal",
+      "date": "2024-03-15",
+      "status": "Official",
+      "media": [
+        {
+          "title": "Warp Speed Warriors",
+          "track-count": 10,
+          "id": "fef8845b-e2be-36d3-9f5c-06a3d4d2d960",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        },
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "position": 2,
+          "title": "Warp Speed Warriors Alliance",
+          "track-count": 4,
+          "id": "375d6288-2c33-3cf0-9fef-449733455c3d"
+        }
+      ],
+      "id": "c6e658bb-cb0c-4b60-a4e0-0beb6dbd73ba",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Other",
+      "barcode": null
+    },
+    {
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "d25fd13f-e9a3-417d-9f20-d0cfe9c70d6f",
+      "media": [
+        {
+          "position": 1,
+          "title": "",
+          "track-count": 12,
+          "id": "056a05c3-4637-3668-b5d8-331d66c2c62e",
+          "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+          "format": "Digital Media"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "quality": "normal",
+      "date": "2024-03-15",
+      "packaging": "None",
+      "barcode": "810137309774",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "disambiguation": "",
+      "asin": "B0CPJSMBRM",
+      "country": "XW",
+      "release-events": [
+        {
+          "date": "2024-03-15",
+          "area": {
+            "sort-name": "[Worldwide]",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "type-id": null,
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "type": null,
+            "name": "[Worldwide]",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "count": 1,
+        "front": true,
+        "artwork": true,
+        "back": false,
+        "darkened": false
+      },
+      "title": "Warp Speed Warriors"
+    },
+    {
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": "",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "quality": "normal",
+      "date": "2024-03-13",
+      "status": "Official",
+      "id": "e6a55782-a4fc-490b-bc2d-414977469bb1",
+      "media": [
+        {
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD",
+          "title": "Warp Speed Warriors",
+          "track-count": 10,
+          "id": "f68dc956-3e4d-35d2-82a0-3c561d010456",
+          "position": 1
+        },
+        {
+          "position": 2,
+          "track-count": 4,
+          "title": "Warp Speed Warriors Alliance",
+          "id": "5e5275de-ecf4-381a-8701-fc62e5e88814",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Jewel Case",
+      "barcode": "4988002936038",
+      "title": "Warp Speed Warriors",
+      "asin": "B0CQM2GF5M",
+      "release-events": [
+        {
+          "date": "2024-03-13",
+          "area": {
+            "type": null,
+            "name": "Japan",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "type-id": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "country": "JP"
+    },
+    {
+      "packaging": "Jewel Case",
+      "barcode": "4988002936045",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "ef729bc3-f67c-468a-8c53-372d358f4fa8",
+      "media": [
+        {
+          "title": "",
+          "track-count": 10,
+          "id": "2c6a76f3-6b0e-3523-a76f-16e7c8e8a32f",
+          "position": 1,
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+          "format": "CD"
+        }
+      ],
+      "quality": "normal",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "2024-03-13",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "disambiguation": "",
+      "country": "JP",
+      "release-events": [
+        {
+          "date": "2024-03-13",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "name": "Japan",
+            "type": null,
+            "disambiguation": ""
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "front": true,
+        "count": 1,
+        "darkened": false,
+        "back": false,
+        "artwork": true
+      },
+      "asin": "B0CQM21YT1",
+      "title": "Warp Speed Warriors"
+    }
+  ],
+  "release-offset": 0
+}
