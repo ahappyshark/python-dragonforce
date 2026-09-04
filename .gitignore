@@ -1,7 +1,39 @@
+# --- Python / environment ---
 venv/
 __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
-data/raw/*.json
-data/raw/*.csv
+
+# --- Data ---
+# Rule of thumb: ignore a file only if it is BOTH regenerable by re-running a
+# fetch AND uninteresting as evidence, or if we're not allowed to redistribute
+# it. Anything typed by hand is neither — it gets tracked.
+
+# Lyrics stay local. Fine to pull into our own analysis, not ours to
+# redistribute (see the copyright note in the README).
+data/raw/lyrics/
+data/raw/*lyric*.json
+data/raw/*lyric*.csv
+
+# Audio files: large, and we don't own the distribution rights.
+data/audio/
+*.mp3
+*.flac
+*.wav
+*.m4a
+
+# Deliberately NOT ignored — do not "clean this up" later:
+#
+#   data/raw/*.json      MusicBrainz cache. CC0-licensed, a few hundred KB, and
+#                        it makes a fresh clone run offline. It's also the raw
+#                        evidence behind every number in the writeup.
+#
+#   data/annotations/    Hand-entered key changes and audio features. Hours of
+#                        listening work, impossible to regenerate. This is the
+#                        most valuable data in the repo.
+#
+#   data/processed/*.csv Derived, but only ~110 rows. Tracking it means a change
+#                        to the pipeline shows up as a reviewable diff instead
+#                        of silently altering results.
+#                        Keep raw lyric text OUT of these files.

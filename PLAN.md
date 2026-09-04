@@ -23,7 +23,7 @@ The distinction that matters: `data/raw/` means **regenerable by re-running a fe
 Hand annotation is not regenerable. It is irreplaceable primary source data and belongs
 under version control.
 
-- [ ] Create `data/annotations/`, committed, never gitignored.
+- [x] Create `data/annotations/`, committed, never gitignored.
 - [ ] Move all manual/hand-entered CSVs there.
 - [ ] Update the README's build-order step 4 path.
 
@@ -101,8 +101,8 @@ re-hits the API. Fix that first; you'll be re-running this a lot.
       header, `"You might also like"` injected mid-song, and a trailing `"…Embed"`.
       **Unit-test this against a couple of saved fixture files.** It's the one function
       where a silent regression corrupts every downstream word count.
-- [ ] Copyright discipline is already right in the README: cached lyrics stay local,
-      only derived findings get published. Add `data/raw/lyrics/` to `.gitignore` explicitly.
+- [x] Copyright discipline is already right in the README: cached lyrics stay local,
+      only derived findings get published. `data/raw/lyrics/` is now gitignored explicitly.
 
 ---
 
@@ -192,27 +192,22 @@ Not for now, but so you know what the data has to support:
 3. Key-change analysis — the signature-move question above.
 4. Writeup.
 
-### Two framing problems to fix in the README before you write anything up
+### One constraint to keep in mind, whatever questions emerge
 
-**"Do lineup changes correlate with audible shifts in the data?" — you can't answer this.**
-There has been essentially one vocalist change (ZP Theart → Marc Hudson, 2011). That is
-n = 1. A single event cannot establish correlation, and everything that changed at that
-point is hopelessly confounded with the ~6 years that passed, different producers, and the
-whole power metal scene drifting around them.
+The README's example questions are placeholders, not goals — but the sample size
+applies to anything you end up asking:
 
-Reframe descriptively: *"where do the discontinuities in the discography fall, and what
-coincides with them?"* Then name the vocalist change as **one of several** coincident
-events. That's more honest and, frankly, more interesting than a correlation claim nobody
-would believe anyway.
+- **Track level (~110 rows)** is fine for distributions, word frequencies, and
+  key-change rates. Real analysis is possible here.
+- **Album level is n = 9.** Every album-to-album "trend" is eyeballing nine points.
+  Chart them, describe them, don't fit regression lines with confidence bands to them.
+- **Era comparisons are n = 1 events.** Only one vocalist change, and it's confounded
+  with six years passing, different producers, and the genre drifting around them.
+  Anything you find there is descriptive, not causal.
 
-**"Does tempo/energy/valence trend downward after Ultra Beatdown?"** — you already believe
-this, which makes it a post-hoc hypothesis. Fine to explore and chart. Not fine to report a
-p-value on as though you'd predicted it in advance. Say plainly in the writeup that this is
-descriptive, not inferential.
-
-**Sample size generally:** ~110 tracks is fine for distributions. Album-level is n = 9 —
-every "trend" there is eyeballing nine points. Good charts, no regression lines with
-confidence bands.
+None of this blocks a good writeup. It just means the interesting claims will be
+"here's what the data looks like and when it changed," not "X caused Y." Say that
+plainly in the piece and it reads as competence rather than hedging.
 
 ---
 
