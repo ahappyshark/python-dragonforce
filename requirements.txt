@@ -1,0 +1,8 @@
+jupyter
+pandas
+requests
+python-dotenv
+spotipy
+lyricsgenius
+matplotlib
+seaborn
