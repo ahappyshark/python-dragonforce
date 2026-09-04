@@ -71,5 +71,21 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env      # then fill in your API keys
+```
+
+`MB_USER_AGENT` is the only value needed to pull MusicBrainz data — it takes no
+API key, but it does require a User-Agent identifying the client. The default in
+`.env.example` uses this repo's URL as the contact route, so it works as-is.
+Spotify and Genius keys are only needed for those steps.
+
+Then either run the fetch scripts directly:
+
+```bash
+python scripts/explore_releases.py   # list pressings per album
+```
+
+or explore interactively:
+
+```bash
 jupyter notebook
 ```

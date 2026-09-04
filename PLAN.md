@@ -32,7 +32,7 @@ under version control.
 MusicBrainz throttles or blocks requests that don't genuinely identify themselves.
 Fix before the first real pull.
 
-- [ ] Put a real contact address (or repo URL) in `USER_AGENT`.
+- [x] Read the User-Agent from `MB_USER_AGENT`, defaulting to the repo URL.
 
 ---
 

@@ -1,7 +1,8 @@
 """
 Pulls DragonForce's studio album + track metadata from the MusicBrainz API.
 No API key required, just a courteous User-Agent header (MB will rate-limit
-or block requests that don't identify themselves).
+or block requests that don't identify themselves). Set MB_USER_AGENT in .env
+to identify yourself; see .env.example for the expected format.
 
 Every response is cached to data/raw/ as JSON on first fetch and read back
 from disk on every call after that, so re-running a notebook top to bottom
@@ -13,6 +14,7 @@ Docs: https://musicbrainz.org/doc/MusicBrainz_API
 
 import hashlib
 import json
+import os
 import time
 import warnings
 from pathlib import Path
@@ -20,15 +22,35 @@ from typing import Any
 from urllib.parse import urlencode
 
 import requests
+from dotenv import load_dotenv
+
+# Load from the repo root explicitly so this works no matter which directory
+# the script or notebook was launched from. load_dotenv does not override
+# variables already set in the shell, so an exported MB_USER_AGENT still wins.
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 MB_BASE_URL: str = "https://musicbrainz.org/ws/2"
-USER_AGENT: str = "dragonforce-analysis/0.1 ( your-email@example.com )"
+# Falls back to the repo URL, which satisfies MusicBrainz's requirement to
+# provide a contact route without putting a personal email in a public repo.
+DEFAULT_USER_AGENT: str = (
+    "dragonforce-analysis/0.1 ( https://github.com/ahappyshark/python-dragonforce )"
+)
 DRAGONFORCE_MBID: str = "ef58d4c9-0d40-42ba-bfab-9186c1483edd"  # musicbrainz.org/artist/ef58d4c9-...
 
 CACHE_DIR: Path = Path(__file__).resolve().parent.parent / "data" / "raw"
 MIN_REQUEST_INTERVAL: float = 1.0  # MusicBrainz asks for max ~1 request/sec unauthenticated
 
 _last_request_time: float = 0.0
+
+
+def _user_agent() -> str:
+    """Return the User-Agent to identify this client to MusicBrainz.
+
+    Read per request rather than captured at import, so changing the value in
+    the shell takes effect without restarting a long-lived notebook kernel.
+    (Editing .env still needs a reload, since load_dotenv only runs at import.)
+    """
+    return os.getenv("MB_USER_AGENT") or DEFAULT_USER_AGENT
 
 
 def _cache_path(endpoint: str, params: dict[str, str]) -> Path:
@@ -63,7 +85,10 @@ def _get(endpoint: str, params: dict[str, str], refresh: bool = False) -> dict[s
         return json.loads(path.read_text(encoding="utf-8"))
 
     _rate_limit()
-    headers: dict[str, str] = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    headers: dict[str, str] = {
+        "User-Agent": _user_agent(),
+        "Accept": "application/json",
+    }
     response: requests.Response = requests.get(
         f"{MB_BASE_URL}/{endpoint}", params=params, headers=headers
     )
