@@ -25,7 +25,7 @@ under version control.
 
 - [x] Create `data/annotations/`, committed, never gitignored.
 - [ ] Move all manual/hand-entered CSVs there.
-- [ ] Update the README's build-order step 4 path.
+- [x] Update the README's build-order step 4 path.
 
 ### 0.2 User-Agent will get you blocked
 `src/musicbrainz_client.py` ships `USER_AGENT = "... your-email@example.com ..."`.

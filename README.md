@@ -12,25 +12,40 @@ key-change frequency, tracked across their career arc.
 
 ## Project structure
 ```
-dragonforce-analysis/
+python-dragonforce/
 ├── data/
-│   ├── raw/          # untouched API pulls (json/csv), never edited by hand
-│   └── processed/     # cleaned, joined tables ready for analysis
+│   ├── raw/           # cached API responses — written by code, never edited by hand
+│   ├── annotations/   # hand-entered data (key changes, audio features)
+│   └── processed/     # cleaned, joined tables built by the pipeline
 ├── notebooks/
 │   └── 01_aggregate_metadata.ipynb   # start here
 ├── src/
 │   ├── musicbrainz_client.py   # album/track/lineup metadata
 │   ├── spotify_client.py       # tempo, key, energy, valence per track
 │   └── genius_client.py        # lyrics for NLP (local use only, see note below)
+├── PLAN.md            # build plan and working checklist
 ├── requirements.txt
 └── .env.example       # copy to .env and fill in your own API keys
 ```
+
+The three data directories differ by **where the data comes from**, not by how
+clean it is:
+
+| directory | source | committed? |
+|---|---|---|
+| `data/raw/` | fetched by a client module, regenerable | yes — MusicBrainz JSON is CC0 and small, so a fresh clone runs offline. Lyrics are the exception and stay local. |
+| `data/annotations/` | typed by hand, **not** regenerable | always. Losing this means re-listening to the whole discography. |
+| `data/processed/` | built by the pipeline from the two above | yes — it's ~110 rows, and tracking it means a pipeline change shows up as a reviewable diff |
+
+Nothing in `data/raw/` or `data/processed/` should ever be edited by hand. If a
+value there is wrong, fix the code or the annotation that produced it and re-run.
 
 ## Build order
 1. **Metadata backbone** — MusicBrainz gives album/track/year/writer/lineup.
    This is the spine table everything else joins to. Responses are cached to
    `data/raw/` on the first pull and read from disk on every run after that, so
-   re-running the notebook is free and works offline. Pass `refresh=True` to any
+   re-running the notebook is free and works offline. That cache is committed, so
+   a fresh clone doesn't need to hit the API at all. Pass `refresh=True` to any
    client function when you actually want a fresh fetch.
 2. **Spotify audio features** — ⚠️ **currently broken.** Spotify killed
    `audio-features`/`audio-analysis` for new apps in Nov 2024, no official
@@ -40,7 +55,9 @@ dragonforce-analysis/
    theme-bucket analysis locally.
 4. **Manual key-change annotation** — the one API-can't-do-it step. Spotify's
    `key` field is one estimate per whole track and misses mid-song modulations.
-   This gets logged by ear into `data/raw/key_changes_manual.csv`.
+   This gets logged by ear into `data/annotations/key_changes.csv`, one row per
+   key change rather than a count per track, so each call stays auditable later.
+   See `PLAN.md` for the column layout.
 
 ## Note on lyrics/copyright
 Genius' API is fine for pulling lyrics into local analysis, but don't publish
