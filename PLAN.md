@@ -91,14 +91,15 @@ en-dashes, inconsistent capitalization. Use the MBID as the internal primary key
 `genius_client.py` has no caching at all — unlike the MusicBrainz client, every run
 re-hits the API. Fix that first; you'll be re-running this a lot.
 
-- [ ] Add disk caching mirroring the MusicBrainz pattern: `data/raw/lyrics/{track_id}.json`,
-      `refresh=True` to force. Cache the miss too, with a reason, so a failed lookup doesn't
-      re-query every run.
-- [ ] Expect Genius search to return the **wrong song** for roughly 10–15% of tracks
-      (live versions, covers, other bands' songs with the same title). Build
-      `data/annotations/genius_overrides.csv` — `track_id, genius_song_id, note` — and have
-      the client check it before searching. Plan for this now; discovering it mid-pull is
-      how you end up with a "cleaned" dataset containing someone else's lyrics.
+- [x] Disk caching at `data/raw/lyrics/{track_id}.json`, misses cached with a
+      reason. The cache holds RAW text and cleaning happens on read, so improving
+      the scrubber is a rebuild rather than a re-fetch of ninety songs.
+- [x] `data/annotations/genius_overrides.csv` supports four corrections per row:
+      `search_title` (search Genius with different text), `genius_song_id` (exact),
+      `same_as_track_id` (an alternate cut sharing the base track's words), and
+      `no_lyrics_reason`. Pre-seeded with Soldiers of the Wasteland and both
+      Power Within collisions. fetch_lyrics.py prints a match report flagging
+      every result whose title or artist disagrees with what was searched.
 - [ ] Write a `clean_lyrics()` scrub: lyricsgenius leaves a `"N ContributorsTranslations…"`
       header, `"You might also like"` injected mid-song, and a trailing `"…Embed"`.
       **Unit-test this against a couple of saved fixture files.** It's the one function
@@ -182,7 +183,7 @@ build script, or `pytest`:
 - [x] `title_key` collisions within an album are reported — two tracks that
       normalize to the same key (e.g. a track and its alternate-lyric version)
       are exactly where automated Genius matching picks the wrong song
-- [ ] every non-instrumental track has lyrics *or* an explicit recorded reason it doesn't
+- [x] every non-instrumental track has lyrics *or* an explicit recorded reason it doesn't
 - [x] `release_year` within a sane range
 - [ ] `semitones` within a sane range; `from_key`/`to_key` are valid key names
 

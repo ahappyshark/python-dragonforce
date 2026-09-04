@@ -6,3 +6,4 @@ spotipy
 lyricsgenius
 matplotlib
 seaborn
+pytest

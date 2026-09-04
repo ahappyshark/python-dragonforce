@@ -34,6 +34,7 @@ REPO_ROOT: Path = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from src.musicbrainz_client import get_release_tracks  # noqa: E402
+from src.genius_client import clean_lyrics, load_cached, lyric_stats  # noqa: E402
 
 ALBUMS_JSON: Path = REPO_ROOT / "data" / "albums.json"
 TRACKS_CSV: Path = REPO_ROOT / "data" / "processed" / "tracks.csv"
@@ -197,6 +198,66 @@ def validate(df: pd.DataFrame, albums: list[dict[str, Any]]) -> tuple[list[str],
     return errors, warnings
 
 
+LYRIC_COLUMNS: list[str] = [
+    "lyric_status", "genius_song_id", "genius_title",
+    "lyric_word_count", "lyric_unique_words", "lyric_line_count",
+]
+
+
+def merge_lyrics(df: pd.DataFrame) -> pd.DataFrame:
+    """Attach lyric-derived counts from the local cache.
+
+    Only counts cross into data/processed/. The lyric text itself stays in
+    gitignored data/raw/lyrics/, because tracks.csv is committed and the words
+    are not ours to redistribute.
+
+    Cleaning happens here rather than at fetch time, so improving the scrubber
+    is a rebuild, not a re-fetch of ninety songs.
+    """
+    rows: list[dict[str, Any]] = []
+    by_id: dict[str, dict[str, Any]] = {}
+
+    for track_id in df["track_id"]:
+        record: dict[str, Any] | None = load_cached(track_id)
+        by_id[track_id] = record or {}
+        row: dict[str, Any] = {c: pd.NA for c in LYRIC_COLUMNS}
+        row["track_id"] = track_id
+        if record:
+            row["lyric_status"] = record.get("status")
+            row["genius_song_id"] = record.get("genius_song_id")
+            row["genius_title"] = record.get("genius_title")
+            if record.get("lyrics_raw"):
+                row.update(lyric_stats(clean_lyrics(record["lyrics_raw"])))
+        rows.append(row)
+
+    # "same_as" tracks (an acoustic or alternate cut with the same words) borrow
+    # the counts of the track they point at, so they are not scored as empty.
+    for row in rows:
+        record = by_id.get(row["track_id"], {})
+        if record.get("status") == "same_as":
+            source: dict[str, Any] = by_id.get(str(record.get("genius_song_id")), {})
+            if source.get("lyrics_raw"):
+                row.update(lyric_stats(clean_lyrics(source["lyrics_raw"])))
+                row["genius_title"] = source.get("genius_title")
+
+    return df.merge(pd.DataFrame(rows), on="track_id", how="left")
+
+
+def report_lyrics(df: pd.DataFrame) -> None:
+    """Print lyric coverage: what is present, absent on purpose, and missing."""
+    if "lyric_status" not in df.columns or df["lyric_status"].isna().all():
+        print("INFO  no lyrics cached yet — run scripts/fetch_lyrics.py")
+        return
+    expected: pd.DataFrame = df[df["is_instrumental"].astype(str).str.lower() != "yes"]
+    missing: pd.DataFrame = expected[~expected["lyric_status"].isin(["ok", "same_as"])]
+    print(f"INFO  lyrics present for {len(expected) - len(missing)}/{len(expected)} "
+          f"non-instrumental tracks")
+    for row in missing.itertuples():
+        print(f"WARN  {row.track_id}: no lyrics ({row.lyric_status}) — add a row to "
+              f"data/annotations/genius_overrides.csv saying which song it is, "
+              f"or why it has none")
+
+
 def write_flag_skeleton(df: pd.DataFrame) -> None:
     """Create the hand-annotation sheet, pre-filled with keys, if absent.
 
@@ -291,6 +352,9 @@ def main() -> None:
     for column, count in blank_flags.items():
         if count:
             print(f"WARN  {column}: {count} row(s) still blank — undecided, not False")
+
+    df = merge_lyrics(df)
+    report_lyrics(df)
 
     TRACKS_CSV.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(TRACKS_CSV, index=False)

@@ -1,0 +1,4 @@
+track_id,track_title,search_title,genius_song_id,same_as_track_id,no_lyrics_reason,note
+sonic-firestorm-1-06,Soldiers of the Wastelands,Soldiers of the Wasteland,,,,"MusicBrainz's track title is plural 'Wastelands'; Genius, Wikipedia and the band's own YouTube all use singular 'Wasteland'. The cover art says 'Soldier of the Wasteland'. Nobody agrees."
+the-power-within-1-10,Seasons (acoustic version),,,the-power-within-1-06,,"Acoustic version of Seasons: same lyrics, no separate Genius entry expected. Change this if the acoustic take actually differs."
+the-power-within-1-12,Heart of the Storm (alternative chorus version),,,,,"NEEDS REVIEW: the chorus differs from the album version, so same_as is wrong, but Genius may not carry it separately. Check what the fetch matched and decide."
