@@ -114,13 +114,23 @@ def get_release_groups(
 
 
 def get_release_tracks(release_mbid: str, refresh: bool = False) -> list[dict[str, Any]]:
-    """Fetch the tracklist for a specific release (a specific pressing of an album)."""
+    """Fetch the tracklist for a specific release (a specific pressing of an album).
+
+    Tracks arrive nested inside media (discs). Flattening them loses which disc a
+    track came from, and on a 2-disc edition that makes track numbers ambiguous —
+    there would be two track 1s with nothing to tell them apart. So each track
+    gets the disc context attached under underscore-prefixed keys, marking them
+    as ours rather than something MusicBrainz returned.
+    """
     params: dict[str, str] = {"inc": "recordings"}
     data: dict[str, Any] = _get(f"release/{release_mbid}", params, refresh=refresh)
     media: list[dict[str, Any]] = data.get("media", [])
     tracks: list[dict[str, Any]] = []
-    for medium in media:
-        tracks.extend(medium.get("tracks", []))
+    for index, medium in enumerate(media, start=1):
+        for track in medium.get("tracks", []):
+            track["_disc_position"] = medium.get("position", index)
+            track["_disc_format"] = medium.get("format") or ""
+            tracks.append(track)
     return tracks
 
 

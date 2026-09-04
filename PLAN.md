@@ -51,15 +51,17 @@ down *why* you picked each one, and the track count stops changing between runs 
 That decision log is also exactly the kind of thing that makes a portfolio piece read as
 competent rather than lucky.
 
-- [ ] Create `data/albums.yml` (committed): one entry per studio album with
-      `title`, `year`, `release_group_mbid`, `release_mbid`, and a `note` explaining
-      the pressing choice (e.g. "UK original CD, no bonus tracks").
+- [x] Created as `data/albums.json` (JSON rather than YAML to avoid adding a
+      dependency for one config file). All nine pressings pinned by hand with a
+      `note` explaining each choice, plus `expected_track_count` for the gate.
 - [ ] Drop the `secondary-types` filter from the notebook. It's fragile —
       `.apply(lambda x: len(x) == 0)` raises `TypeError` the moment MusicBrainz returns a
       row without that key — and with a hand-pinned list you don't need it. Keep the
       release-group pull as a *check* that the config hasn't gone stale.
-- [ ] Add `build_track_table()` to `musicbrainz_client.py`: iterate the config, call the
-      existing `get_release_tracks()`, return a tidy DataFrame.
+- [x] Built as `build_rows()` in `scripts/build_dataset.py` rather than in the
+      client, keeping the client a thin MusicBrainz wrapper and the project's
+      table shape in one place. `get_release_tracks()` now attaches disc context
+      to each track, so 2-disc editions don't produce two ambiguous track 1s.
 
 ### Spine schema — decide this now, everything joins to it
 
@@ -159,9 +161,10 @@ against an empty file.
 
 ## Phase 5 — Join + validation
 
-- [ ] `src/build_dataset.py` — reads spine + lyrics + annotations, writes
-      `data/processed/tracks.csv` (one row per track) and
-      `data/processed/key_change_events.csv` (one row per event).
+- [x] `scripts/build_dataset.py` (in `scripts/` alongside `explore_releases.py`)
+      writes `data/processed/tracks.csv`. Spine + hand-entered flags so far;
+      lyrics and key-change events join in as those phases land.
+      `data/processed/key_change_events.csv` still to come.
 
 **Make this a script, not a notebook.** Notebooks are for exploring. A notebook that
 *builds* your dataset is how you end up unable to reproduce your own numbers, because
@@ -171,12 +174,16 @@ cell 12 ran before cell 8 that one time.
 This is the step beginners skip and it's the one that saves you. Plain `assert`s in the
 build script, or `pytest`:
 
-- [ ] exactly 9 studio albums; expected track count per album matches `albums.yml`
-- [ ] `track_id` is unique; `recording_mbid` is unique
-- [ ] **every `track_id` in every annotation file exists in the spine** — catches hand-entry
+- [x] per-album track count matches `expected_track_count` in `albums.json`
+- [x] `track_id` unique (error); duplicate `recording_mbid` (warning, since a
+      repeated recording can be legitimate); blank `recording_mbid` is an error
+- [x] **every `track_id` in every annotation file exists in the spine** — catches hand-entry
       typos, which are otherwise completely silent and produce dropped rows
+- [x] `title_key` collisions within an album are reported — two tracks that
+      normalize to the same key (e.g. a track and its alternate-lyric version)
+      are exactly where automated Genius matching picks the wrong song
 - [ ] every non-instrumental track has lyrics *or* an explicit recorded reason it doesn't
-- [ ] `release_year` within 2003–2024
+- [x] `release_year` within a sane range
 - [ ] `semitones` within a sane range; `from_key`/`to_key` are valid key names
 
 If the build fails the gate, it exits non-zero and writes nothing. Fail loud.
