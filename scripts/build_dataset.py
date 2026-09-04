@@ -34,11 +34,24 @@ REPO_ROOT: Path = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from src.musicbrainz_client import get_release_tracks  # noqa: E402
-from src.genius_client import clean_lyrics, load_cached, lyric_stats  # noqa: E402
+from src.genius_client import (  # noqa: E402
+    clean_lyrics,
+    load_cached,
+    load_overrides,
+    lyric_stats,
+)
+from src.key_changes import (  # noqa: E402
+    COVERAGE_COLUMNS,
+    EVENT_COLUMNS,
+    validate_events,
+)
 
 ALBUMS_JSON: Path = REPO_ROOT / "data" / "albums.json"
 TRACKS_CSV: Path = REPO_ROOT / "data" / "processed" / "tracks.csv"
 FLAGS_CSV: Path = REPO_ROOT / "data" / "annotations" / "track_flags.csv"
+KEY_CHANGES_CSV: Path = REPO_ROOT / "data" / "annotations" / "key_changes.csv"
+KEY_COVERAGE_CSV: Path = REPO_ROOT / "data" / "annotations" / "key_change_coverage.csv"
+KEY_EVENTS_CSV: Path = REPO_ROOT / "data" / "processed" / "key_change_events.csv"
 
 # Hand-annotated columns the spine carries but MusicBrainz cannot supply.
 # "verified" records whether a human has checked the row. Drafted values and
@@ -129,6 +142,17 @@ def build_rows(album: dict[str, Any], refresh: bool = False) -> list[dict[str, A
     return rows
 
 
+def _read_annotation(path: Path, columns: list[str]) -> pd.DataFrame:
+    """Read a hand-entered CSV, or an empty frame with the right columns."""
+    if not path.exists():
+        return pd.DataFrame(columns=columns)
+    frame: pd.DataFrame = pd.read_csv(path, dtype=str).fillna("")
+    for column in columns:
+        if column not in frame.columns:
+            frame[column] = ""
+    return frame
+
+
 def validate(df: pd.DataFrame, albums: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
     """Check the built table. Returns (errors, warnings).
 
@@ -182,18 +206,44 @@ def validate(df: pd.DataFrame, albums: list[dict[str, Any]]) -> tuple[list[str],
             f"track — the same recording appearing twice, or a data error: {pairs}"
         )
 
+    # Lyrics are joined by track_id, not by title, so a title_key collision is
+    # not a lyric-matching bug on its own. It matters for the title-keyed joins
+    # against sources that carry no MBID, and a collision is the shape of thing
+    # Genius search gets wrong — so it is worth reporting only while nobody has
+    # looked at it. A row in genius_overrides.csv IS someone having looked,
+    # whether it corrects the search or merely records the verdict.
+    #
+    # One row anywhere in the colliding group clears the whole group, because
+    # what gets annotated is the variant ("Seasons (acoustic version)"); the
+    # plain album track it collides with needs no row and would never get one.
+    reviewed: set[str] = set(load_overrides())
     for album_title, group in df.groupby("album"):
         collisions = group[group.duplicated("title_key", keep=False)]
         # Grouped per colliding key: two separate two-way collisions on one
         # album are a different problem from one four-way collision, and
         # reporting them as a single list of four titles hides which is which.
         for key, matching in collisions.groupby("title_key"):
+            if any(t.track_id in reviewed for t in matching.itertuples()):
+                continue
             titles: list[str] = matching["track_title"].tolist()
             warnings.append(
                 f"{album_title}: {len(matching)} tracks normalize to "
-                f"title_key {key!r} -> {titles} — lyric matching by title cannot "
-                f"tell these apart, so they need a Genius override entry"
+                f"title_key {key!r} -> {titles} — title-keyed joins cannot tell "
+                f"these apart, and none of them has a row in "
+                f"genius_overrides.csv saying which Genius song each one is"
             )
+
+    # Key-change annotation. Checked here, with everything else, so a bad value
+    # stops the build before anything is written rather than surfacing as a
+    # confusing chart three phases later. Both files are normally empty for
+    # months, and an empty file must produce nothing at all.
+    key_errors, key_warnings = validate_events(
+        _read_annotation(KEY_CHANGES_CSV, EVENT_COLUMNS).to_dict("records"),
+        _read_annotation(KEY_COVERAGE_CSV, COVERAGE_COLUMNS).to_dict("records"),
+        set(df["track_id"]),
+    )
+    errors.extend(key_errors)
+    warnings.extend(key_warnings)
 
     return errors, warnings
 
@@ -301,6 +351,69 @@ def merge_flags(df: pd.DataFrame) -> pd.DataFrame:
     return df.merge(flags[keep], on="track_id", how="left")
 
 
+def merge_key_changes(df: pd.DataFrame) -> pd.DataFrame:
+    """Join key-change coverage and per-track counts onto the spine.
+
+    Runs whether or not the annotation has started, so the columns exist from
+    day one and the analysis never has to branch on their absence. The count is
+    derived, never entered: the event log is the source of truth, and a stored
+    count would be a second thing to keep in sync.
+
+    key_change_count stays NA for an unannotated track rather than becoming 0.
+    A zero there would claim the song has no key changes, which is precisely the
+    claim nobody has checked yet.
+    """
+    events: pd.DataFrame = _read_annotation(KEY_CHANGES_CSV, EVENT_COLUMNS)
+    coverage: pd.DataFrame = _read_annotation(KEY_COVERAGE_CSV, ["track_id", "annotated"])
+
+    annotated: set[str] = set(
+        coverage.loc[
+            coverage["annotated"].str.strip().str.lower().isin(["yes", "y", "true", "1"]),
+            "track_id",
+        ]
+    )
+    counts: dict[str, int] = events["track_id"].str.strip().value_counts().to_dict()
+
+    df["key_changes_annotated"] = df["track_id"].isin(annotated).map({True: "yes", False: ""})
+    df["key_change_count"] = [
+        counts.get(t, 0) if t in annotated else pd.NA for t in df["track_id"]
+    ]
+    return df
+
+
+def write_key_events(df: pd.DataFrame) -> None:
+    """Write the validated event log with album context joined on.
+
+    Written even when empty. An analysis that reads a zero-row file with the
+    right columns behaves the same as one reading a full file; an analysis that
+    has to cope with a missing file grows a branch that nobody tests.
+    """
+    events: pd.DataFrame = _read_annotation(KEY_CHANGES_CSV, EVENT_COLUMNS)
+    context: pd.DataFrame = df[["track_id", "album", "release_year", "track_title"]]
+    joined: pd.DataFrame = events[EVENT_COLUMNS].merge(context, on="track_id", how="left")
+    if len(joined):
+        joined["event_no_sort"] = pd.to_numeric(joined["event_no"], errors="coerce")
+        joined = joined.sort_values(
+            ["release_year", "album", "track_id", "event_no_sort"]
+        ).drop(columns="event_no_sort")
+    KEY_EVENTS_CSV.parent.mkdir(parents=True, exist_ok=True)
+    joined.to_csv(KEY_EVENTS_CSV, index=False)
+    return None
+
+
+def report_key_changes(df: pd.DataFrame, event_count: int) -> None:
+    """Print annotation progress: the long pole of this project, so make it visible."""
+    done: int = int((df["key_changes_annotated"] == "yes").sum())
+    if not done:
+        print(f"INFO  key changes: 0/{len(df)} tracks annotated — "
+              f"run scripts/make_annotation_sheet.py, then start listening")
+        return
+    silent: int = int(((df["key_changes_annotated"] == "yes")
+                       & (df["key_change_count"].fillna(-1) == 0)).sum())
+    print(f"INFO  key changes: {done}/{len(df)} tracks annotated, "
+          f"{event_count} event(s) logged, {silent} track(s) confirmed to have none")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--refresh", action="store_true",
@@ -356,10 +469,17 @@ def main() -> None:
     df = merge_lyrics(df)
     report_lyrics(df)
 
+    df = merge_key_changes(df)
+    event_count: int = len(_read_annotation(KEY_CHANGES_CSV, EVENT_COLUMNS))
+    report_key_changes(df, event_count)
+
     TRACKS_CSV.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(TRACKS_CSV, index=False)
+    write_key_events(df)
     print(f"\nWrote {len(df)} tracks across {df['album'].nunique()} albums "
           f"to {TRACKS_CSV.relative_to(REPO_ROOT)}")
+    print(f"Wrote {event_count} key-change event(s) "
+          f"to {KEY_EVENTS_CSV.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":

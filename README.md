@@ -55,9 +55,13 @@ value there is wrong, fix the code or the annotation that produced it and re-run
    theme-bucket analysis locally.
 4. **Manual key-change annotation** — the one API-can't-do-it step. Spotify's
    `key` field is one estimate per whole track and misses mid-song modulations.
-   This gets logged by ear into `data/annotations/key_changes.csv`, one row per
-   key change rather than a count per track, so each call stays auditable later.
-   See `PLAN.md` for the column layout.
+   Run `python scripts/make_annotation_sheet.py` to generate the sheets, then
+   log by ear into `data/annotations/key_changes.csv`, one row per key change
+   rather than a count per track, so each call stays auditable later. Tick each
+   track off in `data/annotations/key_change_coverage.csv` as you finish it —
+   including tracks that turn out to have no key changes, which is a finding and
+   not a gap. `build_dataset.py` validates both and writes
+   `data/processed/key_change_events.csv`. See `PLAN.md` for the column layout.
 
 ## Note on lyrics/copyright
 Genius' API is fine for pulling lyrics into local analysis, but don't publish

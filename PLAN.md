@@ -24,7 +24,8 @@ Hand annotation is not regenerable. It is irreplaceable primary source data and 
 under version control.
 
 - [x] Create `data/annotations/`, committed, never gitignored.
-- [ ] Move all manual/hand-entered CSVs there.
+- [x] Move all manual/hand-entered CSVs there. `data/raw/` now holds only the
+      MusicBrainz JSON cache and the gitignored lyrics cache.
 - [x] Update the README's build-order step 4 path.
 
 ### 0.2 User-Agent will get you blocked
@@ -115,8 +116,21 @@ re-hits the API. Fix that first; you'll be re-running this a lot.
 Generate the sheet from the spine so the by-ear pass is pure data entry, not spreadsheet
 construction. Anything you have to hand-type twice is a place typos enter the dataset.
 
-- [ ] `scripts/make_annotation_sheet.py` → writes `data/annotations/key_changes.csv`,
-      pre-populated with `track_id`, `album`, `track_title` for every track.
+- [x] `scripts/make_annotation_sheet.py` → writes **two** files, not one:
+      `key_changes.csv` (the event log, starts header-only) and
+      `key_change_coverage.csv` (one pre-filled row per track).
+
+      The split is the correction to this bullet's original plan. Events are
+      0..n per track, so a track with no key changes contributes no rows — and
+      "no key changes" would then be indistinguishable from "not listened to
+      yet". Coverage answers that separately, which makes marking a track
+      annotated-with-zero-events a positive finding rather than a gap, and makes
+      progress through the ~110-track grind countable at any point. Same
+      distinction the lyrics cache draws with `no_lyrics_reason`.
+
+      Re-running is safe: hand-entered rows are never rewritten or reordered,
+      new spine tracks are appended, and coverage rows whose track has left the
+      spine are reported rather than deleted.
 
 ### Log events, not counts
 Tempting schema: `track_id, n_key_changes`. Don't. A count is one number you can't audit
@@ -164,9 +178,13 @@ against an empty file.
 ## Phase 5 — Join + validation
 
 - [x] `scripts/build_dataset.py` (in `scripts/` alongside `explore_releases.py`)
-      writes `data/processed/tracks.csv`. Spine + hand-entered flags so far;
-      lyrics and key-change events join in as those phases land.
-      `data/processed/key_change_events.csv` still to come.
+      writes `data/processed/tracks.csv` and `data/processed/key_change_events.csv`.
+      Spine, hand-entered flags, lyric counts and key-change annotation all join
+      in. Both outputs are written even when an annotation file is empty, so the
+      analysis never branches on a missing file.
+      `tracks.csv` carries `key_changes_annotated` and `key_change_count`; the
+      count is derived from the event log, never entered, and stays blank rather
+      than 0 for a track nobody has listened to.
 
 **Make this a script, not a notebook.** Notebooks are for exploring. A notebook that
 *builds* your dataset is how you end up unable to reproduce your own numbers, because
@@ -186,7 +204,14 @@ build script, or `pytest`:
       are exactly where automated Genius matching picks the wrong song
 - [x] every non-instrumental track has lyrics *or* an explicit recorded reason it doesn't
 - [x] `release_year` within a sane range
-- [ ] `semitones` within a sane range; `from_key`/`to_key` are valid key names
+- [x] `semitones` within -12..12; `from_key`/`to_key` parse as key names
+      (`C`, `F#`, `Bb`, `Am`, `C#m` — nothing else), `type` and `confidence`
+      inside their domains, `event_no` unique per track, timestamps `m:ss`.
+      Plus the cross-check that actually catches tired typing: the two key
+      names imply an interval, and it must match the `semitones` written next
+      to them (compared mod 12, so `-2` and `+10` both pass). That one is a
+      warning, not an error — three fields disagree and no rule can say which
+      is wrong. 47 tests in `tests/test_key_changes.py`.
 
 If the build fails the gate, it exits non-zero and writes nothing. Fail loud.
 
