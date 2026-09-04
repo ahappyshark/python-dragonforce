@@ -40,7 +40,10 @@ TRACKS_CSV: Path = REPO_ROOT / "data" / "processed" / "tracks.csv"
 FLAGS_CSV: Path = REPO_ROOT / "data" / "annotations" / "track_flags.csv"
 
 # Hand-annotated columns the spine carries but MusicBrainz cannot supply.
-FLAG_COLUMNS: list[str] = ["is_bonus_track", "is_cover", "is_instrumental"]
+# "verified" records whether a human has checked the row. Drafted values and
+# confirmed ones are otherwise indistinguishable once they are in the CSV, and
+# an unchecked guess that reads as fact is worse than a blank cell.
+FLAG_COLUMNS: list[str] = ["is_bonus_track", "is_cover", "is_instrumental", "verified"]
 
 EARLIEST_YEAR: int = 2003
 LATEST_YEAR: int = 2030
@@ -275,6 +278,19 @@ def main() -> None:
 
     write_flag_skeleton(df)
     df = merge_flags(df)
+
+    if "verified" in df.columns:
+        unverified: int = int((df["verified"].fillna("").astype(str).str.strip() == "").sum())
+        if unverified:
+            print(f"WARN  {unverified}/{len(df)} track flag rows are not marked verified "
+                  f"— treat those flags as drafts, not data")
+    blank_flags: dict[str, int] = {
+        c: int((df[c].fillna("").astype(str).str.strip() == "").sum())
+        for c in FLAG_COLUMNS if c != "verified" and c in df.columns
+    }
+    for column, count in blank_flags.items():
+        if count:
+            print(f"WARN  {column}: {count} row(s) still blank — undecided, not False")
 
     TRACKS_CSV.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(TRACKS_CSV, index=False)
