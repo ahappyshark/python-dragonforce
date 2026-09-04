@@ -1,0 +1,93 @@
+{
+  "_comment": [
+    "Canonical pressing for each studio album. release_mbid is chosen by hand,",
+    "not by a heuristic, because the pressing determines the tracklist: bonus",
+    "tracks, reissues and regional editions all differ. Run",
+    "scripts/explore_releases.py to see the candidates, then record your choice",
+    "and the reason here. expected_track_count is checked by the build's",
+    "validation gate, so a pressing swap can never silently change the dataset."
+  ],
+  "albums": [
+    {
+      "title": "Valley of the Damned",
+      "year": 2003,
+      "first_release_date": "2003-01-27",
+      "release_group_mbid": "880c6868-1c27-32e3-9fea-2faac2d82a0e",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Sonic Firestorm",
+      "year": 2004,
+      "first_release_date": "2004-03-24",
+      "release_group_mbid": "bc210daa-b1cd-36d8-a3df-dd71d9a4dd7b",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Inhuman Rampage",
+      "year": 2005,
+      "first_release_date": "2005-12-28",
+      "release_group_mbid": "9f7d7652-cf16-3384-86a2-f14bc0f1a67b",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Ultra Beatdown",
+      "year": 2008,
+      "first_release_date": "2008-08-20",
+      "release_group_mbid": "7c3e75cd-109d-3b03-86e3-e5359a329725",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "The Power Within",
+      "year": 2012,
+      "first_release_date": "2012-04-11",
+      "release_group_mbid": "97801c06-1752-492e-9ed4-5429b758381d",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Maximum Overload",
+      "year": 2014,
+      "first_release_date": "2014-08-08",
+      "release_group_mbid": "531516fa-6318-44d5-9ad1-92eefbe3a1bb",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Reaching Into Infinity",
+      "year": 2017,
+      "first_release_date": "2017-05-17",
+      "release_group_mbid": "55534e75-a37d-4692-af0e-fd5c33f322aa",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Extreme Power Metal",
+      "year": 2019,
+      "first_release_date": "2019-09-25",
+      "release_group_mbid": "70c41b71-17df-4ba8-9192-bf28929b979f",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    },
+    {
+      "title": "Warp Speed Warriors",
+      "year": 2024,
+      "first_release_date": "2024-03-13",
+      "release_group_mbid": "db5b4b22-43a1-45ba-a490-2c5ec341a7b2",
+      "release_mbid": null,
+      "expected_track_count": null,
+      "note": ""
+    }
+  ]
+}

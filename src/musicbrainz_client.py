@@ -14,6 +14,7 @@ Docs: https://musicbrainz.org/doc/MusicBrainz_API
 import hashlib
 import json
 import time
+import warnings
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlencode
@@ -96,6 +97,61 @@ def get_release_tracks(release_mbid: str, refresh: bool = False) -> list[dict[st
     for medium in media:
         tracks.extend(medium.get("tracks", []))
     return tracks
+
+
+def get_releases_for_group(
+    release_group_mbid: str, refresh: bool = False
+) -> list[dict[str, Any]]:
+    """Fetch every release (pressing) that belongs to one release group.
+
+    A release group is the abstract album; a release is one specific pressing of
+    it, and only a release carries a tracklist. That is why get_release_tracks()
+    needs a release MBID and the release-group listing alone can't feed it.
+
+    inc=media brings back each pressing's format, disc count and track count,
+    which is what tells an original single-CD pressing apart from a 2-disc
+    reissue or a bonus-track edition without opening a browser.
+    """
+    params: dict[str, str] = {
+        "release-group": release_group_mbid,
+        "inc": "media",
+        "limit": "100",
+    }
+    data: dict[str, Any] = _get("release", params, refresh=refresh)
+    releases: list[dict[str, Any]] = data.get("releases", [])
+    total: int = data.get("release-count", len(releases))
+    if total > len(releases):
+        # Silently analysing a truncated list is exactly how you end up
+        # concluding an album has no CD pressing when page two says otherwise.
+        warnings.warn(
+            f"{release_group_mbid}: {total} releases exist but only "
+            f"{len(releases)} were fetched. Raise the limit or paginate.",
+            stacklevel=2,
+        )
+    return releases
+
+
+def summarize_release(release: dict[str, Any]) -> dict[str, Any]:
+    """Flatten the fields that actually matter when picking a canonical pressing.
+
+    Track count is summed across media so a 2-disc edition reports its real
+    total, and formats are joined ("CD+DVD") so mixed-media editions are visible
+    rather than hidden behind whichever disc happened to be first.
+    """
+    media: list[dict[str, Any]] = release.get("media", [])
+    formats: str = "+".join(m.get("format") or "?" for m in media) or "?"
+    track_count: int = sum(m.get("track-count") or 0 for m in media)
+    return {
+        "release_mbid": release.get("id") or "",
+        "title": release.get("title") or "",
+        "date": release.get("date") or "",
+        "country": release.get("country") or "",
+        "status": release.get("status") or "",
+        "format": formats,
+        "discs": len(media),
+        "tracks": track_count,
+        "disambiguation": release.get("disambiguation") or "",
+    }
 
 
 if __name__ == "__main__":
