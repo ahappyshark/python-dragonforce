@@ -1,5 +1,5 @@
 track_id,album,track_title,is_bonus_track,is_cover,is_instrumental,verified,notes
-valley-of-the-damned-1-01,Valley of the Damned,Invocation of Apocalyptic Evil,no,no,yes,,0:13 intro
+valley-of-the-damned-1-01,Valley of the Damned,Invocation of Apocalyptic Evil,no,no,yes,,
 valley-of-the-damned-1-02,Valley of the Damned,Valley of the Damned,no,no,no,,
 valley-of-the-damned-1-03,Valley of the Damned,Black Fire,no,no,no,,
 valley-of-the-damned-1-04,Valley of the Damned,Black Winter Night,no,no,no,,
@@ -16,7 +16,7 @@ sonic-firestorm-1-05,Sonic Firestorm,Above the Winter Moonlight,no,no,no,,
 sonic-firestorm-1-06,Sonic Firestorm,Soldiers of the Wastelands,no,no,no,,
 sonic-firestorm-1-07,Sonic Firestorm,Prepare for War,no,no,no,,
 sonic-firestorm-1-08,Sonic Firestorm,Once in a Lifetime,no,no,no,,
-sonic-firestorm-1-09,Sonic Firestorm,Cry of the Brave,yes,no,no,,9tk vs 8tk standard; your note: JP-only bonus
+sonic-firestorm-1-09,Sonic Firestorm,Cry of the Brave,yes,no,no,,
 inhuman-rampage-1-01,Inhuman Rampage,Through the Fire and Flames,no,no,no,,
 inhuman-rampage-1-02,Inhuman Rampage,Revolution Deathsquad,no,no,no,,
 inhuman-rampage-1-03,Inhuman Rampage,Storming the Burning Fields,no,no,no,,
@@ -25,7 +25,7 @@ inhuman-rampage-1-05,Inhuman Rampage,Body Breakdown,no,no,no,,
 inhuman-rampage-1-06,Inhuman Rampage,Cry for Eternity,no,no,no,,
 inhuman-rampage-1-07,Inhuman Rampage,The Flame of Youth,no,no,no,,
 inhuman-rampage-1-08,Inhuman Rampage,Trail of Broken Hearts,no,no,no,,
-inhuman-rampage-1-09,Inhuman Rampage,Lost Souls in Endless Time,yes,no,no,,9tk vs 8tk standard; your note: JP bonus
+inhuman-rampage-1-09,Inhuman Rampage,Lost Souls in Endless Time,yes,no,no,,
 ultra-beatdown-1-01,Ultra Beatdown,Heroes of Our Time,no,no,no,,
 ultra-beatdown-1-02,Ultra Beatdown,The Fire Still Burns,no,no,no,,
 ultra-beatdown-1-03,Ultra Beatdown,Reasons to Live,no,no,no,,
@@ -34,9 +34,9 @@ ultra-beatdown-1-05,Ultra Beatdown,The Last Journey Home,no,no,no,,
 ultra-beatdown-1-06,Ultra Beatdown,A Flame for Freedom,no,no,no,,
 ultra-beatdown-1-07,Ultra Beatdown,Inside the Winter Storm,no,no,no,,
 ultra-beatdown-1-08,Ultra Beatdown,The Warrior Inside,no,no,no,,
-ultra-beatdown-1-09,Ultra Beatdown,Strike of the Ninja,yes,no,no,,11tk vs 8tk standard; your note: 3 extra songs
-ultra-beatdown-1-10,Ultra Beatdown,Scars of Yesterday,yes,no,no,,11tk vs 8tk standard; your note: 3 extra songs
-ultra-beatdown-1-11,Ultra Beatdown,E.P.M.,yes,no,no,,11tk vs 8tk standard; your note: 3 extra songs
+ultra-beatdown-1-09,Ultra Beatdown,Strike of the Ninja,yes,no,no,,
+ultra-beatdown-1-10,Ultra Beatdown,Scars of Yesterday,yes,no,no,,
+ultra-beatdown-1-11,Ultra Beatdown,E.P.M.,yes,no,no,,
 the-power-within-1-01,The Power Within,Holding On,no,no,no,,
 the-power-within-1-02,The Power Within,Fallen World,no,no,no,,
 the-power-within-1-03,The Power Within,Cry Thunder,no,no,no,,
@@ -46,10 +46,10 @@ the-power-within-1-06,The Power Within,Seasons,no,no,no,,
 the-power-within-1-07,The Power Within,Heart of the Storm,no,no,no,,
 the-power-within-1-08,The Power Within,Die by the Sword,no,no,no,,
 the-power-within-1-09,The Power Within,Last Man Stands,no,no,no,,
-the-power-within-1-10,The Power Within,Seasons (acoustic version),,no,no,,"BONUS? 13tk vs 10tk standard = 3 extras, but tracks 10-13 all look like extras. Which 10 are the standard album?"
-the-power-within-1-11,The Power Within,Power of the Ninja Sword,,no,no,,"BONUS? 13tk vs 10tk standard = 3 extras, but tracks 10-13 all look like extras. Which 10 are the standard album?"
-the-power-within-1-12,The Power Within,Heart of the Storm (alternative chorus version),,no,no,,"BONUS? 13tk vs 10tk standard = 3 extras, but tracks 10-13 all look like extras. Which 10 are the standard album?"
-the-power-within-1-13,The Power Within,Avant la tempête (instrumental),,no,yes,,"title says instrumental; BONUS? 13tk vs 10tk standard = 3 extras, but tracks 10-13 all look like extras. Which 10 are the standard album?"
+the-power-within-1-10,The Power Within,Seasons (acoustic version),no,no,no,,
+the-power-within-1-11,The Power Within,Power of the Ninja Sword,yes,no,no,,
+the-power-within-1-12,The Power Within,Heart of the Storm (alternative chorus version),yes,no,no,,
+the-power-within-1-13,The Power Within,Avant la tempête (instrumental),yes,no,yes,,
 maximum-overload-1-01,Maximum Overload,The Game,no,no,no,,
 maximum-overload-1-02,Maximum Overload,Tomorrow's Kings,no,no,no,,
 maximum-overload-1-03,Maximum Overload,No More,no,no,no,,
@@ -60,13 +60,13 @@ maximum-overload-1-07,Maximum Overload,Defenders,no,no,no,,
 maximum-overload-1-08,Maximum Overload,Extraction Zone,no,no,no,,
 maximum-overload-1-09,Maximum Overload,City of Gold,no,no,no,,
 maximum-overload-1-10,Maximum Overload,Ring of Fire,no,yes,no,,cover: Johnny Cash
-maximum-overload-1-11,Maximum Overload,Power and Glory,yes,no,no,,16tk vs 10tk standard
-maximum-overload-1-12,Maximum Overload,You're Not Alone,yes,no,no,,16tk vs 10tk standard
-maximum-overload-1-13,Maximum Overload,Chemical Interference,yes,no,no,,16tk vs 10tk standard
-maximum-overload-1-14,Maximum Overload,Summer's End,yes,no,no,,16tk vs 10tk standard
-maximum-overload-1-15,Maximum Overload,Fight to be Free,yes,no,no,,16tk vs 10tk standard
-maximum-overload-1-16,Maximum Overload,Galactic Astro Domination (Remixed),yes,no,yes,,1:32; you identified this as an instrumental; 16tk vs 10tk standard
-reaching-into-infinity-1-01,Reaching Into Infinity,Reaching Into Infinity,no,no,,,"INSTRUMENTAL? 1:25 title-track intro - instrumental, or does it have vocals?"
+maximum-overload-1-11,Maximum Overload,Power and Glory,yes,no,no,,
+maximum-overload-1-12,Maximum Overload,You're Not Alone,yes,no,no,,
+maximum-overload-1-13,Maximum Overload,Chemical Interference,yes,no,no,,
+maximum-overload-1-14,Maximum Overload,Summer's End,yes,no,no,,
+maximum-overload-1-15,Maximum Overload,Fight to be Free,yes,no,no,,
+maximum-overload-1-16,Maximum Overload,Galactic Astro Domination,yes,no,yes,,
+reaching-into-infinity-1-01,Reaching Into Infinity,Reaching Into Infinity,no,no,yes,,
 reaching-into-infinity-1-02,Reaching Into Infinity,Ashes of the Dawn,no,no,no,,
 reaching-into-infinity-1-03,Reaching Into Infinity,Judgement Day,no,no,no,,
 reaching-into-infinity-1-04,Reaching Into Infinity,Astral Empire,no,no,no,,
@@ -77,8 +77,8 @@ reaching-into-infinity-1-08,Reaching Into Infinity,WAR!,no,no,no,,
 reaching-into-infinity-1-09,Reaching Into Infinity,Land of Shattered Dreams,no,no,no,,
 reaching-into-infinity-1-10,Reaching Into Infinity,The Edge of the World,no,no,no,,
 reaching-into-infinity-1-11,Reaching Into Infinity,Our Final Stand,no,no,no,,
-reaching-into-infinity-1-12,Reaching Into Infinity,Hatred and Revenge,,no,no,,BONUS? pressings split 11/12/13tk with no clear standard - is 11 the base album?
-reaching-into-infinity-1-13,Reaching Into Infinity,Evil Dead,,yes,no,,"cover: believed to be the Death song - PLEASE VERIFY, least certain of the four; BONUS? pressings split 11/12/13tk with no clear standard - is 11 the base album?"
+reaching-into-infinity-1-12,Reaching Into Infinity,Hatred and Revenge,yes,no,no,,
+reaching-into-infinity-1-13,Reaching Into Infinity,Evil Dead,yes,yes,no,,cover: Death
 extreme-power-metal-1-01,Extreme Power Metal,Highway to Oblivion,no,no,no,,
 extreme-power-metal-1-02,Extreme Power Metal,Cosmic Power of the Infinite Shred Machine,no,no,no,,
 extreme-power-metal-1-03,Extreme Power Metal,The Last Dragonborn,no,no,no,,
@@ -89,14 +89,14 @@ extreme-power-metal-1-07,Extreme Power Metal,Strangers,no,no,no,,
 extreme-power-metal-1-08,Extreme Power Metal,In a Skyforged Dream,no,no,no,,
 extreme-power-metal-1-09,Extreme Power Metal,Remembrance Day,no,no,no,,
 extreme-power-metal-1-10,Extreme Power Metal,My Heart Will Go On,no,yes,no,,cover: Celine Dion / James Horner
-extreme-power-metal-1-11,Extreme Power Metal,Behind the Mirror of Death,yes,no,no,,11tk vs 10tk standard; your note: extra Leclercq track
+extreme-power-metal-1-11,Extreme Power Metal,Behind the Mirror of Death,yes,no,no,,
 warp-speed-warriors-1-01,Warp Speed Warriors,Astro Warrior Anthem,no,no,no,,
 warp-speed-warriors-1-02,Warp Speed Warriors,Power of the Triforce,no,no,no,,
 warp-speed-warriors-1-03,Warp Speed Warriors,Kingdom of Steel,no,no,no,,
 warp-speed-warriors-1-04,Warp Speed Warriors,Burning Heart,no,no,no,,
 warp-speed-warriors-1-05,Warp Speed Warriors,Space Marine Corp,no,no,no,,
-warp-speed-warriors-1-06,Warp Speed Warriors,Prelude to Darkness,no,no,yes,,0:52 intro
+warp-speed-warriors-1-06,Warp Speed Warriors,Prelude to Darkness,no,no,yes,,
 warp-speed-warriors-1-07,Warp Speed Warriors,The Killer Queen,no,no,no,,
 warp-speed-warriors-1-08,Warp Speed Warriors,Doomsday Party,no,no,no,,
 warp-speed-warriors-1-09,Warp Speed Warriors,Pixel Prison,no,no,no,,
-warp-speed-warriors-1-10,Warp Speed Warriors,Wildest Dreams (DragonForce’s version),yes,yes,no,,cover: Taylor Swift; your note: CD-version bonus cover
+warp-speed-warriors-1-10,Warp Speed Warriors,Wildest Dreams (DragonForce’s version),yes,yes,no,,cover: Taylor Swift
