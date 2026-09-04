@@ -45,6 +45,18 @@ FLAG_COLUMNS: list[str] = ["is_bonus_track", "is_cover", "is_instrumental"]
 EARLIEST_YEAR: int = 2003
 LATEST_YEAR: int = 2030
 
+# Apostrophes are deleted rather than turned into separators. Sources disagree
+# about which character to use — MusicBrainz's canonical recording titles favour
+# the typographic U+2019 while this pressing's track titles use ASCII — and the
+# two must not normalize differently. Dropping the character entirely maps both
+# "Tomorrow's Kings" and "Tomorrow’s Kings" onto "tomorrows kings".
+APOSTROPHES: str = "'\u2018\u2019\u02bc\u00b4`"
+
+
+def _strip_apostrophes(text: str) -> str:
+    """Remove apostrophe-like characters so they never become word separators."""
+    return "".join(c for c in text if c not in APOSTROPHES)
+
 
 def slugify(text: str) -> str:
     """Make a filesystem- and URL-safe ASCII slug.
@@ -54,7 +66,7 @@ def slugify(text: str) -> str:
     letter: "Frédéric" survives as "frederic" rather than "frdric". It also
     disposes of the U+2026 ellipsis already present in this discography.
     """
-    decomposed: str = unicodedata.normalize("NFKD", text)
+    decomposed: str = unicodedata.normalize("NFKD", _strip_apostrophes(text))
     ascii_only: str = decomposed.encode("ascii", "ignore").decode("ascii")
     slug: str = re.sub(r"[^a-z0-9]+", "-", ascii_only.lower()).strip("-")
     return slug or "untitled"
@@ -72,7 +84,7 @@ def make_title_key(text: str) -> str:
     key. build_dataset() reports those collisions rather than hiding them,
     because they are exactly where automated lyric matching will pick wrong.
     """
-    decomposed: str = unicodedata.normalize("NFKD", text)
+    decomposed: str = unicodedata.normalize("NFKD", _strip_apostrophes(text))
     ascii_only: str = decomposed.encode("ascii", "ignore").decode("ascii")
     without_parens: str = re.sub(r"[\(\[][^)\]]*[\)\]]", " ", ascii_only)
     cleaned: str = re.sub(r"[^a-z0-9]+", " ", without_parens.lower())
@@ -168,12 +180,15 @@ def validate(df: pd.DataFrame, albums: list[dict[str, Any]]) -> tuple[list[str],
 
     for album_title, group in df.groupby("album"):
         collisions = group[group.duplicated("title_key", keep=False)]
-        if len(collisions):
-            titles: list[str] = collisions["track_title"].tolist()
+        # Grouped per colliding key: two separate two-way collisions on one
+        # album are a different problem from one four-way collision, and
+        # reporting them as a single list of four titles hides which is which.
+        for key, matching in collisions.groupby("title_key"):
+            titles: list[str] = matching["track_title"].tolist()
             warnings.append(
-                f"{album_title}: title_key collision between {titles} — "
-                f"lyric matching by title cannot tell these apart, so they need "
-                f"an entry in the Genius override map"
+                f"{album_title}: {len(matching)} tracks normalize to "
+                f"title_key {key!r} -> {titles} — lyric matching by title cannot "
+                f"tell these apart, so they need a Genius override entry"
             )
 
     return errors, warnings
