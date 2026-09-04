@@ -1,0 +1,152 @@
+{
+  "release-group-count": 13,
+  "release-group-offset": 0,
+  "release-groups": [
+    {
+      "first-release-date": "2014-08-08",
+      "id": "531516fa-6318-44d5-9ad1-92eefbe3a1bb",
+      "title": "Maximum Overload",
+      "disambiguation": "",
+      "primary-type": "Album",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-types": [],
+      "secondary-type-ids": []
+    },
+    {
+      "first-release-date": "2017-05-17",
+      "id": "55534e75-a37d-4692-af0e-fd5c33f322aa",
+      "secondary-type-ids": [],
+      "secondary-types": [],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "primary-type": "Album",
+      "title": "Reaching Into Infinity",
+      "disambiguation": ""
+    },
+    {
+      "id": "63238e21-7b4b-4067-8e41-8a32a1006a72",
+      "secondary-types": [
+        "Live"
+      ],
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "primary-type": "Album",
+      "title": "Twilight Dementia",
+      "disambiguation": "",
+      "first-release-date": "2010-09-08"
+    },
+    {
+      "first-release-date": "2019-09-25",
+      "disambiguation": "",
+      "title": "Extreme Power Metal",
+      "primary-type": "Album",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-type-ids": [],
+      "secondary-types": [],
+      "id": "70c41b71-17df-4ba8-9192-bf28929b979f"
+    },
+    {
+      "first-release-date": "2008-08-20",
+      "id": "7c3e75cd-109d-3b03-86e3-e5359a329725",
+      "disambiguation": "",
+      "title": "Ultra Beatdown",
+      "primary-type": "Album",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-types": [],
+      "secondary-type-ids": []
+    },
+    {
+      "first-release-date": "2003-01-27",
+      "id": "880c6868-1c27-32e3-9fea-2faac2d82a0e",
+      "secondary-types": [],
+      "secondary-type-ids": [],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "primary-type": "Album",
+      "title": "Valley of the Damned",
+      "disambiguation": ""
+    },
+    {
+      "first-release-date": "2012-04-11",
+      "id": "97801c06-1752-492e-9ed4-5429b758381d",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-type-ids": [],
+      "secondary-types": [],
+      "disambiguation": "",
+      "title": "The Power Within",
+      "primary-type": "Album"
+    },
+    {
+      "primary-type": "Album",
+      "title": "Inhuman Rampage",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "secondary-types": [],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "9f7d7652-cf16-3384-86a2-f14bc0f1a67b",
+      "first-release-date": "2005-12-28"
+    },
+    {
+      "primary-type": "Album",
+      "title": "Sonic Firestorm",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "secondary-types": [],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "bc210daa-b1cd-36d8-a3df-dd71d9a4dd7b",
+      "first-release-date": "2004-03-24"
+    },
+    {
+      "first-release-date": "2014-08-28",
+      "id": "c42f95b0-6330-4977-bf7f-73a59d5bd010",
+      "title": "In the Line of Fire\u2026 Larger Than Live",
+      "disambiguation": "",
+      "primary-type": "Album",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+      ],
+      "secondary-types": [
+        "Live"
+      ]
+    },
+    {
+      "primary-type": "Album",
+      "disambiguation": "",
+      "title": "Warp Speed Warriors",
+      "secondary-types": [],
+      "secondary-type-ids": [],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "db5b4b22-43a1-45ba-a490-2c5ec341a7b2",
+      "first-release-date": "2024-03-13"
+    },
+    {
+      "id": "de06eb45-6857-486c-a20f-1e3bc5574537",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "secondary-types": [
+        "Remix"
+      ],
+      "disambiguation": "",
+      "title": "Re-Powered Within",
+      "primary-type": "Album",
+      "first-release-date": "2018-05-04"
+    },
+    {
+      "first-release-date": "2016-04-13",
+      "disambiguation": "",
+      "title": "Killer Elite",
+      "primary-type": "Album",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-types": [
+        "Compilation"
+      ],
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "id": "e8fe2c1d-b102-4917-b4ff-52ccf91c7054"
+    }
+  ]
+}
