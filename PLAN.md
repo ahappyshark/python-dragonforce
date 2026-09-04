@@ -100,10 +100,11 @@ re-hits the API. Fix that first; you'll be re-running this a lot.
       `no_lyrics_reason`. Pre-seeded with Soldiers of the Wasteland and both
       Power Within collisions. fetch_lyrics.py prints a match report flagging
       every result whose title or artist disagrees with what was searched.
-- [ ] Write a `clean_lyrics()` scrub: lyricsgenius leaves a `"N ContributorsTranslations…"`
-      header, `"You might also like"` injected mid-song, and a trailing `"…Embed"`.
-      **Unit-test this against a couple of saved fixture files.** It's the one function
-      where a silent regression corrupts every downstream word count.
+- [x] `clean_lyrics()` plus `strip_section_headers()` and `lyric_stats()`, with 12
+      tests in `tests/test_clean_lyrics.py`. Fixtures use invented lyrics, since real
+      ones in a public repo would be the redistribution the project rules out.
+      Includes adversarial cases: a lyric line containing the word "lyrics", and one
+      containing "Embed", must both survive an anchored pattern.
 - [x] Copyright discipline is already right in the README: cached lyrics stay local,
       only derived findings get published. `data/raw/lyrics/` is now gitignored explicitly.
 
