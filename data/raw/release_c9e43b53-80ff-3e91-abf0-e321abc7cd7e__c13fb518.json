@@ -1,0 +1,189 @@
+{
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "disambiguation": "",
+  "status": "Official",
+  "media": [
+    {
+      "track-offset": 0,
+      "tracks": [
+        {
+          "recording": {
+            "length": 13706,
+            "id": "f3686201-5ccb-476a-b005-fc2fb648dfce",
+            "first-release-date": "2003-01-27",
+            "video": false,
+            "disambiguation": "",
+            "title": "Invocation of Apocalyptic Evil"
+          },
+          "position": 1,
+          "id": "c035e99d-5139-30b9-be1d-079e36903e2e",
+          "title": "Invocation of Apocalyptic Evil",
+          "number": "1",
+          "length": 13706
+        },
+        {
+          "number": "2",
+          "length": 432373,
+          "position": 2,
+          "recording": {
+            "first-release-date": "2003-01-27",
+            "id": "7547f997-08c1-424e-a252-869324fc6555",
+            "length": 431893,
+            "title": "Valley of the Damned",
+            "disambiguation": "",
+            "video": false
+          },
+          "title": "Valley of the Damned",
+          "id": "a6949a00-7de9-36ee-b2be-bdb17d9e7246"
+        },
+        {
+          "length": 347213,
+          "number": "3",
+          "title": "Black Fire",
+          "id": "b68b8e5d-9349-3610-b0fe-9f0d8edf1b15",
+          "position": 3,
+          "recording": {
+            "length": 347200,
+            "id": "66f773d4-114c-47e5-a66c-711b1a565058",
+            "first-release-date": "2003-01-27",
+            "video": false,
+            "disambiguation": "",
+            "title": "Black Fire"
+          }
+        },
+        {
+          "id": "94bb0a57-a233-3c2f-9406-0813def87ae6",
+          "title": "Black Winter Night",
+          "recording": {
+            "video": false,
+            "disambiguation": "",
+            "title": "Black Winter Night",
+            "length": 390960,
+            "id": "3fd7e5c4-e784-477b-9866-05f96c41cbaf",
+            "first-release-date": "2003-01-27"
+          },
+          "position": 4,
+          "length": 390960,
+          "number": "4"
+        },
+        {
+          "length": 353426,
+          "number": "5",
+          "id": "c0d95669-2a81-3719-a975-828babba57ce",
+          "title": "Starfire",
+          "recording": {
+            "length": 353426,
+            "id": "c423b3dc-4093-486c-8594-8abb1e38e90a",
+            "first-release-date": "2003-01-27",
+            "video": false,
+            "disambiguation": "",
+            "title": "Starfire"
+          },
+          "position": 5
+        },
+        {
+          "length": 436586,
+          "number": "6",
+          "id": "4dde78c7-9308-336a-9c22-defbdbe37e24",
+          "title": "Disciples of Babylon",
+          "recording": {
+            "disambiguation": "",
+            "title": "Disciples of Babylon",
+            "video": false,
+            "id": "78b6cfc9-e07f-4957-aa67-b2d6b2e5ce0c",
+            "first-release-date": "2003-01-27",
+            "length": 436586
+          },
+          "position": 6
+        },
+        {
+          "id": "27dd146a-272d-31a8-903f-8bf8fe317b11",
+          "title": "Revelations",
+          "recording": {
+            "disambiguation": "",
+            "title": "Revelations",
+            "video": false,
+            "id": "9babf36e-0c75-49f2-8fbf-e8033e2ca0ee",
+            "first-release-date": "2003-01-27",
+            "length": 412653
+          },
+          "position": 7,
+          "length": 412653,
+          "number": "7"
+        },
+        {
+          "length": 399266,
+          "number": "8",
+          "title": "Evening Star",
+          "id": "19f202d9-3362-3cf1-b03f-ab272acd5943",
+          "position": 8,
+          "recording": {
+            "video": false,
+            "title": "Evening Star",
+            "disambiguation": "",
+            "length": 399266,
+            "first-release-date": "2003-01-15",
+            "id": "24d69bb3-36ba-4407-a579-8cc306c29313"
+          }
+        },
+        {
+          "length": 322586,
+          "number": "9",
+          "id": "f8284e4d-efaa-38a8-927e-895b457f6a0a",
+          "title": "Heart of a Dragon",
+          "recording": {
+            "id": "7646266a-2081-4567-9bec-e9a770529759",
+            "first-release-date": "2003-01-27",
+            "length": 322586,
+            "disambiguation": "",
+            "title": "Heart of a Dragon",
+            "video": false
+          },
+          "position": 9
+        }
+      ],
+      "title": "",
+      "position": 1,
+      "id": "de9737f3-2afd-3bea-af92-67265f21c07a",
+      "track-count": 9,
+      "format": "CD",
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+    }
+  ],
+  "id": "c9e43b53-80ff-3e91-abf0-e321abc7cd7e",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "date": "2003-01-27",
+  "packaging": "Jewel Case",
+  "barcode": "823107408421",
+  "title": "Valley of the Damned",
+  "asin": null,
+  "country": "US",
+  "release-events": [
+    {
+      "area": {
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "sort-name": "United States",
+        "type-id": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": null,
+        "name": "United States",
+        "disambiguation": ""
+      },
+      "date": "2003-01-27"
+    }
+  ],
+  "cover-art-archive": {
+    "darkened": false,
+    "back": true,
+    "artwork": true,
+    "front": true,
+    "count": 9
+  }
+}

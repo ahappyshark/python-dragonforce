@@ -1,0 +1,249 @@
+{
+  "disambiguation": "Special Edition",
+  "status": "Official",
+  "asin": null,
+  "date": "2017-05-19",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "cover-art-archive": {
+    "front": true,
+    "artwork": true,
+    "count": 1,
+    "back": false,
+    "darkened": false
+  },
+  "release-events": [
+    {
+      "date": "2017-05-19",
+      "area": {
+        "type": null,
+        "type-id": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "sort-name": "United States",
+        "disambiguation": "",
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ]
+      }
+    }
+  ],
+  "barcode": "039841552720",
+  "id": "d22f1777-0c4d-4e1e-9755-91fdfd287b84",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "country": "US",
+  "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+  "media": [
+    {
+      "title": "",
+      "track-offset": 0,
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "track-count": 13,
+      "id": "238f8ceb-5aa2-3996-9756-05b5d0913306",
+      "tracks": [
+        {
+          "length": 85000,
+          "title": "Reaching Into Infinity",
+          "number": "1",
+          "position": 1,
+          "recording": {
+            "title": "Reaching Into Infinity",
+            "length": 85000,
+            "video": false,
+            "id": "9d52381b-4282-486d-bef0-2522179cc3df",
+            "disambiguation": "",
+            "first-release-date": "2017-05-17"
+          },
+          "id": "92787ad9-b8b8-4648-bf4d-6ba180c92826"
+        },
+        {
+          "length": 273000,
+          "number": "2",
+          "title": "Ashes of the Dawn",
+          "position": 2,
+          "id": "cb99ecb2-8a33-426b-ab6f-a19d44a1683a",
+          "recording": {
+            "title": "Ashes of the Dawn",
+            "length": 273000,
+            "id": "1e5a38d8-adc1-45df-a928-de4cf30cceaf",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2017-05-17"
+          }
+        },
+        {
+          "title": "Judgement Day",
+          "number": "3",
+          "length": 373000,
+          "id": "ed30d0ba-842e-422c-a0cd-4348a3e77519",
+          "recording": {
+            "length": 373000,
+            "title": "Judgement Day",
+            "disambiguation": "",
+            "first-release-date": "2017-03-30",
+            "video": false,
+            "id": "45147169-210e-4517-8176-832bb21d690a"
+          },
+          "position": 3
+        },
+        {
+          "id": "d54a3bdc-3498-4bca-aef6-50ca38cc2a27",
+          "recording": {
+            "id": "0fad8bd4-029d-45ad-bc05-80747eb180a8",
+            "video": false,
+            "first-release-date": "2017-05-17",
+            "disambiguation": "",
+            "title": "Astral Empire",
+            "length": 324000
+          },
+          "position": 4,
+          "title": "Astral Empire",
+          "number": "4",
+          "length": 324000
+        },
+        {
+          "id": "69014a21-9cf7-4bba-a605-12218362f8ee",
+          "recording": {
+            "length": 335000,
+            "title": "Curse of Darkness",
+            "first-release-date": "2017-04-12",
+            "disambiguation": "",
+            "id": "6f6a6cd9-113d-44e8-80cd-dd13de28c8f2",
+            "video": false
+          },
+          "position": 5,
+          "title": "Curse of Darkness",
+          "number": "5",
+          "length": 335000
+        },
+        {
+          "recording": {
+            "disambiguation": "",
+            "first-release-date": "2017-05-17",
+            "id": "93b94b88-c3f9-4253-bcdc-7010ea091d20",
+            "video": false,
+            "length": 290000,
+            "title": "Silence"
+          },
+          "id": "520e0dc0-b13c-4acc-b8fb-60860746d712",
+          "position": 6,
+          "title": "Silence",
+          "number": "6",
+          "length": 290000
+        },
+        {
+          "position": 7,
+          "recording": {
+            "id": "008aa979-5809-43fc-a023-020bbc9001cc",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2017-05-17",
+            "title": "Midnight Madness",
+            "length": 381000
+          },
+          "id": "0d12bc48-c660-4c8f-ac9a-5a4574f75366",
+          "length": 381000,
+          "title": "Midnight Madness",
+          "number": "7"
+        },
+        {
+          "title": "WAR!",
+          "number": "8",
+          "length": 319000,
+          "id": "0e9b9d84-9f46-41a4-822d-f9d27f4bd744",
+          "recording": {
+            "title": "WAR!",
+            "length": 319000,
+            "video": false,
+            "id": "af87b5c6-c957-4941-95ba-f9fc522857a6",
+            "disambiguation": "",
+            "first-release-date": "2017-05-17"
+          },
+          "position": 8
+        },
+        {
+          "position": 9,
+          "recording": {
+            "id": "e019101b-2934-42e3-a894-c337186fc44d",
+            "video": false,
+            "first-release-date": "2017-05-17",
+            "disambiguation": "",
+            "title": "Land of Shattered Dreams",
+            "length": 299000
+          },
+          "id": "b5fc3c72-bb58-45b0-917c-d26528d38055",
+          "length": 299000,
+          "title": "Land of Shattered Dreams",
+          "number": "9"
+        },
+        {
+          "length": 663000,
+          "title": "The Edge of the World",
+          "number": "10",
+          "position": 10,
+          "id": "bd083dfe-da1c-4b5e-933b-676dfdb33aed",
+          "recording": {
+            "length": 663000,
+            "title": "The Edge of the World",
+            "disambiguation": "",
+            "first-release-date": "2017-05-17",
+            "video": false,
+            "id": "936ace21-d216-4920-992a-23e24bfc2d5f"
+          }
+        },
+        {
+          "id": "52b31e97-10d0-425d-97c6-e96b9bebe94c",
+          "recording": {
+            "length": 304000,
+            "title": "Our Final Stand",
+            "first-release-date": "2017-05-17",
+            "disambiguation": "",
+            "id": "e5d779ec-6646-4b7a-ac4f-6c87a8b23219",
+            "video": false
+          },
+          "position": 11,
+          "number": "11",
+          "title": "Our Final Stand",
+          "length": 304000
+        },
+        {
+          "length": 326000,
+          "number": "12",
+          "title": "Hatred and Revenge",
+          "position": 12,
+          "id": "4df54f43-47d9-4d7f-9471-001a01b115a2",
+          "recording": {
+            "first-release-date": "2017-05-17",
+            "disambiguation": "",
+            "id": "d8a82131-5f6f-41d4-bc74-e993d946fbe1",
+            "video": false,
+            "length": 326000,
+            "title": "Hatred and Revenge"
+          }
+        },
+        {
+          "position": 13,
+          "recording": {
+            "title": "Evil Dead",
+            "length": 201000,
+            "id": "0654c2e4-1fb6-4791-996f-3b32853b33e1",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2017-05-17"
+          },
+          "id": "0aeec7ad-230c-4db1-82bc-e2602e8e4f28",
+          "length": 201000,
+          "title": "Evil Dead",
+          "number": "13"
+        }
+      ],
+      "format": "CD",
+      "position": 1
+    }
+  ],
+  "packaging": "Digipak",
+  "quality": "normal",
+  "title": "Reaching Into Infinity"
+}

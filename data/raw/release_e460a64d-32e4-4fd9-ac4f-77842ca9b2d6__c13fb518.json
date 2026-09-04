@@ -1,0 +1,294 @@
+{
+  "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+  "disambiguation": "Special Edition",
+  "status": "Official",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "id": "e460a64d-32e4-4fd9-ac4f-77842ca9b2d6",
+  "media": [
+    {
+      "title": "",
+      "tracks": [
+        {
+          "title": "The Game",
+          "id": "ff6f9d10-123f-4864-9aae-ee10e31b849c",
+          "position": 1,
+          "recording": {
+            "length": 296000,
+            "first-release-date": "2014-06-18",
+            "id": "3e852046-6d92-4c55-a1d9-8e76715e2bf3",
+            "video": false,
+            "title": "The Game",
+            "disambiguation": ""
+          },
+          "length": 296000,
+          "number": "1"
+        },
+        {
+          "number": "2",
+          "length": 253000,
+          "position": 2,
+          "recording": {
+            "id": "eb1d232f-552c-42d9-bd56-0a71736a5e01",
+            "first-release-date": "2014-08-08",
+            "length": 253946,
+            "disambiguation": "",
+            "title": "Tomorrow\u2019s Kings",
+            "video": false
+          },
+          "title": "Tomorrow's Kings",
+          "id": "532d7673-b878-43a5-959a-994c68875b65"
+        },
+        {
+          "recording": {
+            "first-release-date": "2014-08-08",
+            "id": "6467566d-cfa5-470b-abac-58f1b6cfbcc5",
+            "length": 230000,
+            "title": "No More",
+            "disambiguation": "",
+            "video": false
+          },
+          "position": 3,
+          "id": "95ed073b-7362-4283-82e5-53f19c9905ef",
+          "title": "No More",
+          "number": "3",
+          "length": 230000
+        },
+        {
+          "number": "4",
+          "length": 350000,
+          "recording": {
+            "id": "6c23b731-d9e0-4481-9001-57b0c02c0522",
+            "first-release-date": "2014-08-08",
+            "length": 350000,
+            "disambiguation": "",
+            "title": "Three Hammers",
+            "video": false
+          },
+          "position": 4,
+          "id": "9d938264-6109-4d2f-a413-9ef02f156135",
+          "title": "Three Hammers"
+        },
+        {
+          "number": "5",
+          "length": 319000,
+          "recording": {
+            "video": false,
+            "title": "Symphony of the Night",
+            "disambiguation": "",
+            "length": 319000,
+            "first-release-date": "2014-08-08",
+            "id": "45cf74f0-4004-4cf4-9a28-2cf92664398b"
+          },
+          "position": 5,
+          "id": "8ec41e1c-7927-4edd-8bf5-558c47cd9511",
+          "title": "Symphony of the Night"
+        },
+        {
+          "recording": {
+            "length": 394626,
+            "first-release-date": "2014-08-08",
+            "id": "1028f62b-3ee4-46bd-a9fe-8ef9d8b5f5ba",
+            "video": false,
+            "title": "The Sun Is Dead",
+            "disambiguation": ""
+          },
+          "position": 6,
+          "id": "e78354bf-2c46-4106-a76f-915f69c568d2",
+          "title": "The Sun is Dead",
+          "number": "6",
+          "length": 394000
+        },
+        {
+          "number": "7",
+          "length": 347000,
+          "recording": {
+            "length": 347000,
+            "id": "cc1180cd-6a06-459c-b620-a027246b0f8a",
+            "first-release-date": "2014-08-08",
+            "video": false,
+            "disambiguation": "",
+            "title": "Defenders"
+          },
+          "position": 7,
+          "id": "82e426c5-486e-4809-a0b1-e7ba8745ffff",
+          "title": "Defenders"
+        },
+        {
+          "id": "ca36d73b-daaf-45d9-87b1-bdbd8723f805",
+          "title": "Extraction Zone",
+          "recording": {
+            "title": "Extraction Zone",
+            "disambiguation": "",
+            "video": false,
+            "first-release-date": "2014-08-08",
+            "id": "e9bc4919-875f-4915-b1bb-d8e5417fc835",
+            "length": 306000
+          },
+          "position": 8,
+          "length": 306000,
+          "number": "8"
+        },
+        {
+          "length": 283000,
+          "number": "9",
+          "title": "City of Gold",
+          "id": "f15fdcf2-e638-463d-8d4c-05f20890e48c",
+          "position": 9,
+          "recording": {
+            "disambiguation": "",
+            "title": "City of Gold",
+            "video": false,
+            "id": "eec112fa-e036-42a4-9e7b-fff198e40c80",
+            "first-release-date": "2014-08-08",
+            "length": 283746
+          }
+        },
+        {
+          "recording": {
+            "video": false,
+            "disambiguation": "",
+            "title": "Ring of Fire",
+            "length": 195000,
+            "id": "eec4037b-feca-402f-9fa9-097441d7c6ee",
+            "first-release-date": "2014-08-08"
+          },
+          "position": 10,
+          "id": "6cddeb92-7700-4d34-a477-446500ac5178",
+          "title": "Ring of Fire",
+          "number": "10",
+          "length": 195000
+        },
+        {
+          "number": "11",
+          "length": 306000,
+          "recording": {
+            "disambiguation": "",
+            "title": "Power and Glory",
+            "video": false,
+            "id": "419a912b-c4a1-4a60-b91c-592bf8d93b0d",
+            "first-release-date": "2014-08-08",
+            "length": 306000
+          },
+          "position": 11,
+          "id": "5be24686-5442-4782-906a-60b5036561d8",
+          "title": "Power and Glory"
+        },
+        {
+          "title": "You're Not Alone",
+          "id": "92a41e47-547a-411f-98e1-aa7b70e51c7f",
+          "position": 12,
+          "recording": {
+            "length": 278800,
+            "id": "4831f5c4-38c7-43b3-ae58-c9481e8f936b",
+            "first-release-date": "2014-08-08",
+            "video": false,
+            "disambiguation": "",
+            "title": "You\u2019re Not Alone"
+          },
+          "length": 278000,
+          "number": "12"
+        },
+        {
+          "position": 13,
+          "recording": {
+            "length": 312893,
+            "first-release-date": "2014-08-08",
+            "id": "493b0774-2408-4a04-8e5d-8f41eb766394",
+            "video": false,
+            "title": "Chemical Interference",
+            "disambiguation": ""
+          },
+          "title": "Chemical Interference",
+          "id": "360f03f4-0c05-4c63-842a-e4da9ef28e2c",
+          "number": "13",
+          "length": 312000
+        },
+        {
+          "number": "14",
+          "length": 328000,
+          "position": 14,
+          "recording": {
+            "title": "Summer's End",
+            "disambiguation": "",
+            "video": false,
+            "first-release-date": "2014-08-13",
+            "id": "9888008c-e671-4993-8ea8-33b9217ee53d",
+            "length": 328000
+          },
+          "title": "Summer's End",
+          "id": "254d565c-21e2-4b3c-a402-baacf170af5f"
+        },
+        {
+          "title": "Fight to be Free",
+          "id": "45515e62-2290-4cc8-af76-6940236a29e4",
+          "position": 15,
+          "recording": {
+            "video": false,
+            "title": "Fight to Be Free",
+            "disambiguation": "",
+            "length": 285000,
+            "first-release-date": "2014-08-08",
+            "id": "d7cee7f7-1170-497a-b49b-7830d8030cc8"
+          },
+          "length": 285000,
+          "number": "15"
+        },
+        {
+          "recording": {
+            "video": false,
+            "disambiguation": "",
+            "title": "Galactic Astro Domination (remixed)",
+            "length": 92000,
+            "id": "57102acf-6a36-4a9e-8f18-70db7a7c2090",
+            "first-release-date": "2014-08-08"
+          },
+          "position": 16,
+          "id": "33e5ead0-39a1-4321-9a0e-f94b9bc9aee1",
+          "title": "Galactic Astro Domination (Remixed)",
+          "number": "16",
+          "length": 92000
+        }
+      ],
+      "track-offset": 0,
+      "track-count": 16,
+      "id": "176b45a1-4f60-389b-8019-66e14a4ee08a",
+      "position": 1,
+      "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+      "format": "Digital Media"
+    }
+  ],
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "quality": "normal",
+  "date": "2014-08-13",
+  "packaging": "None",
+  "barcode": "825646253654",
+  "title": "Maximum Overload",
+  "asin": null,
+  "country": "JP",
+  "release-events": [
+    {
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "sort-name": "Japan",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "name": "Japan"
+      },
+      "date": "2014-08-13"
+    }
+  ],
+  "cover-art-archive": {
+    "front": true,
+    "count": 1,
+    "darkened": false,
+    "back": false,
+    "artwork": true
+  }
+}

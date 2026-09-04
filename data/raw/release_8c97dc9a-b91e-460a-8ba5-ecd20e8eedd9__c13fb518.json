@@ -1,0 +1,249 @@
+{
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "disambiguation": "remastered",
+  "quality": "normal",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "date": "2018-05-04",
+  "status": "Official",
+  "id": "8c97dc9a-b91e-460a-8ba5-ecd20e8eedd9",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "media": [
+    {
+      "title": "",
+      "tracks": [
+        {
+          "id": "cdd456bd-6e2c-486b-a062-f8a4c8ef5679",
+          "title": "Holding On",
+          "recording": {
+            "title": "Holding On",
+            "disambiguation": "2018 mix",
+            "video": false,
+            "first-release-date": "2018-05-04",
+            "id": "e66b259f-3e56-4101-9c2e-8140c887cea2",
+            "length": 295600
+          },
+          "position": 1,
+          "length": 295600,
+          "number": "1"
+        },
+        {
+          "position": 2,
+          "recording": {
+            "video": false,
+            "title": "Fallen World",
+            "disambiguation": "2018 mix",
+            "length": 248453,
+            "first-release-date": "2018-05-04",
+            "id": "748c3847-de4b-4cb0-ad73-0307c2376f51"
+          },
+          "title": "Fallen World",
+          "id": "a2e4a6da-2857-4ea2-a438-b6d044fca38a",
+          "number": "2",
+          "length": 248453
+        },
+        {
+          "number": "3",
+          "length": 314546,
+          "position": 3,
+          "recording": {
+            "length": 314546,
+            "id": "2d6bbd24-bcc9-49cd-93ae-38d15c7a08b4",
+            "first-release-date": "2018-05-04",
+            "video": false,
+            "disambiguation": "2018 mix",
+            "title": "Cry Thunder"
+          },
+          "title": "Cry Thunder",
+          "id": "73b37d32-4674-4bdf-bf33-8e1d12895a45"
+        },
+        {
+          "recording": {
+            "disambiguation": "2018 mix",
+            "title": "Give Me the Night",
+            "video": false,
+            "id": "6e95a3a3-cb2e-499e-861c-8ed5cbbc4ca2",
+            "first-release-date": "2018-05-04",
+            "length": 267586
+          },
+          "position": 4,
+          "id": "dd328801-bab3-4cc5-97a9-8df0be15dad9",
+          "title": "Give Me the Night",
+          "number": "4",
+          "length": 267586
+        },
+        {
+          "recording": {
+            "title": "Wings of Liberty",
+            "disambiguation": "2018 mix",
+            "video": false,
+            "first-release-date": "2018-05-04",
+            "id": "c0c31264-4a05-4d69-82e5-3c8ceaff61ea",
+            "length": 443520
+          },
+          "position": 5,
+          "id": "02bea6a5-ec13-4fed-8bfa-6bad769c51f8",
+          "title": "Wings of Liberty",
+          "number": "5",
+          "length": 443520
+        },
+        {
+          "number": "6",
+          "length": 307040,
+          "recording": {
+            "title": "Seasons",
+            "disambiguation": "2018 mix",
+            "video": false,
+            "first-release-date": "2018-05-04",
+            "id": "0de8d0d7-4255-45e7-b656-b889ae737d70",
+            "length": 307040
+          },
+          "position": 6,
+          "id": "67510888-2833-4cda-8134-4b058193bd7f",
+          "title": "Seasons"
+        },
+        {
+          "length": 283200,
+          "number": "7",
+          "id": "a255dded-b57b-449a-b0a2-922f614f0154",
+          "title": "Heart of the Storm",
+          "recording": {
+            "id": "6179db9a-0480-401f-9499-24a0067798a0",
+            "first-release-date": "2018-05-04",
+            "length": 283200,
+            "disambiguation": "2018 mix",
+            "title": "Heart of the Storm",
+            "video": false
+          },
+          "position": 7
+        },
+        {
+          "number": "8",
+          "length": 276360,
+          "recording": {
+            "length": 276360,
+            "first-release-date": "2018-05-04",
+            "id": "6c42e9af-3a5e-472c-a183-bce022dddc03",
+            "video": false,
+            "title": "Die by the Sword",
+            "disambiguation": "2018 mix"
+          },
+          "position": 8,
+          "id": "ad897e7c-1652-4bc8-a4af-00745199bd3b",
+          "title": "Die by the Sword"
+        },
+        {
+          "length": 309586,
+          "number": "9",
+          "id": "b73f525e-b70a-4ffd-a758-1ed387dfd91b",
+          "title": "Last Man Stands",
+          "recording": {
+            "disambiguation": "2018 mix",
+            "title": "Last Man Stands",
+            "video": false,
+            "id": "fd991dbf-1c2d-43b1-bbf3-f34aa2ac7655",
+            "first-release-date": "2018-05-04",
+            "length": 309586
+          },
+          "position": 9
+        },
+        {
+          "title": "Seasons (acoustic version)",
+          "id": "e3f53eaa-7874-49e5-85bc-cc95c8115551",
+          "position": 10,
+          "recording": {
+            "disambiguation": "2018 mix",
+            "title": "Seasons (acoustic version)",
+            "video": false,
+            "id": "d08cc71b-71b6-48e0-a3cc-961b633d81da",
+            "first-release-date": "2018-05-04",
+            "length": 266000
+          },
+          "length": 266306,
+          "number": "10"
+        },
+        {
+          "length": 217053,
+          "number": "11",
+          "title": "Power of the Ninja Sword",
+          "id": "aa3ccf85-3409-4e5e-b4d2-2830b67247e8",
+          "position": 11,
+          "recording": {
+            "first-release-date": "2018-05-04",
+            "id": "53f88b5a-eca8-45e0-ac29-8d74339cbf9a",
+            "length": 217053,
+            "title": "Power of the Ninja Sword",
+            "disambiguation": "2018 mix",
+            "video": false
+          }
+        },
+        {
+          "length": 283226,
+          "number": "12",
+          "title": "Heart of the Storm (alternative chorus version)",
+          "id": "a35c362d-9633-4271-acef-ac95bc544599",
+          "position": 12,
+          "recording": {
+            "video": false,
+            "disambiguation": "2018 mix",
+            "title": "Heart of the Storm (alternative chorus version)",
+            "length": 283226,
+            "id": "fc7ac4be-a7b4-4b22-8b32-a6cc2eb5140f",
+            "first-release-date": "2018-05-04"
+          }
+        },
+        {
+          "position": 13,
+          "recording": {
+            "length": 119946,
+            "id": "a452f8a9-d6c2-42d4-9f7b-503013f8612c",
+            "first-release-date": "2018-05-04",
+            "video": false,
+            "disambiguation": "2018 mix",
+            "title": "Avant la temp\u00eate (instrumental)"
+          },
+          "title": "Avant la temp\u00eate (instrumental)",
+          "id": "cb0c788e-f246-4aea-a515-84992b5c4e12",
+          "number": "13",
+          "length": 119946
+        }
+      ],
+      "track-offset": 0,
+      "track-count": 13,
+      "id": "a55519db-e375-3ae3-a79b-6d570aab72cc",
+      "position": 1,
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "format": "CD"
+    }
+  ],
+  "packaging": "Jewel Case",
+  "barcode": "4029759130109",
+  "title": "Re-Powered Within",
+  "asin": "B07BSLKGB4",
+  "release-events": [
+    {
+      "area": {
+        "sort-name": "Germany",
+        "iso-3166-1-codes": [
+          "DE"
+        ],
+        "type-id": null,
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "type": null,
+        "name": "Germany",
+        "disambiguation": ""
+      },
+      "date": "2018-05-04"
+    }
+  ],
+  "cover-art-archive": {
+    "front": false,
+    "count": 0,
+    "darkened": false,
+    "back": false,
+    "artwork": false
+  },
+  "country": "DE"
+}

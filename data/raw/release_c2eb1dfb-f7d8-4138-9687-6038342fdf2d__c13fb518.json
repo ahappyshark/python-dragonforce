@@ -1,0 +1,219 @@
+{
+  "title": "Ultra Beatdown",
+  "asin": "B001BOBYXQ",
+  "country": "JP",
+  "cover-art-archive": {
+    "front": true,
+    "count": 21,
+    "darkened": false,
+    "back": true,
+    "artwork": true
+  },
+  "release-events": [
+    {
+      "date": "2008-08-20",
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "sort-name": "Japan",
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "name": "Japan"
+      }
+    }
+  ],
+  "disambiguation": "",
+  "packaging-id": null,
+  "id": "c2eb1dfb-f7d8-4138-9687-6038342fdf2d",
+  "media": [
+    {
+      "id": "dbe84830-d307-3903-aa3d-607b8f8d259e",
+      "track-count": 11,
+      "position": 1,
+      "format": "CD",
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "tracks": [
+        {
+          "position": 1,
+          "recording": {
+            "title": "Heroes of Our Time",
+            "disambiguation": "",
+            "video": false,
+            "first-release-date": "2007-10-28",
+            "id": "3d9dec8f-fd2a-4ba7-885c-e374bba7c5d9",
+            "length": 435000
+          },
+          "title": "Heroes of Our Time",
+          "id": "f6f862ad-d2a7-3739-9074-bb37a7346dae",
+          "number": "1",
+          "length": 435000
+        },
+        {
+          "length": 473253,
+          "number": "2",
+          "id": "d9dda0b8-7cc8-3854-9299-336f7efe8362",
+          "title": "The Fire Still Burns",
+          "recording": {
+            "length": 472773,
+            "id": "b52681e1-5093-4ed7-9974-3b2331d67571",
+            "first-release-date": "2008-08-20",
+            "video": false,
+            "disambiguation": "",
+            "title": "The Fire Still Burns"
+          },
+          "position": 2
+        },
+        {
+          "position": 3,
+          "recording": {
+            "disambiguation": "",
+            "title": "Reasons to Live",
+            "video": false,
+            "id": "0a745378-dcc2-4050-86f5-536be66f0f1b",
+            "first-release-date": "2008-08-20",
+            "length": 385680
+          },
+          "title": "Reasons to Live",
+          "id": "fe557cca-ccfd-39c9-af2b-94134327a989",
+          "number": "3",
+          "length": 385173
+        },
+        {
+          "title": "Heartbreak Armageddon",
+          "id": "68ee2c25-705e-331a-932f-866f557f3b7a",
+          "position": 4,
+          "recording": {
+            "video": false,
+            "title": "Heartbreak Armageddon",
+            "disambiguation": "",
+            "length": 462520,
+            "first-release-date": "2008-08-20",
+            "id": "a165e0e6-63cb-48e9-bf29-f54871af990e"
+          },
+          "length": 462546,
+          "number": "4"
+        },
+        {
+          "length": 495626,
+          "number": "5",
+          "id": "3ed9e478-0a15-3087-9fc9-95e6a8af6b69",
+          "title": "The Last Journey Home",
+          "recording": {
+            "video": false,
+            "title": "The Last Journey Home",
+            "disambiguation": "",
+            "length": 495613,
+            "first-release-date": "2008-08-20",
+            "id": "46e34a15-d0a5-4cb7-baf6-3894813e2d3b"
+          },
+          "position": 5
+        },
+        {
+          "number": "6",
+          "length": 320160,
+          "recording": {
+            "first-release-date": "2008-08-20",
+            "id": "07a93930-92bf-430d-ba36-4d84e33cabb7",
+            "length": 320173,
+            "title": "A Flame for Freedom",
+            "disambiguation": "",
+            "video": false
+          },
+          "position": 6,
+          "id": "addb4c5d-afcc-3468-a445-3ef2afba6f82",
+          "title": "A Flame for Freedom"
+        },
+        {
+          "recording": {
+            "video": false,
+            "title": "Inside the Winter Storm",
+            "disambiguation": "",
+            "length": 491533,
+            "first-release-date": "2008-08-20",
+            "id": "338a97ab-ed09-4cad-b365-fb7e2f1d2818"
+          },
+          "position": 7,
+          "id": "a14ac327-5d40-36ae-bae6-c8425f80fcf2",
+          "title": "Inside the Winter Storm",
+          "number": "7",
+          "length": 491893
+        },
+        {
+          "recording": {
+            "length": 464653,
+            "id": "60fa10c9-5557-457c-a3fb-fa7ce56a61be",
+            "first-release-date": "2008-08-20",
+            "video": false,
+            "disambiguation": "",
+            "title": "The Warrior Inside"
+          },
+          "position": 8,
+          "id": "da9dffcb-2e61-3c4b-82e0-faee1acb0756",
+          "title": "The Warrior Inside",
+          "number": "8",
+          "length": 464373
+        },
+        {
+          "number": "9",
+          "length": 198053,
+          "position": 9,
+          "recording": {
+            "video": false,
+            "disambiguation": "",
+            "title": "Strike of the Ninja",
+            "length": 198160,
+            "id": "77102ed0-f7a4-46ab-a660-a4ce83c9d7ba",
+            "first-release-date": "2008-08-20"
+          },
+          "title": "Strike of the Ninja",
+          "id": "6551a365-4709-3e91-8ade-8e34cdd4666e"
+        },
+        {
+          "length": 469733,
+          "number": "10",
+          "title": "Scars of Yesterday",
+          "id": "b44075c8-48c8-344b-9fab-1e09e9f8720b",
+          "position": 10,
+          "recording": {
+            "title": "Scars of Yesterday",
+            "disambiguation": "",
+            "video": false,
+            "first-release-date": "2008-08-20",
+            "id": "c9b4cf0f-4a5a-4fb4-89a0-e2f037df783e",
+            "length": 466893
+          }
+        },
+        {
+          "recording": {
+            "length": 444346,
+            "id": "d3dbffbf-a1d4-432e-bd6a-38724b0eaa05",
+            "first-release-date": "2008-08-20",
+            "video": false,
+            "disambiguation": "",
+            "title": "E.P.M."
+          },
+          "position": 11,
+          "id": "fe5a953d-1336-3a61-8fcb-dbadf1a6efd0",
+          "title": "E.P.M.",
+          "number": "11",
+          "length": 444346
+        }
+      ],
+      "title": "",
+      "track-offset": 0
+    }
+  ],
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "status": "Official",
+  "date": "2008-08-20",
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "quality": "normal",
+  "barcode": "4988002552788",
+  "packaging": null
+}

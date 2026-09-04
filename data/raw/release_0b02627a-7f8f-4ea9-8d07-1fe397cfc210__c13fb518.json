@@ -1,0 +1,189 @@
+{
+  "id": "0b02627a-7f8f-4ea9-8d07-1fe397cfc210",
+  "barcode": "602527294476",
+  "release-events": [
+    {
+      "area": {
+        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+        "sort-name": "[Worldwide]",
+        "type": null,
+        "type-id": null,
+        "name": "[Worldwide]",
+        "iso-3166-1-codes": [
+          "XW"
+        ],
+        "disambiguation": ""
+      },
+      "date": "2009"
+    }
+  ],
+  "quality": "normal",
+  "title": "Sonic Firestorm",
+  "packaging": "None",
+  "media": [
+    {
+      "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+      "track-count": 9,
+      "title": "",
+      "track-offset": 0,
+      "format": "Digital Media",
+      "position": 1,
+      "id": "36ed0b23-f980-3c04-a830-aa1d06e511c1",
+      "tracks": [
+        {
+          "length": 474400,
+          "number": "1",
+          "title": "My Spirit Will Go On",
+          "position": 1,
+          "id": "b8fd0ff9-e7e7-47b8-99f8-bf0c6e4aa96e",
+          "recording": {
+            "video": false,
+            "id": "9ca28dc5-cd5b-4aff-93e7-8aa912625599",
+            "disambiguation": "",
+            "first-release-date": "2004-03-24",
+            "title": "My Spirit Will Go On",
+            "length": 474000
+          }
+        },
+        {
+          "position": 2,
+          "recording": {
+            "length": 406826,
+            "title": "Fury of the Storm",
+            "disambiguation": "",
+            "first-release-date": "2004-03-24",
+            "video": false,
+            "id": "d2a471c9-a362-4237-b24b-4d0c7db4f6fa"
+          },
+          "id": "5f0e2e99-98de-42e9-b007-3eb67d0d7d4f",
+          "length": 406826,
+          "title": "Fury of the Storm",
+          "number": "2"
+        },
+        {
+          "length": 325133,
+          "title": "Fields of Despair",
+          "number": "3",
+          "position": 3,
+          "recording": {
+            "id": "b39eecbd-a74c-423a-9cab-57b1aabe8e88",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2004-03-24",
+            "title": "Fields of Despair",
+            "length": 325133
+          },
+          "id": "f06a19ed-c473-4bff-b6b7-ad7bc069aeb2"
+        },
+        {
+          "length": 312600,
+          "title": "Dawn Over a New World",
+          "number": "4",
+          "position": 4,
+          "recording": {
+            "id": "93fac4ce-82bc-40dc-980b-f39c3d3968d0",
+            "video": false,
+            "first-release-date": "2004-03-24",
+            "disambiguation": "",
+            "title": "Dawn Over a New World",
+            "length": 312600
+          },
+          "id": "4f72b767-e699-451b-a56f-c802ac7317ca"
+        },
+        {
+          "id": "63fa11e6-4383-4b80-8e28-2fb2dd6c4161",
+          "recording": {
+            "title": "Above the Winter Moonlight",
+            "length": 450853,
+            "id": "cf577334-d041-40d0-ae2c-525ed5572089",
+            "video": false,
+            "first-release-date": "2004-03-24",
+            "disambiguation": ""
+          },
+          "position": 5,
+          "title": "Above the Winter Moonlight",
+          "number": "5",
+          "length": 450866
+        },
+        {
+          "id": "a6324f58-3870-4378-b09e-767a065156ec",
+          "recording": {
+            "id": "69746bfb-73d4-41af-bd91-b5a0aa172a63",
+            "video": false,
+            "first-release-date": "2004-03-24",
+            "disambiguation": "",
+            "title": "Soldiers of the Wasteland",
+            "length": 587000
+          },
+          "position": 6,
+          "title": "Soldiers of the Wastelands",
+          "number": "6",
+          "length": 587133
+        },
+        {
+          "number": "7",
+          "title": "Prepare for War",
+          "length": 375200,
+          "recording": {
+            "title": "Prepare for War",
+            "length": 375173,
+            "id": "ac0a7d72-2174-4d4f-877b-e12e814eafd2",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2004-03-24"
+          },
+          "id": "79eddbd4-5d7e-4287-80c2-a81cb6c1f640",
+          "position": 7
+        },
+        {
+          "position": 8,
+          "id": "f8b9c21a-e9b1-4884-82ec-de7b6b5d7182",
+          "recording": {
+            "video": false,
+            "id": "b5578012-1a36-4825-95bb-f10f6bfeb8ef",
+            "first-release-date": "2004-03-24",
+            "disambiguation": "",
+            "title": "Once in a Lifetime",
+            "length": 465933
+          },
+          "length": 466733,
+          "title": "Once in a Lifetime",
+          "number": "8"
+        },
+        {
+          "title": "Cry of the Brave",
+          "number": "9",
+          "length": 345573,
+          "id": "b7b4815e-0a5a-49ab-b3fe-ae1eb758c233",
+          "recording": {
+            "title": "Cry of the Brave",
+            "length": 345573,
+            "video": false,
+            "id": "ece75721-aa84-48ff-9b03-9ec472102098",
+            "first-release-date": "2004-03-24",
+            "disambiguation": ""
+          },
+          "position": 9
+        }
+      ]
+    }
+  ],
+  "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+  "country": "XW",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "date": "2009",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "asin": null,
+  "disambiguation": "2010 edition",
+  "status": "Official",
+  "cover-art-archive": {
+    "back": false,
+    "darkened": false,
+    "front": true,
+    "artwork": true,
+    "count": 1
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "asin": "B000BX4CPA",
+  "disambiguation": "",
+  "status": "Official",
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "date": "2005-12-28",
+  "cover-art-archive": {
+    "artwork": true,
+    "count": 20,
+    "front": true,
+    "darkened": false,
+    "back": true
+  },
+  "release-events": [
+    {
+      "date": "2005-12-28",
+      "area": {
+        "type": null,
+        "type-id": null,
+        "sort-name": "Japan",
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "disambiguation": "",
+        "name": "Japan",
+        "iso-3166-1-codes": [
+          "JP"
+        ]
+      }
+    }
+  ],
+  "id": "2f5489f2-edc4-3e36-9dae-8298c254e29a",
+  "barcode": "4988002494798",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "country": "JP",
+  "quality": "normal",
+  "title": "Inhuman Rampage",
+  "media": [
+    {
+      "id": "56ac9106-341b-3315-b82d-a62528e71027",
+      "data-tracks": [
+        {
+          "id": "ee1d8acd-3911-4348-a5fc-c39519e94152",
+          "recording": {
+            "first-release-date": "2005-12-28",
+            "disambiguation": "",
+            "video": true,
+            "id": "21b23700-15dd-42f4-b42c-e2c5633ddcea",
+            "length": null,
+            "title": "DragonForce Backstage Rockumentary"
+          },
+          "position": 10,
+          "title": "DragonForce Backstage Rockumentary",
+          "number": "10",
+          "length": null
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Through the Fire and Flames",
+          "number": "1",
+          "length": 441600,
+          "recording": {
+            "id": "6899dd21-3eee-4dfa-a444-6bdc778d2a87",
+            "video": false,
+            "first-release-date": "2005-12-28",
+            "disambiguation": "",
+            "title": "Through the Fire and Flames",
+            "length": 439213
+          },
+          "id": "690bc033-3dea-36c0-8eb2-f3401cc7fa60",
+          "position": 1
+        },
+        {
+          "length": 473026,
+          "title": "Revolution Deathsquad",
+          "number": "2",
+          "position": 2,
+          "recording": {
+            "video": false,
+            "id": "3904154a-5f9f-465b-a050-1f60feea7245",
+            "first-release-date": "2005-12-28",
+            "disambiguation": "",
+            "title": "Revolution Deathsquad",
+            "length": 473000
+          },
+          "id": "2d921146-6e39-3b0d-8256-44401af246cc"
+        },
+        {
+          "length": 319533,
+          "title": "Storming the Burning Fields",
+          "number": "3",
+          "position": 3,
+          "recording": {
+            "video": false,
+            "id": "33075ee8-aa05-492d-87a7-3438b88b376e",
+            "disambiguation": "",
+            "first-release-date": "2005-12-28",
+            "title": "Storming the Burning Fields",
+            "length": 319186
+          },
+          "id": "01731c12-f57d-3110-bba0-ea7f2410b787"
+        },
+        {
+          "recording": {
+            "length": 463960,
+            "title": "Operation Ground and Pound",
+            "disambiguation": "",
+            "first-release-date": "2005-12-28",
+            "id": "d07a34bc-f50f-4f32-9627-d568fd7b5728",
+            "video": false
+          },
+          "id": "a968d7c9-c3e4-3799-b6fd-6615d3083120",
+          "position": 4,
+          "title": "Operation Ground and Pound",
+          "number": "4",
+          "length": 464706
+        },
+        {
+          "position": 5,
+          "recording": {
+            "length": 418760,
+            "title": "Body Breakdown",
+            "disambiguation": "",
+            "first-release-date": "2005-12-28",
+            "id": "59f1c6ab-6b25-4c88-8b36-f5192fc8c9b5",
+            "video": false
+          },
+          "id": "a9c36f93-dfab-3ed6-8d37-fc7254a9a84a",
+          "length": 418760,
+          "number": "5",
+          "title": "Body Breakdown"
+        },
+        {
+          "length": 492640,
+          "title": "Cry for Eternity",
+          "number": "6",
+          "position": 6,
+          "recording": {
+            "id": "c862c3fe-25ef-4406-9e7e-f698a88288ed",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2005-12-28",
+            "title": "Cry for Eternity",
+            "length": 492640
+          },
+          "id": "51a0c007-273d-301f-b271-66afc506393b"
+        },
+        {
+          "position": 7,
+          "recording": {
+            "first-release-date": "2005-12-28",
+            "disambiguation": "",
+            "video": false,
+            "id": "3a7b4437-c59b-4a4a-8e6d-30fce2a6b03e",
+            "length": 401386,
+            "title": "The Flame of Youth"
+          },
+          "id": "3c1df27b-6b24-34d7-9314-e027d90c8613",
+          "length": 401360,
+          "title": "The Flame of Youth",
+          "number": "7"
+        },
+        {
+          "length": 355133,
+          "title": "Trail of Broken Hearts",
+          "number": "8",
+          "position": 8,
+          "recording": {
+            "first-release-date": "2005-12-28",
+            "disambiguation": "",
+            "video": false,
+            "id": "9bb1a5f0-58e7-490c-9c21-c56fd15dc6cd",
+            "length": 355133,
+            "title": "Trail of Broken Hearts"
+          },
+          "id": "31426f8d-f8ad-3c9e-ad3c-26db3d3edf9a"
+        },
+        {
+          "title": "Lost Souls in Endless Time",
+          "number": "9",
+          "length": 383973,
+          "id": "8b2cb44c-f21a-31e5-9a31-0bc0f45282c2",
+          "recording": {
+            "length": 382173,
+            "title": "Lost Souls in Endless Time",
+            "first-release-date": "2005-12-28",
+            "disambiguation": "",
+            "video": false,
+            "id": "b13df45e-722a-4e09-b825-bd15c65c88cb"
+          },
+          "position": 9
+        }
+      ],
+      "format": "Enhanced CD",
+      "position": 1,
+      "title": "",
+      "track-offset": 0,
+      "format-id": "8a08dc62-1aa2-34de-a904-fa467c53052c",
+      "track-count": 9
+    }
+  ],
+  "packaging": "Jewel Case"
+}

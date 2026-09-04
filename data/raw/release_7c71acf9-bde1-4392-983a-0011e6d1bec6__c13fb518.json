@@ -1,0 +1,204 @@
+{
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "date": "2024-03-15",
+  "asin": null,
+  "media": [
+    {
+      "track-count": 10,
+      "position": 1,
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "title": "",
+      "id": "28301100-bfe8-378b-bdf7-e36a8577a353",
+      "track-offset": 0,
+      "tracks": [
+        {
+          "recording": {
+            "video": false,
+            "disambiguation": "",
+            "title": "Astro Warrior Anthem",
+            "length": 410000,
+            "id": "760316a2-ee21-4d26-8240-becd03b7f9c5",
+            "first-release-date": "2024-01-18"
+          },
+          "length": 410000,
+          "id": "5469b5f8-ca34-433c-91b7-3e1313c04e70",
+          "title": "Astro Warrior Anthem",
+          "number": "1",
+          "position": 1
+        },
+        {
+          "length": 233000,
+          "id": "5afa11ca-b95d-48b9-9602-5f763f170c9f",
+          "recording": {
+            "first-release-date": "2023-10-18",
+            "length": 233000,
+            "id": "0609debe-b3ee-4375-99b0-faf779161939",
+            "title": "Power of the Triforce",
+            "disambiguation": "",
+            "video": false
+          },
+          "number": "2",
+          "title": "Power of the Triforce",
+          "position": 2
+        },
+        {
+          "length": 286000,
+          "id": "327e7c01-bdf1-43cc-8340-a4749c58ba37",
+          "recording": {
+            "first-release-date": "2024-03-13",
+            "id": "89339ca3-4703-4f2c-908b-aa8c7d8c89b3",
+            "length": 286000,
+            "title": "Kingdom of Steel",
+            "disambiguation": "",
+            "video": false
+          },
+          "position": 3,
+          "number": "3",
+          "title": "Kingdom of Steel"
+        },
+        {
+          "recording": {
+            "first-release-date": "2024-03-13",
+            "length": 356000,
+            "id": "7f2a6d4d-4122-4be8-a931-f94355cb19a5",
+            "title": "Burning Heart",
+            "video": false,
+            "disambiguation": ""
+          },
+          "id": "8a69a622-2f97-4061-8cdd-4966d6819ced",
+          "length": 356000,
+          "position": 4,
+          "title": "Burning Heart",
+          "number": "4"
+        },
+        {
+          "id": "5af2db8d-b2b0-4d8f-be78-08e1eef2056e",
+          "length": 377000,
+          "recording": {
+            "id": "899c78a2-2350-450b-b7ea-008201bdeca3",
+            "length": 377000,
+            "first-release-date": "2024-03-13",
+            "video": false,
+            "disambiguation": "",
+            "title": "Space Marine Corp"
+          },
+          "position": 5,
+          "number": "5",
+          "title": "Space Marine Corp"
+        },
+        {
+          "id": "68c75781-cdb9-4f93-9981-c7c0f84a7695",
+          "length": 52000,
+          "recording": {
+            "title": "Prelude to Darkness",
+            "video": false,
+            "disambiguation": "",
+            "first-release-date": "2024-03-13",
+            "length": 52000,
+            "id": "2d580fae-80d0-4e43-ac45-0ea99670dfc1"
+          },
+          "number": "6",
+          "title": "Prelude to Darkness",
+          "position": 6
+        },
+        {
+          "position": 7,
+          "title": "The Killer Queen",
+          "number": "7",
+          "recording": {
+            "first-release-date": "2024-03-13",
+            "id": "8e4190d1-470c-4e48-b86b-77e8745feca3",
+            "length": 349000,
+            "title": "The Killer Queen",
+            "video": false,
+            "disambiguation": ""
+          },
+          "length": 349000,
+          "id": "ae4db962-337f-4902-8e76-d0e5b94d349c"
+        },
+        {
+          "id": "883f7cd6-20cd-4bf3-b88c-c9361bb3d25c",
+          "length": 315000,
+          "recording": {
+            "video": false,
+            "disambiguation": "",
+            "title": "Doomsday Party",
+            "length": 315000,
+            "id": "e29b0071-1d3d-4e08-ab27-2b270411c6c7",
+            "first-release-date": "2023-11-28"
+          },
+          "position": 8,
+          "number": "8",
+          "title": "Doomsday Party"
+        },
+        {
+          "title": "Pixel Prison",
+          "number": "9",
+          "position": 9,
+          "recording": {
+            "disambiguation": "",
+            "video": false,
+            "title": "Pixel Prison",
+            "id": "f68bea49-0c95-4a00-9ae1-dbdbcc761b18",
+            "length": 402000,
+            "first-release-date": "2024-03-13"
+          },
+          "length": 402000,
+          "id": "da9184db-77f2-45aa-98f8-931e71972231"
+        },
+        {
+          "recording": {
+            "length": 172000,
+            "id": "21506f2d-443f-4d79-8c7f-95f9f98f75ee",
+            "first-release-date": "2024-02-15",
+            "video": false,
+            "disambiguation": "",
+            "title": "Wildest Dreams"
+          },
+          "length": 172000,
+          "id": "42752703-db96-4c3f-b8a8-268d91f2b658",
+          "title": "Wildest Dreams (DragonForce\u2019s version)",
+          "number": "10",
+          "position": 10
+        }
+      ],
+      "format": "CD"
+    }
+  ],
+  "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+  },
+  "disambiguation": "",
+  "country": "XW",
+  "title": "Warp Speed Warriors",
+  "release-events": [
+    {
+      "date": "2024-03-15",
+      "area": {
+        "disambiguation": "",
+        "type": null,
+        "type-id": null,
+        "sort-name": "[Worldwide]",
+        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+        "iso-3166-1-codes": [
+          "XW"
+        ],
+        "name": "[Worldwide]"
+      }
+    }
+  ],
+  "id": "7c71acf9-bde1-4392-983a-0011e6d1bec6",
+  "cover-art-archive": {
+    "darkened": false,
+    "count": 11,
+    "front": true,
+    "back": true,
+    "artwork": true
+  },
+  "quality": "normal",
+  "status": "Official",
+  "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+  "packaging": "Gatefold Cover",
+  "barcode": "810137309712"
+}
