@@ -55,10 +55,13 @@ competent rather than lucky.
 - [x] Created as `data/albums.json` (JSON rather than YAML to avoid adding a
       dependency for one config file). All nine pressings pinned by hand with a
       `note` explaining each choice, plus `expected_track_count` for the gate.
-- [ ] Drop the `secondary-types` filter from the notebook. It's fragile —
-      `.apply(lambda x: len(x) == 0)` raises `TypeError` the moment MusicBrainz returns a
-      row without that key — and with a hand-pinned list you don't need it. Keep the
-      release-group pull as a *check* that the config hasn't gone stale.
+- [x] Dropped the `secondary-types` filter from the notebook and replaced it with the
+      staleness check in the other direction: the release-group pull is now compared
+      against `albums.json`, reporting anything MusicBrainz returns that isn't pinned
+      and anything pinned it no longer returns. Currently flags four non-studio release
+      groups (two live albums, a compilation, a remix album) as expected-and-ignored
+      rather than silently filtering them. Also corrected the notebook's opening claim
+      that downstream data joins on `album` + `track_title` — it joins on `track_id`.
 - [x] Built as `build_rows()` in `scripts/build_dataset.py` rather than in the
       client, keeping the client a thin MusicBrainz wrapper and the project's
       table shape in one place. `get_release_tracks()` now attaches disc context
@@ -165,13 +168,23 @@ excluded"* is the difference between a defensible result and a vibe.
 You'll enter these by hand later. "Easy to hook in later" means the join exists **today**,
 against an empty file.
 
-- [ ] `data/annotations/audio_features.csv`, header only for now:
-      `track_id, tempo_bpm, key, mode, time_signature, source, notes`
-- [ ] `source` is the important column: `manual_tap` | `librosa` | `spotify_legacy`.
-      Mixed provenance stays visible in the data instead of being lost. If you ever do run
-      librosa on tracks you own, it merges into the same table without a schema change.
-- [ ] The joiner left-joins this file whether or not it has rows, and the analysis handles
-      an all-NaN column without crashing. Verify that with an empty file now.
+- [x] `data/annotations/audio_features.csv`, header only:
+      `track_id, tempo_bpm, key, mode, time_signature, source, notes`. Header-only
+      rather than one blank row per track — a sheet of 101 empty rows cannot
+      distinguish "not measured yet" from "measured, nothing to record".
+- [x] `source` is the important column: `manual_tap` | `librosa` | `spotify_legacy`,
+      enforced. Mixed provenance stays visible in the data instead of being lost. A row
+      carrying measurements with no source recorded is a warning, not an error — the
+      row is legitimate, but a measurement of unknown method can't be pooled with one
+      of known method, so it can't pass silently. Running librosa later merges into the
+      same table with no schema change.
+- [x] `merge_audio_features()` left-joins whether or not the file has rows, and joins
+      as `audio_key` / `audio_mode` / `audio_source` so `key` and `mode` aren't ambiguous
+      in a 30-column table. Verified against the empty file: all five columns come
+      through all-NaN and `tracks.csv['tempo_bpm'].mean()` returns `nan` rather than
+      raising. Verified populated too — `tempo_bpm` coerces to float64 and partially
+      filled rows (tempo but no key) join cleanly. 11 tests in
+      `tests/test_audio_features.py`.
 
 ---
 

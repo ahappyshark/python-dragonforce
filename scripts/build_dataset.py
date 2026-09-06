@@ -45,6 +45,11 @@ from src.key_changes import (  # noqa: E402
     EVENT_COLUMNS,
     validate_events,
 )
+from src.audio_features import (  # noqa: E402
+    COLUMNS as AUDIO_COLUMNS,
+    JOIN_COLUMNS as AUDIO_JOIN_COLUMNS,
+    validate_audio_features,
+)
 
 ALBUMS_JSON: Path = REPO_ROOT / "data" / "albums.json"
 TRACKS_CSV: Path = REPO_ROOT / "data" / "processed" / "tracks.csv"
@@ -52,6 +57,7 @@ FLAGS_CSV: Path = REPO_ROOT / "data" / "annotations" / "track_flags.csv"
 KEY_CHANGES_CSV: Path = REPO_ROOT / "data" / "annotations" / "key_changes.csv"
 KEY_COVERAGE_CSV: Path = REPO_ROOT / "data" / "annotations" / "key_change_coverage.csv"
 KEY_EVENTS_CSV: Path = REPO_ROOT / "data" / "processed" / "key_change_events.csv"
+AUDIO_FEATURES_CSV: Path = REPO_ROOT / "data" / "annotations" / "audio_features.csv"
 
 # Hand-annotated columns the spine carries but MusicBrainz cannot supply.
 # "verified" records whether a human has checked the row. Drafted values and
@@ -245,6 +251,13 @@ def validate(df: pd.DataFrame, albums: list[dict[str, Any]]) -> tuple[list[str],
     errors.extend(key_errors)
     warnings.extend(key_warnings)
 
+    audio_errors, audio_warnings = validate_audio_features(
+        _read_annotation(AUDIO_FEATURES_CSV, AUDIO_COLUMNS).to_dict("records"),
+        set(df["track_id"]),
+    )
+    errors.extend(audio_errors)
+    warnings.extend(audio_warnings)
+
     return errors, warnings
 
 
@@ -414,6 +427,60 @@ def report_key_changes(df: pd.DataFrame, event_count: int) -> None:
           f"{event_count} event(s) logged, {silent} track(s) confirmed to have none")
 
 
+def write_audio_skeleton() -> None:
+    """Create the header-only audio-features sheet if it is absent.
+
+    Header-only rather than one blank row per track: unlike the flag sheet,
+    these are measurements taken a handful of tracks at a time, and 101 empty
+    rows would make "measured nothing yet" and "measured and found nothing"
+    look identical — the same trap the key-change coverage file exists to avoid.
+    Add a row when you have something to put in it.
+    """
+    if AUDIO_FEATURES_CSV.exists():
+        return
+    AUDIO_FEATURES_CSV.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(columns=AUDIO_COLUMNS).to_csv(AUDIO_FEATURES_CSV, index=False)
+    print(f"Created {AUDIO_FEATURES_CSV.relative_to(REPO_ROOT)} (header only) — "
+          f"add rows as tempo/key get measured.")
+
+
+def merge_audio_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Left-join the audio features, whether or not any have been entered.
+
+    The point of doing this now, against an empty file, is that the columns
+    exist and are exercised from today. An analysis written against all-NaN
+    tempo behaves identically once real tempos land; one written before the
+    column existed has to be revisited.
+    """
+    features: pd.DataFrame = _read_annotation(AUDIO_FEATURES_CSV, AUDIO_COLUMNS)
+    renamed: pd.DataFrame = (
+        features[["track_id"] + list(AUDIO_JOIN_COLUMNS)]
+        .rename(columns=AUDIO_JOIN_COLUMNS)
+    )
+    if not len(renamed):
+        # An empty left join would produce object-dtype columns of NaN, which
+        # is fine, but being explicit keeps the empty and populated paths the
+        # same shape rather than subtly different.
+        for column in AUDIO_JOIN_COLUMNS.values():
+            df[column] = pd.NA
+        return df
+    merged: pd.DataFrame = df.merge(renamed, on="track_id", how="left")
+    merged["tempo_bpm"] = pd.to_numeric(merged["tempo_bpm"], errors="coerce")
+    return merged
+
+
+def report_audio_features(df: pd.DataFrame) -> None:
+    """Print how much of the audio-feature sheet is filled in."""
+    measured: int = int(df["tempo_bpm"].notna().sum())
+    if not measured:
+        print(f"INFO  audio features: 0/{len(df)} tracks measured "
+              f"(deferred — the join is wired and runs empty)")
+        return
+    sources: str = ", ".join(sorted(df["audio_source"].dropna().unique())) or "unrecorded"
+    print(f"INFO  audio features: {measured}/{len(df)} tracks have a tempo "
+          f"(source: {sources})")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--refresh", action="store_true",
@@ -472,6 +539,10 @@ def main() -> None:
     df = merge_key_changes(df)
     event_count: int = len(_read_annotation(KEY_CHANGES_CSV, EVENT_COLUMNS))
     report_key_changes(df, event_count)
+
+    write_audio_skeleton()
+    df = merge_audio_features(df)
+    report_audio_features(df)
 
     TRACKS_CSV.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(TRACKS_CSV, index=False)
